@@ -107,7 +107,7 @@ else:
     previous_data = {}
 
 # Save the current data
-with open('hf_leaderboard_state.dat', 'wb') as file:
+with open('../temp_data/hf_leaderboard_state.dat', 'wb') as file:
     pickle.dump(model_status_dict, file)
 
 # Compare the previous data with the current data

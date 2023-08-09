@@ -12,16 +12,24 @@ filtered_data = merged_data.dropna(subset=['win_rate'])
 # Scale the "MT-bench" values by 10 for better visualization
 #filtered_data['average'] *= 10
 
-# Set plot size with increased width for better visibility of model names
+sorted_data = filtered_data.sort_values(by='win_rate', ascending=False)
+
+# Melt the DataFrame to have a "method" column and a "score" column
+melted_data = pd.melt(sorted_data, id_vars="Model", value_vars=["Average", "win_rate"],
+                      var_name="Method", value_name="Score")
+
+# Map the method names to more descriptive labels
+melted_data["Method"] = melted_data["Method"].map({"Average": "HF LLM Average", "win_rate": "AlpacaEval_WinRate"})
+
+# Create the side-by-side barplot using the hue parameter
 plt.figure(figsize=(15, 8))
+sns.barplot(x="Score", y="Model", hue="Method", data=melted_data, palette=["skyblue", "red"])
 
-# Create a horizontal bar plot for "HF LLM Average" and "MT-bench" values per "Model"
-sns.barplot(x="Average", y="Model", data=filtered_data, color="skyblue", label="HF LLM Average")
-sns.barplot(x="win_rate", y="Model", data=filtered_data, color="red", label="AlpacaEval_WinRate")
+plt.legend(handles=[plt.Line2D([0], [0], color='skyblue', lw=4, label='HF LLM Average'),
+                    plt.Line2D([0], [0], color='red', lw=4, label='AlpacaEval_WinRate')],
+           loc='lower right')
 
-# Add legend
-plt.legend(loc='lower right')
-
+#plt.grid(False)  # Turn off grid
 # Add labels and title
 plt.xlabel('Score', fontsize=12)
 plt.ylabel('Model', fontsize=12)

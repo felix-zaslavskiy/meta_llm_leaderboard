@@ -3,7 +3,10 @@ import os
 from gradio_client import Client
 import json
 import csv
+from models import Model
 
+# Param to initialize the model list json in temp data folder. Only needed on demand.
+create_init_list = True
 
 client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
 
@@ -60,7 +63,7 @@ def categorize_size(params, name):
 
 # Create a new dictionary with model->status
 model_status_dict = {}
-
+init_list = []
 with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
     headers_clean = []
 
@@ -98,6 +101,14 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
 
         w.writerow(d)
 
+        if create_init_list:
+            init_list.append(Model(ID=d['Model'],
+                                HF_ID=d['Model'],
+                                URL="https://huggingface.co/" + d['Model'],
+                                SIZE=d['size_type']))
+
+if create_init_list:
+    Model.save_to_file(init_list, '../temp_data/hf_model_list.json')
 
 # Load the previous data if it exists
 if os.path.exists('../temp_data/hf_leaderboard_state.dat'):

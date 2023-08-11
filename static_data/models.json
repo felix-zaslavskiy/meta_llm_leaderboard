@@ -116,7 +116,7 @@
         "HF_ID": "upstage/llama-65b-instruct",
         "URL": "https://huggingface.co/upstage/llama-65b-instruct",
         "SIZE": "65B",
-        "LICENSE": null
+        "LICENSE": "llama1"
     },
     {
         "ID": "jondurbin/airoboros-l2-70b-gpt4-m2.0",
@@ -228,7 +228,7 @@
         "HF_ID": "upstage/llama-30b-instruct-2048",
         "URL": "https://huggingface.co/upstage/llama-30b-instruct-2048",
         "SIZE": "30B",
-        "LICENSE": null
+        "LICENSE": "llama1"
     },
     {
         "ID": "jondurbin/airoboros-65b-gpt4-1.2",

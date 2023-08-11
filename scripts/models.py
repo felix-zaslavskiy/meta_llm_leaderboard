@@ -36,6 +36,15 @@ class Model:
             models_list = json.load(f)
         return [cls.from_dict(model_dict) for model_dict in models_list]
 
+    @classmethod
+    def find_by_hf_id(cls, filename, hf_id):
+        """Load models from a file and find a model by its HF_ID."""
+        models = cls.load_from_file(filename)
+        for model in models:
+            if model.HF_ID == hf_id:
+                return model
+        return None
+
     @staticmethod
     def save_to_file(models, filename):
         """Save a list of Model instances to a JSON file."""

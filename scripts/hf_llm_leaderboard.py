@@ -6,7 +6,7 @@ import csv
 from models import Model
 
 # Param to initialize the model list json in temp data folder. Only needed on demand.
-create_init_list = True
+create_init_list = False
 
 client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
 

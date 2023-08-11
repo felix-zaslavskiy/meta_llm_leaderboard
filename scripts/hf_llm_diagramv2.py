@@ -4,6 +4,8 @@ import seaborn as sns
 from datetime import datetime
 from matplotlib.lines import Line2D
 
+from scripts.models import Model
+
 # Make a chart of the models from HF leaderboard based on size category.
 
 # Load the data
@@ -11,10 +13,11 @@ df = pd.read_csv('../temp_data/hf_llm_data.csv')
 
 def commercial_permissible(license):
     match license:
+        # Llama1 is not a HF license. Model is under Llama1 rules.
+        case 'llama1':
+            return "non-commercial"
         case 'cc-by-nc-4.0':
             return "non-commercial"
-        case '':
-            return "other"
         case 'other':
             return 'other'
         case 'llama2':
@@ -37,7 +40,7 @@ def commercial_permissible(license):
             return "commercial"
         case "bsd-3-clause":
             return "commercial"
-    return "other"
+    return ""
 
 # Find the best model within each size_type
 best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
@@ -56,6 +59,18 @@ best_models = best_models.dropna(subset=['size_type'])
 best_models = best_models.sort_values('size_type')
 
 best_models['license_type'] = best_models['Hub License'].apply(commercial_permissible)
+
+# If the license is empty string we want to check in Models registry.
+def get_license_or_check_registry(row):
+    if row['license_type'] == '':
+        model = Model.find_by_hf_id("../static_data/models.json", row['Model'])
+        if model is None:
+            return 'other'
+        else:
+            return commercial_permissible(model.LICENSE)
+    return row['license_type']
+
+best_models['license_type'] = best_models.apply(get_license_or_check_registry, axis=1)
 
 label_offset = 5
 

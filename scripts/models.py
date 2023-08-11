@@ -1,11 +1,12 @@
 import json
 
 class Model:
-    def __init__(self, ID, HF_ID, URL, SIZE):
+    def __init__(self, ID, HF_ID, URL, SIZE, LICENSE):
         self.ID = ID
         self.HF_ID = HF_ID
         self.URL = URL
         self.SIZE = SIZE
+        self.LICENSE = LICENSE
 
     @classmethod
     def from_dict(cls, model_dict):
@@ -14,7 +15,8 @@ class Model:
             ID=model_dict['ID'],
             HF_ID=model_dict['HF_ID'],
             URL=model_dict['URL'],
-            SIZE=model_dict['SIZE']
+            SIZE=model_dict['SIZE'],
+            LICENSE=model_dict['LICENSE']
         )
 
     def to_dict(self):
@@ -23,7 +25,8 @@ class Model:
             'ID': self.ID,
             'HF_ID': self.HF_ID,
             'URL': self.URL,
-            'SIZE': self.SIZE
+            'SIZE': self.SIZE,
+            'LICENSE': self.LICENSE
         }
 
     @classmethod

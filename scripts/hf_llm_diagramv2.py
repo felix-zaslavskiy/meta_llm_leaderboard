@@ -77,6 +77,8 @@ label_offset = 5
 # Create the plot with the updated order for horizontal bars
 
 plt.figure(figsize=(8, 8))
+plt.rcParams['font.family'] = 'DejaVu Sans'
+
 
 sns.set_theme(style='whitegrid')
 barplot = sns.barplot(x="Average", y="size_type", data=best_models, color="royalblue", edgecolor='black')
@@ -91,8 +93,10 @@ plt.legend(handles=legend_elements, loc='lower right', title='Licenses')
 
 plt.ylabel('Model Size Categories', fontsize=12)
 plt.xlabel('Average Rating', fontsize=12)
+# Before plotting, set the default font
+#  Does not work yet plt.rcParams['font.family'] = 'Segoe UI Emoji'
+#plt.title('🤗Hugging Face LLM Leaderboard🤗 by Model Size', fontweight='bold')
 plt.title('Hugging Face LLM Leaderboard by Model Size', fontweight='bold')
-
 # Annotate the model names on the bars in horizontal orientation
 for i in range(best_models.shape[0]):
     model_name = best_models.Model.iloc[i]

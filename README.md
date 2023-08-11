@@ -2,7 +2,7 @@
 Meta leaderboard combines data from multiple different leaderboards about LLMs.
 
 Todo:
-Make the bar chart into horizontal (llm leaderboard)
+Add license designation (Commercially-Permissible)
 Create space to show all the diagrams.
 Add AgentBench leaderboard.
 Rescore the HF leaderboard with Truth having lower value.

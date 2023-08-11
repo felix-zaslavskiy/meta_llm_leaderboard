@@ -87,8 +87,11 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
         if d['Model'] == '<p>Baseline</p>':
             continue
 
-        model_name = d['model_name_for_query']
-        d['Model'] = model_name
+        model_name_key = d['model_name_for_query']
+        # We could have multiple evaluations with same key
+        d['Model'] = model_name_key
+        # Make key unique
+        model_name_key = model_name_key + "_" + d['Precision'] + '_' + d['Model sha']
         del d['model_name_for_query']
         del d['Model sha']
         del d['T']
@@ -97,7 +100,7 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
         d['size_type'] = categorize_size(num_param, d['Model'])
 
         # Add the model name and status to the dictionary
-        model_status_dict[model_name] = d['Average']
+        model_status_dict[model_name_key] = d['Average']
 
         w.writerow(d)
 

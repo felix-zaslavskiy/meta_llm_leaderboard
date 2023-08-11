@@ -2,9 +2,42 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
+from matplotlib.lines import Line2D
+
+# Make a chart of the models from HF leaderboard based on size category.
 
 # Load the data
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
+
+def commercial_permissible(license):
+    match license:
+        case 'cc-by-nc-4.0':
+            return "non-commercial"
+        case '':
+            return "other"
+        case 'other':
+            return 'other'
+        case 'llama2':
+            return 'commercial'
+        case 'cc-by-nc-sa-4.0':
+            return
+        case 'apache-2.0':
+            return 'commercial'
+        case "['mit']":
+            return 'commercial'
+        case "mit":
+            return 'commercial'
+        case "gpl-3.0":
+            return "non-commercial"
+        case "openrail":
+            return "commercial"
+        case "bigscience-openrail-m":
+            return "commercial"
+        case "creativeml-openrail-m":
+            return "commercial"
+        case "bsd-3-clause":
+            return "commercial"
+    return "other"
 
 # Find the best model within each size_type
 best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
@@ -22,13 +55,24 @@ best_models = best_models.dropna(subset=['size_type'])
 # Sort the DataFrame according to the new order
 best_models = best_models.sort_values('size_type')
 
+best_models['license_type'] = best_models['Hub License'].apply(commercial_permissible)
+
 label_offset = 5
 
 # Create the plot with the updated order for horizontal bars
+
 plt.figure(figsize=(8, 8))
 
 sns.set_theme(style='whitegrid')
 barplot = sns.barplot(x="Average", y="size_type", data=best_models, color="royalblue", edgecolor='black')
+
+# Create custom legend handles
+legend_elements = [Line2D([0], [0], color='white', markerfacecolor='black', marker='o', markersize=10, label='CP - Commercially Permissible'),
+                   Line2D([0], [0], color='white', markerfacecolor='black', marker='o', markersize=10, label='NC - Non-Commercial'),
+                   Line2D([0], [0], color='white', markerfacecolor='black', marker='o', markersize=10, label='O - Other or Unknown')]
+
+# Add the legend to the plot
+plt.legend(handles=legend_elements, loc='lower right', title='Licenses')
 
 plt.ylabel('Model Size Categories', fontsize=12)
 plt.xlabel('Average Rating', fontsize=12)
@@ -38,6 +82,15 @@ plt.title('Hugging Face LLM Leaderboard by Model Size', fontweight='bold')
 for i in range(best_models.shape[0]):
     model_name = best_models.Model.iloc[i]
     font_size=16
+    license_type = best_models.license_type.iloc[i]
+    license_type_display = ''
+    if license_type == 'commercial':
+        license_type_display='[CP]'
+    elif license_type == 'non-commercial':
+        license_type_display='[NC]'
+    else:
+        license_type_display = '[O]'
+
     if len(model_name) > best_models.Average.iloc[i] * 0.7:
         slash_index = model_name.find('/')
         name_length = len(model_name) - slash_index + 1
@@ -48,6 +101,8 @@ for i in range(best_models.shape[0]):
         else:
             dot_dot = ''
         model_name = model_name[:offset] + dot_dot
+
+    model_name += ' ' + license_type_display
 
     # Use the constant label_offset for the x position
     plt.text(label_offset,  # Aligned to the left of each bar

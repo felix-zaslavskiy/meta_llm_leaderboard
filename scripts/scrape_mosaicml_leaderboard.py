@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 # URL of the webpage
-url = 'https://www.mosaicml.com/llm-evaluation'
+# top level url https://www.mosaicml.com/llm-evaluation
 url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSAwA8-DdEgGHlbX1XkP7KoYWQD2HzKDGsID33MypM17FsjVw5YmT4ceUK-ryfH4jL9jBW8u1DTGWuS/pubhtml?gid=648039812&single=true&widget=false&headers=false&chrome=false'
 # Send a GET request to the webpage
 response = requests.get(url)

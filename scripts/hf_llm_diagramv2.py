@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 from matplotlib.lines import Line2D
-
 from scripts.models import Model
 
 # Make a chart of the models from HF leaderboard based on size category.
@@ -83,10 +82,7 @@ max_average = best_models["Average"].max()
 label_offset_license = max_average + 0.045 * max_average  # adds a 2% buffer to the right of the longest bar
 
 # Create the plot with the updated order for horizontal bars
-
 plt.figure(figsize=(8, 8))
-plt.rcParams['font.family'] = 'DejaVu Sans'
-
 
 sns.set_theme(style='whitegrid')
 barplot = sns.barplot(x="Average", y="size_type", data=best_models, color="royalblue", edgecolor='black')
@@ -102,9 +98,10 @@ plt.legend(handles=legend_elements, loc='lower right', title='Licenses')
 plt.ylabel('Model Size Categories', fontsize=12)
 plt.xlabel('Average Rating', fontsize=12)
 # Before plotting, set the default font
-#  Does not work yet plt.rcParams['font.family'] = 'Segoe UI Emoji'
-#plt.title('🤗Hugging Face LLM Leaderboard🤗 by Model Size', fontweight='bold')
-plt.title('Hugging Face LLM Leaderboard by Model Size', fontweight='bold')
+plt.text(0.5, 0.95, 'Hugging Face LLM Leaderboard by Model Size', fontweight='bold', fontsize=14, transform=plt.gcf().transFigure, horizontalalignment='center', verticalalignment='top')
+#plt.title('🤗Hugging Face LLM Leaderboard🤗 by Model Size', fontweight='bold', fontsize=14, family='Segoe UI Emoji')
+
+
 # Annotate the model names on the bars in horizontal orientation
 for i in range(best_models.shape[0]):
     model_name = best_models.Model.iloc[i]

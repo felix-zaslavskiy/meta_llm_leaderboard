@@ -16,7 +16,12 @@ def commercial_permissible(license):
         # Llama1 is not a HF license. Model is under Llama1 rules.
         case 'llama1':
             return "non-commercial"
+        # StableBeluga not a HF license
+        case 'StableBeluga':
+            return "non-commercial"
         case 'cc-by-nc-4.0':
+            return "non-commercial"
+        case 'cc-by-nc-sa-4.0':
             return "non-commercial"
         case 'other':
             return 'other'

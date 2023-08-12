@@ -35,6 +35,8 @@ def categorize_size(params, name):
             return "70B"
         elif name == 'stabilityai/StableBeluga2':
             return "70B"
+        elif name == 'openchat/openchat_v3.1':
+            return "13B"
         return "other"
     elif params <= 1.0:
         return "1B"

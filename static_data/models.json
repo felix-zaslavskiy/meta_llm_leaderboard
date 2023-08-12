@@ -1225,7 +1225,7 @@
         "HF_ID": "stabilityai/StableBeluga-7B",
         "URL": "https://huggingface.co/stabilityai/StableBeluga-7B",
         "SIZE": "7B",
-        "LICENSE": null
+        "LICENSE": "StableBeluga"
     },
     {
         "ID": "TheBloke/gpt4-x-vicuna-13B-HF",

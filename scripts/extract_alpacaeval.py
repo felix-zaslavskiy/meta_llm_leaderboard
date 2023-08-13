@@ -1,6 +1,6 @@
 
 import pandas as pd
-
+from change_tracker import load_previous_data, save_current_data, track_changes
 # Load the data
 url = "https://github.com/tatsu-lab/alpaca_eval/raw/main/docs/alpaca_eval_gpt4_leaderboard.csv"
 df = pd.read_csv(url)
@@ -38,8 +38,14 @@ df['Model_ID'] = df.apply(lambda row: extract_model_id(row['link'], row['name'])
 result = df[['Model_ID', 'win_rate']]
 
 # Print or use the result as needed
-print(result)
+#print(result)
 
 # Save to CSV file
 file_path = "../temp_data/alpacaeval_data.csv"
 result.to_csv(file_path, index=False)
+
+model_status_dict = df.set_index('Model_ID')['win_rate'].to_dict()
+
+previous_data = load_previous_data('../temp_data/alpacaeval_leaderboard_state.dat')
+save_current_data(model_status_dict, '../temp_data/alpacaeval_leaderboard_state.dat')
+track_changes(model_status_dict, previous_data)

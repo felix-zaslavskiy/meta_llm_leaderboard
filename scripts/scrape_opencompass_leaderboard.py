@@ -2,6 +2,8 @@ import requests
 import json
 import pandas as pd
 
+from change_tracker import load_previous_data, save_current_data, track_changes
+
 # URL of the JSON data
 url = 'https://opencompass.oss-cn-shanghai.aliyuncs.com/assets/large-language-model-data.json'
 
@@ -14,10 +16,11 @@ if response.status_code == 200:
     data = json.loads(response.text)
 else:
     print(f'Request failed with status code {response.status_code}')
+    raise Exception('Unable to get Open compass leaderboard')
 
 # Prepare an empty list to hold the processed data
 processed_data = []
-
+model_status_dict = {}
 if data:
     # Iterate over each model in the OverallENTable
     for item in data['OverallENTable']:
@@ -33,6 +36,10 @@ if data:
         # Get the size from the 'num' field
         size = item['num']
 
+        Model_ID = Model_ID if Model_ID else model_name
+
+        model_status_dict[Model_ID] = average
+
         # Append this data to the processed_data list
         processed_data.append([model_name, Model_ID, average, size])
 
@@ -41,3 +48,8 @@ df = pd.DataFrame(processed_data, columns=['model_name', 'Model_ID', 'average', 
 
 # Save the DataFrame to a CSV file
 df.to_csv('../temp_data/opencompass_data.csv', index=False)
+
+
+previous_data = load_previous_data('../temp_data/opencompass_leaderboard_state.dat')
+save_current_data(model_status_dict, '../temp_data/opencompass_leaderboard_state.dat')
+track_changes(model_status_dict, previous_data)

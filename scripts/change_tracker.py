@@ -2,6 +2,7 @@ import os
 import pickle
 
 def load_previous_data(filepath):
+    print("Change tracking: " + filepath)
     if os.path.exists(filepath):
         with open(filepath, 'rb') as file:
             return pickle.load(file)
@@ -28,3 +29,5 @@ def track_changes(current_data, previous_data):
 
     if not had_change:
         print("No changes")
+
+    return had_change

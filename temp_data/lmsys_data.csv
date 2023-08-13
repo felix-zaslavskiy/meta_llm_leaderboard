@@ -1,7 +1,7 @@
 Model_ID,MT-bench (score)
 lmsys/vicuna-33b-v1.3,7.12
 WizardLM/WizardLM-30B-V1.0,7.01
-lmsys/vicuna-13b-v1.5-16k,6.87
+lmsys/vicuna-13b-v1.5-16k,6.92
 meta-llama/Llama-2-70b-chat-hf,6.86
 WizardLM/WizardLM-13B-V1.1,6.76
 meta-llama/Llama-2-13b-chat-hf,6.65
@@ -31,5 +31,3 @@ databricks/dolly-v2-12b,3.28
 lmsys/fastchat-t5-3b-v1.0,3.04
 stabilityai/stablelm-tuned-alpha-7b,2.75
 llama-30b,2.61
-upstage/Llama-2-70b-instruct-v2,7.44063
-upstage/Llama-2-70b-instruct,7.24375

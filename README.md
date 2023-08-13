@@ -13,3 +13,4 @@ Ideas:
 - Add a runner-up (commercial permissible) license to HF best models.
 - Work on Supernatural Instruction
 - Take another look at HELM
+- https://gpt4all.io/index.html is that Test set worth it?

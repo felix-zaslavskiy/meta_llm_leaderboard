@@ -1,9 +1,8 @@
-import os
-import pickle
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+
+from change_tracker import load_previous_data, save_current_data, track_changes
 
 # URL of the webpage
 # top level url https://www.mosaicml.com/llm-evaluation
@@ -45,32 +44,6 @@ df.to_csv('../temp_data/mosaicml_table.csv', index=False)
 
 model_status_dict = df.set_index('Model_ID')['Mosaic_Avg'].to_dict()
 
-#  Change tracking
-# Load the previous data if it exists
-if os.path.exists('../temp_data/mosaicml_leaderboard_state.dat'):
-    with open('../temp_data/mosaicml_leaderboard_state.dat', 'rb') as file:
-        previous_data = pickle.load(file)
-else:
-    previous_data = {}
-
-# Save the current data
-with open('../temp_data/mosaicml_leaderboard_state.dat', 'wb') as file:
-    pickle.dump(model_status_dict, file)
-
-# Compare the previous data with the current data
-had_change=False
-for key in model_status_dict:
-    if key not in previous_data:
-        print(f'New model: {key}')
-        had_change=True
-    elif model_status_dict[key] != previous_data[key]:
-        print(f'Model {key} changed from {previous_data[key]} to {model_status_dict[key]}')
-        had_change=True
-
-for key in previous_data:
-    if key not in model_status_dict:
-        print(f'Model {key} was removed')
-        had_change=True
-
-if not had_change:
-    print("No changes")
+previous_data = load_previous_data('../temp_data/mosaicml_leaderboard_state.dat')
+save_current_data(model_status_dict, '../temp_data/mosaicml_leaderboard_state.dat')
+track_changes(model_status_dict, previous_data)

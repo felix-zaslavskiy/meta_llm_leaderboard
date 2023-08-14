@@ -5,7 +5,6 @@ import git
 import os
 import re
 from datetime import datetime
-import shutil
 
 # Clone the repository
 repo_url = "https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard"
@@ -17,7 +16,7 @@ if not os.path.exists(repo_dir):
 files = os.listdir(repo_dir)
 
 # Delete the repository files after processing
-shutil.rmtree(repo_dir)
+git.rmtree(repo_dir)
 
 # Extract file names that match the pattern "leaderboard_table_YYYYMMDD.csv"
 pattern = r"leaderboard_table_(\d{4})(\d{2})(\d{2}).csv"

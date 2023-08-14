@@ -20,3 +20,8 @@ def run_script(script_name, save_to_file=False):
     result = subprocess.run(command)
 
     return result.returncode
+
+scripts_to_run = ["hf_llm_diagramv2.py"]
+
+for script in scripts_to_run:
+    run_script(script)

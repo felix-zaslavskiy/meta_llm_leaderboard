@@ -259,11 +259,11 @@
         "LICENSE": null
     },
     {
-        "ID": "lilloukas/GPlatty-30B",
-        "HF_ID": "lilloukas/GPlatty-30B",
-        "URL": "https://huggingface.co/lilloukas/GPlatty-30B",
+        "ID": "garage-bAInd/GPlatty-30B",
+        "HF_ID": "garage-bAInd/GPlatty-30B",
+        "URL": "https://huggingface.co/garage-bAInd/GPlatty-30B",
         "SIZE": "30B",
-        "LICENSE": "other"
+        "LICENSE": "llama1"
     },
     {
         "ID": "TheBloke/VicUnlocked-alpaca-65B-QLoRA-fp16",

@@ -4,12 +4,23 @@ import seaborn as sns
 from datetime import datetime
 from matplotlib.lines import Line2D
 from scripts.models import Model
-
+import argparse
 # Make a chart of the models from HF leaderboard based on size category.
+
+# Set up the argument parser
+parser = argparse.ArgumentParser(description="Your script description")
+parser.add_argument('--rescore', action='store_true', help="Set rescore to True")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Set the variable based on the presence of --rescore
+rescore = args.rescore
 
 # Load the data
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
-
+if rescore == True:
+    df['Average'] = df['ARC'] * 0.3 + df['HellaSwag'] * 0.3 + df['MMLU'] * 0.3 + df['TruthfulQA'] * 0.1
 def commercial_permissible(license):
     match license:
         # Llama1 is not a HF license. Model is under Llama1 rules.
@@ -66,7 +77,7 @@ best_models['license_type'] = best_models['Hub License'].apply(commercial_permis
 
 # If the license is empty string we want to check in Models registry.
 def get_license_or_check_registry(row):
-    if row['license_type'] == '':
+    if row['license_type'] == '' or row['license_type'] == 'other':
         model = Model.find_by_hf_id("../static_data/models.json", row['Model'])
         if model is None:
             return 'other'
@@ -95,12 +106,17 @@ legend_elements = [Line2D([0], [0], color='white', markerfacecolor='black', mark
 # Add the legend to the plot
 plt.legend(handles=legend_elements, loc='lower right', title='Licenses')
 
-plt.ylabel('Model Size Categories', fontsize=12)
-plt.xlabel('Average Rating', fontsize=12)
-# Before plotting, set the default font
-plt.text(0.5, 0.95, 'Hugging Face LLM Leaderboard by Model Size', fontweight='bold', fontsize=14, transform=plt.gcf().transFigure, horizontalalignment='center', verticalalignment='top')
-#plt.title('🤗Hugging Face LLM Leaderboard🤗 by Model Size', fontweight='bold', fontsize=14, family='Segoe UI Emoji')
+if rescore:
+    title_text = 'Hugging Face LLM Leaderboard **RESCORED**'
+    xlabel_text= 'Average Rating (TruthfulQA = 10%, from original 25% )'
+else:
+    title_text = 'Hugging Face LLM Leaderboard by Model Size'
+    xlabel_text= 'Average Rating'
 
+plt.ylabel('Model Size Categories', fontsize=12)
+plt.xlabel(xlabel_text, fontsize=12)
+# Before plotting, set the default font
+plt.text(0.5, 0.95, title_text, fontweight='bold', fontsize=14, transform=plt.gcf().transFigure, horizontalalignment='center', verticalalignment='top')
 
 # Annotate the model names on the bars in horizontal orientation
 for i in range(best_models.shape[0]):
@@ -125,7 +141,6 @@ for i in range(best_models.shape[0]):
         else:
             dot_dot = ''
         model_name = model_name[:offset] + dot_dot
-
 
     # Use the constant label_offset for the x position
     plt.text(label_offset,  # Aligned to the left of each bar

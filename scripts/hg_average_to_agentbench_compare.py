@@ -6,8 +6,14 @@ import seaborn as sns
 file_path = "../temp_data/hf_llm_data_merged_agentbench.csv"
 merged_data = pd.read_csv(file_path)
 
+# Group by 'Model' and get the row with the max 'Average' for each group
+filtered_data = merged_data.loc[merged_data.groupby('Model')['Average'].idxmax()]
+
+# Sort by 'Average' in descending order
+filtered_data = filtered_data.sort_values(by="Average", ascending=False)
+
 # Filter out rows with empty or NaN values in the "MT-bench" column
-filtered_data = merged_data.dropna(subset=['AgentBench'])
+filtered_data = filtered_data.dropna(subset=['AgentBench'])
 
 # Scale the "MT-bench" values by 3 for better visualization
 filtered_data['AgentBench'] *= 30

@@ -1000,7 +1000,8 @@
         "HF_ID": "LLMs/WizardLM-13B-V1.0",
         "URL": "https://huggingface.co/LLMs/WizardLM-13B-V1.0",
         "SIZE": "13B",
-        "LICENSE": "gpl-3.0"
+        "LICENSE": "gpl-3.0",
+        "ALIASES": ["wizardlm-13b_v1.0"]
     },
     {
         "ID": "chansung/gpt4-alpaca-lora-13b-decapoda-1024",
@@ -1382,7 +1383,8 @@
         "HF_ID": "lmsys/vicuna-13b-v1.1",
         "URL": "https://huggingface.co/lmsys/vicuna-13b-v1.1",
         "SIZE": "13B",
-        "LICENSE": null
+        "LICENSE": null,
+        "ALIASES" : ["vicuna-13b_v1.1"]
     },
     {
         "ID": "TheBloke/guanaco-13B-HF",
@@ -1713,7 +1715,8 @@
         "HF_ID": "TheBloke/koala-13B-HF",
         "URL": "https://huggingface.co/TheBloke/koala-13B-HF",
         "SIZE": "13B",
-        "LICENSE": "other"
+        "LICENSE": "other",
+        "ALIASES": ["koala-13b"]
     },
     {
         "ID": "lmsys/vicuna-7b-delta-v1.1",
@@ -2532,7 +2535,8 @@
         "HF_ID": "baichuan-inc/Baichuan-7B",
         "URL": "https://huggingface.co/baichuan-inc/Baichuan-7B",
         "SIZE": "7B",
-        "LICENSE": null
+        "LICENSE": null,
+        "ALIASES": ["baichuan-7b"]
     },
     {
         "ID": "ziqingyang/chinese-llama-2-7b",
@@ -2868,7 +2872,8 @@
         "HF_ID": "databricks/dolly-v2-12b",
         "URL": "https://huggingface.co/databricks/dolly-v2-12b",
         "SIZE": "13B",
-        "LICENSE": "mit"
+        "LICENSE": "mit",
+        "ALIASES" : ["dolly-v2-12b"]
     },
     {
         "ID": "TehVenom/Dolly_Shygmalion-6b-Dev_V8P2",
@@ -3624,7 +3629,8 @@
         "HF_ID": "WizardLM/WizardCoder-15B-V1.0",
         "URL": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
         "SIZE": "16B",
-        "LICENSE": "bigscience-openrail-m"
+        "LICENSE": "bigscience-openrail-m",
+        "ALIASES": ["wizardcoder-15b_v1.0"]
     },
     {
         "ID": "stabilityai/stablelm-tuned-alpha-7b",
@@ -3982,7 +3988,8 @@
         "HF_ID": "lmsys/vicuna-7b-delta-v1.1",
         "URL": "https://huggingface.co/lmsys/vicuna-7b-delta-v1.1",
         "SIZE": "7B",
-        "LICENSE": null
+        "LICENSE": "llama1",
+        "ALIASES": ["vicuna-7b_v1.1"]
     },
     {
         "ID": "TheBloke/Wizard-Vicuna-30B-Superhot-8K-fp16",

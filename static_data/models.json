@@ -2726,7 +2726,8 @@
         "HF_ID": "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",
         "URL": "https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5",
         "SIZE": "13B",
-        "LICENSE": "apache-2.0"
+        "LICENSE": "apache-2.0",
+        "ALIASES": ["oasst-sft-4-12b"]
     },
     {
         "ID": "dvruette/oasst-pythia-12b-pretrained-sft",
@@ -4673,7 +4674,7 @@
     },
     {"ID": "WizardLM/WizardLM-30B-V1.0",
     "HF_ID": "WizardLM/WizardLM-30B-V1.0",
-    "URL":  "https://huggingface.co/Corianas/WizardLM/WizardLM-30B-V1.0",
+    "URL":  "https://huggingface.co/WizardLM/WizardLM-30B-V1.0",
     "SIZE":  "30B",
     "LICENSE":  "llama1",
     "ALIASES": ["wizardlm-30b_v1.0"]

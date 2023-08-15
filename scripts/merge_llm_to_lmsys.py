@@ -18,5 +18,5 @@ merged_data = pd.merge(llm_data, lmsys_data, on='Model', how='left')
 merged_data.rename(columns={'MT-bench (score)': 'MT-bench'}, inplace=True)
 
 # Save the merged DataFrame to a new CSV file
-merged_file_path = "../temp_data/hf_llm_data_merged.csv"
+merged_file_path = "../temp_data/hf_llm_data_merged_lmsys.csv"
 merged_data.to_csv(merged_file_path, index=False)

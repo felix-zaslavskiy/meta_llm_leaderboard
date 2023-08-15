@@ -1502,8 +1502,9 @@
         "ID": "openchat/openchat_8192",
         "HF_ID": "openchat/openchat_8192",
         "URL": "https://huggingface.co/openchat/openchat_8192",
-        "SIZE": "other",
-        "LICENSE": null
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": ["openchat-8192-13b_v1"]
     },
     {
         "ID": "dvruette/llama-13b-pretrained-sft-do2",

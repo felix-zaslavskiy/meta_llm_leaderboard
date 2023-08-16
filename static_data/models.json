@@ -256,7 +256,8 @@
         "HF_ID": "meta-llama/Llama-2-70b-chat-hf",
         "URL": "https://huggingface.co/meta-llama/Llama-2-70b-chat-hf",
         "SIZE": "70B",
-        "LICENSE": null
+        "LICENSE": null,
+        "ALIASES": ["LLaMA2 Chat 70B"]
     },
     {
         "ID": "garage-bAInd/GPlatty-30B",
@@ -857,7 +858,8 @@
         "HF_ID": "openchat/openchat_v3.1",
         "URL": "https://huggingface.co/openchat/openchat_v3.1",
         "SIZE": "other",
-        "LICENSE": "llama2"
+        "LICENSE": "llama2",
+        "ALIASES": ["OpenChat V3.1 13B"]
     },
     {
         "ID": "Aspik101/vicuna-13b-v1.5-PL-lora_unload",
@@ -1131,14 +1133,16 @@
         "HF_ID": "meta-llama/Llama-2-13b-chat-hf",
         "URL": "https://huggingface.co/meta-llama/Llama-2-13b-chat-hf",
         "SIZE": "13B",
-        "LICENSE": null
+        "LICENSE": null,
+        "ALIASES": ["LLaMA2 Chat 13B"]
     },
     {
         "ID": "openchat/openchat_v2_w",
         "HF_ID": "openchat/openchat_v2_w",
         "URL": "https://huggingface.co/openchat/openchat_v2_w",
         "SIZE": "other",
-        "LICENSE": "other"
+        "LICENSE": "other",
+        "ALIASES": ["OpenChat V2-W 13B"]
     },
     {
         "ID": "TehVenom/Metharme-13b-Merged",
@@ -1222,7 +1226,8 @@
         "HF_ID": "openchat/openchat_v2",
         "URL": "https://huggingface.co/openchat/openchat_v2",
         "SIZE": "other",
-        "LICENSE": "other"
+        "LICENSE": "other",
+        "ALIASES": ["OpenChat V2 13B"]
     },
     {
         "ID": "stabilityai/StableBeluga-7B",
@@ -1504,7 +1509,7 @@
         "URL": "https://huggingface.co/openchat/openchat_8192",
         "SIZE": "13B",
         "LICENSE": null,
-        "ALIASES": ["openchat-8192-13b_v1"]
+        "ALIASES": ["openchat-8192-13b_v1", "OpenChat8192-13B"]
     },
     {
         "ID": "dvruette/llama-13b-pretrained-sft-do2",
@@ -1752,7 +1757,8 @@
         "HF_ID": "meta-llama/Llama-2-7b-chat-hf",
         "URL": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
         "SIZE": "7B",
-        "LICENSE": null
+        "LICENSE": null,
+        "ALIASES": ["LLaMA2 Chat 7B"]
     },
     {
         "ID": "lvkaokao/llama2-7b-hf-instruction-lora",
@@ -4678,5 +4684,19 @@
     "SIZE":  "30B",
     "LICENSE":  "llama1",
     "ALIASES": ["wizardlm-30b_v1.0"]
+    },
+    {"ID": "openchat/openchat",
+        "HF_ID": "openchat/openchat",
+        "URL":  "https://huggingface.co/openchat/openchat",
+        "SIZE":  "13B",
+        "LICENSE":  "llama1",
+        "ALIASES": ["OpenChat-13B"]
+    },
+    {"ID": "openchat/opencoderplus",
+        "HF_ID": "openchat/opencoderplus",
+        "URL":  "https://huggingface.co/openchat/opencoderplus",
+        "SIZE":  "15B",
+        "LICENSE":  "llama1",
+        "ALIASES": ["OpenCoderPlus-15B"]
     }
 ]

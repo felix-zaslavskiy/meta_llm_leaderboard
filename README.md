@@ -3,7 +3,6 @@ Meta leaderboard combines data from multiple different leaderboards about LLMs.
 The focus is primarily on Open LLMs.
 
 Todo:
-- OpenCompass has mapping by Name... have it handled via model.json
 - Add to automated change tracker for AgentBench
 - Create space to show all the diagrams.
 

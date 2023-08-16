@@ -857,7 +857,7 @@
         "ID": "openchat/openchat_v3.1",
         "HF_ID": "openchat/openchat_v3.1",
         "URL": "https://huggingface.co/openchat/openchat_v3.1",
-        "SIZE": "other",
+        "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": ["OpenChat V3.1 13B"]
     },

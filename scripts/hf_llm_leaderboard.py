@@ -30,13 +30,11 @@ data = data['data']
 
 def categorize_size(params, name):
     if params == 0.0:
-        if name == 'stabilityai/FreeWilly2':
-            return "70B"
-        elif name == 'stabilityai/StableBeluga2':
-            return "70B"
-        elif name == 'openchat/openchat_v3.1':
-            return "13B"
-        return "other"
+        model = Model.find_by_hf_id("../static_data/models.json", name)
+        if model is None:
+            return 'other'
+        else:
+            return model.SIZE
     elif params <= 1.0:
         return "1B"
     elif params <= 3.0:

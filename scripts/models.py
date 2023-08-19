@@ -60,8 +60,20 @@ class Model:
 
     @staticmethod
     def save_to_file(models, filename):
-        """Save a list of Model instances to a JSON file."""
+        """Save a list of Model instances to a JSON file without duplicates."""
+
         # Sort the models by their ID
         sorted_models = sorted(models, key=lambda model: model.ID)
+
+        unique_models = []
+        seen = set()  # Set to keep track of seen models
+
+        for model in sorted_models:
+            model_data = json.dumps(model.to_dict(), sort_keys=True)
+
+            if model_data not in seen:
+                seen.add(model_data)
+                unique_models.append(model)
+
         with open(filename, 'w') as f:
-            json.dump([model.to_dict() for model in sorted_models], f, indent=4)
+            json.dump([model.to_dict() for model in unique_models], f, indent=4)

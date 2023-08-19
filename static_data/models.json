@@ -1620,14 +1620,6 @@
         "ALIASES": []
     },
     {
-        "ID": "OpenAssistant/llama2-13b-orca-v2-8k-3166",
-        "HF_ID": "OpenAssistant/llama2-13b-orca-v2-8k-3166",
-        "URL": "https://huggingface.co/OpenAssistant/llama2-13b-orca-v2-8k-3166",
-        "SIZE": "13B",
-        "LICENSE": null,
-        "ALIASES": []
-    },
-    {
         "ID": "OpenAssistant/oasst-sft-1-pythia-12b",
         "HF_ID": "OpenAssistant/oasst-sft-1-pythia-12b",
         "URL": "https://huggingface.co/OpenAssistant/oasst-sft-1-pythia-12b",
@@ -2730,14 +2722,6 @@
         "ALIASES": [
             "wizardlm-30b_v1.0"
         ]
-    },
-    {
-        "ID": "WizardLM/WizardLM-30B-V1.0",
-        "HF_ID": "WizardLM/WizardLM-30B-V1.0",
-        "URL": "https://huggingface.co/WizardLM/WizardLM-30B-V1.0",
-        "SIZE": "30B",
-        "LICENSE": null,
-        "ALIASES": []
     },
     {
         "ID": "WizardLM/WizardLM-70B-V1.0",

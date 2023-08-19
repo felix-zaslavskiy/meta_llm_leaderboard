@@ -1,6 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from save_chart import display_or_save
+import argparse
+
+parser = argparse.ArgumentParser(description="Your script description")
+parser.add_argument('--save_to_file', action='store_true')
+# Parse the arguments
+args = parser.parse_args()
+save_to_file = args.save_to_file
 
 # Load the merged CSV file
 file_path = "../temp_data/hf_llm_data_merged_agentbench.csv"
@@ -36,4 +44,4 @@ plt.title('Comparison of HF LLM Average and AgentBench Scores by Model', fontsiz
 # Use tight_layout to ensure that everything fits within the figure bounds
 plt.tight_layout()
 
-plt.show()
+display_or_save(plt, save_to_file)

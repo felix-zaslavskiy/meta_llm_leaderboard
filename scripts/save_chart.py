@@ -1,5 +1,6 @@
 import datetime
 import os
+import inspect
 
 def save_chart(plt, chart_name):
     target_dir = '../generated_plots/'
@@ -13,7 +14,20 @@ def save_chart(plt, chart_name):
     os.makedirs(target_dir, exist_ok=True)
 
     # Get today's date
-    plt.savefig(target_dir + chart_name + '.png', dpi=300, transparent=False, bbox_inches='tight')
+    file_path = target_dir + chart_name + '.png'
+    plt.savefig(file_path, dpi=200, transparent=False, bbox_inches='tight')
+
+    print("saved " + file_path)
 
     # Close the plot
     plt.close()
+
+def display_or_save(plt, save_to_file_flag):
+    if save_to_file_flag:
+        # Get the caller's file name
+        caller_filename = inspect.stack()[1].filename
+        current_file = os.path.basename(caller_filename)
+        stripped_current_file = os.path.splitext(current_file)[0]
+        save_chart(plt, stripped_current_file)
+    else:
+        plt.show()

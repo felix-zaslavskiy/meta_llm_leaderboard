@@ -4,9 +4,8 @@ import seaborn as sns
 from datetime import datetime
 from matplotlib.lines import Line2D
 from models import Model
-from save_chart import save_chart
+from save_chart import display_or_save
 import argparse
-import os
 # Make a chart of the models from HF leaderboard based on size category.
 
 # Set up the argument parser
@@ -189,9 +188,4 @@ plt.text(0.05, 0.95, "@FZaslavskiy", fontsize=12, transform=plt.gcf().transFigur
 
 plt.tight_layout()
 
-if(save_to_file):
-    current_file = os.path.basename(__file__)
-    stripped_current_file = os.path.splitext(current_file)[0]
-    save_chart(plt, stripped_current_file)
-else:
-    plt.show()
+display_or_save(plt, save_to_file)

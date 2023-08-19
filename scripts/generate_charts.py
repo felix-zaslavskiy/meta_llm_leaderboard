@@ -21,7 +21,12 @@ def run_script(script_name, save_to_file=False):
 
     return result.returncode
 
-scripts_to_run = ["hf_llm_diagramv2.py"]
+scripts_to_run = ["hf_llm_diagramv2.py",
+                  "hg_average_to_agentbench_compare.py",
+                  "hg_average_to_alpacaeval_compare.py",
+                  "hg_average_to_mosaic_compare.py",
+                  "hg_average_to_mt_bench_compare.py",
+                  "hg_average_to_opencompass_compare.py"]
 
 for script in scripts_to_run:
-    run_script(script)
+    run_script(script, True)

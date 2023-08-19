@@ -3,19 +3,24 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 from matplotlib.lines import Line2D
-from scripts.models import Model
+from models import Model
+from save_chart import save_chart
 import argparse
+import os
 # Make a chart of the models from HF leaderboard based on size category.
 
 # Set up the argument parser
 parser = argparse.ArgumentParser(description="Your script description")
 parser.add_argument('--rescore', action='store_true', help="Set rescore to True")
+parser.add_argument('--save_to_file', action='store_true')
+
 
 # Parse the arguments
 args = parser.parse_args()
 
 # Set the variable based on the presence of --rescore
 rescore = args.rescore
+save_to_file = args.save_to_file
 
 # Load the data
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
@@ -183,4 +188,10 @@ plt.text(0.95, 0.95, current_date, fontsize=12, transform=plt.gcf().transFigure,
 plt.text(0.05, 0.95, "@FZaslavskiy", fontsize=12, transform=plt.gcf().transFigure, verticalalignment='top')
 
 plt.tight_layout()
-plt.show()
+
+if(save_to_file):
+    current_file = os.path.basename(__file__)
+    stripped_current_file = os.path.splitext(current_file)[0]
+    save_chart(plt, stripped_current_file)
+else:
+    plt.show()

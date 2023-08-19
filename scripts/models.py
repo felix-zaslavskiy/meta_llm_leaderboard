@@ -1,25 +1,26 @@
 import json
 
 class Model:
-    def __init__(self, ID, HF_ID, URL, SIZE, LICENSE, ALIASES=[]):
+    def __init__(self, ID, HF_ID, URL, SIZE, LICENSE, ALIASES=[], CONTAMINATED=False):
         self.ID = ID
         self.HF_ID = HF_ID
         self.URL = URL
         self.SIZE = SIZE
         self.LICENSE = LICENSE
         self.ALIASES = ALIASES
+        self.CONTAMINATED = CONTAMINATED
 
     @classmethod
     def from_dict(cls, model_dict):
         """Create a Model instance from a dictionary."""
-        # If 'ALIASES' key is not present, it defaults to an empty list
         return cls(
             ID=model_dict['ID'],
             HF_ID=model_dict['HF_ID'],
             URL=model_dict['URL'],
             SIZE=model_dict['SIZE'],
             LICENSE=model_dict['LICENSE'],
-            ALIASES=model_dict.get('ALIASES', [])
+            ALIASES=model_dict.get('ALIASES', []),
+            CONTAMINATED=model_dict.get('CONTAMINATED', False)
         )
 
     def to_dict(self):
@@ -30,7 +31,8 @@ class Model:
             'URL': self.URL,
             'SIZE': self.SIZE,
             'LICENSE': self.LICENSE,
-            'ALIASES': self.ALIASES
+            'ALIASES': self.ALIASES,
+            'CONTAMINATED': self.CONTAMINATED
         }
 
     @classmethod

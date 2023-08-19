@@ -19,6 +19,21 @@ rescore = args.rescore
 
 # Load the data
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
+
+# Define a function to check if a model is contaminated
+def is_contaminated(model_id):
+    model = Model.find_by_hf_id("../static_data/models.json", model_id)
+    if model and model.CONTAMINATED:
+        return True
+    return False
+
+# Create a mask indicating whether each row is contaminated
+contaminated_mask = df['Model'].apply(is_contaminated)
+
+# Use the mask to filter out contaminated rows
+filtered_df = df[~contaminated_mask]
+df = filtered_df
+
 if rescore == True:
     df['Average'] = df['ARC'] * 0.3 + df['HellaSwag'] * 0.3 + df['MMLU'] * 0.3 + df['TruthfulQA'] * 0.1
 def commercial_permissible(license):

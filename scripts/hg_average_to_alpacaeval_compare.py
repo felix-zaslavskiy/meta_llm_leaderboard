@@ -3,11 +3,19 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from save_chart import display_or_save
 import argparse
+import json
 
 parser = argparse.ArgumentParser(description="Your script description")
 parser.add_argument('--save_to_file', action='store_true')
+parser.add_argument("--global_config", type=str, help="JSON string containing global configurations.")
+
 # Parse the arguments
 args = parser.parse_args()
+# If global_config argument is passed, parse it
+if args.global_config:
+    global_config = json.loads(args.global_config)
+else:
+    global_config = {}
 save_to_file = args.save_to_file
 
 # Load the merged CSV file
@@ -42,6 +50,7 @@ plt.legend(handles=[plt.Line2D([0], [0], color='skyblue', lw=4, label='HF LLM Av
 plt.xlabel('Score', fontsize=12)
 plt.ylabel('Model', fontsize=12)
 plt.title('Comparison of HF LLM Average and AlpacaEval win rate by Model', fontsize=14)
+plt.text(0.05, 0.95, global_config.get("CHART_TAG"), fontsize=12, transform=plt.gcf().transFigure, verticalalignment='top')
 
 # Use tight_layout to ensure that everything fits within the figure bounds
 plt.tight_layout()

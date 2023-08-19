@@ -6,16 +6,23 @@ from matplotlib.lines import Line2D
 from models import Model
 from save_chart import display_or_save
 import argparse
+import json
 # Make a chart of the models from HF leaderboard based on size category.
 
 # Set up the argument parser
 parser = argparse.ArgumentParser(description="Your script description")
 parser.add_argument('--rescore', action='store_true', help="Set rescore to True")
 parser.add_argument('--save_to_file', action='store_true')
-
+parser.add_argument("--global_config", type=str, help="JSON string containing global configurations.")
 
 # Parse the arguments
 args = parser.parse_args()
+
+# If global_config argument is passed, parse it
+if args.global_config:
+    global_config = json.loads(args.global_config)
+else:
+    global_config = {}
 
 # Set the variable based on the presence of --rescore
 rescore = args.rescore
@@ -184,7 +191,7 @@ for i in range(best_models.shape[0]):
 # Add current date to the top right corner
 current_date = datetime.today().strftime('%Y-%m-%d')
 plt.text(0.95, 0.95, current_date, fontsize=12, transform=plt.gcf().transFigure, horizontalalignment='right', verticalalignment='top')
-plt.text(0.05, 0.95, "@FZaslavskiy", fontsize=12, transform=plt.gcf().transFigure, verticalalignment='top')
+plt.text(0.05, 0.95, global_config.get("CHART_TAG"), fontsize=12, transform=plt.gcf().transFigure, verticalalignment='top')
 
 plt.tight_layout()
 

@@ -4,6 +4,9 @@ The focus is primarily on Open LLMs.
 
 Todo:
 - Add to automated change tracker for AgentBench
+- Track the code benchmark bookmarked in X
+- On all the charts implement truncating model labels.
+- Generate model folder make sure minutes is locked across generations.
 - Create space to show all the diagrams.
 
 Ideas:

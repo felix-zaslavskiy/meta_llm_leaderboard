@@ -1,5 +1,6 @@
 import subprocess
 import json
+import datetime
 
 def run_script(script_name, save_to_file=False, global_config=None):
     """
@@ -25,8 +26,10 @@ def run_script(script_name, save_to_file=False, global_config=None):
 
     return result.returncode
 
+today = datetime.datetime.now()
 global_config = {
     "CHART_TAG": "@FZaslavskiy",
+    "DATETIME": today.strftime('%Y%m%d_%H%M')
 }
 
 scripts_to_run = ["hf_llm_diagramv2.py",

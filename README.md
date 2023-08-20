@@ -3,10 +3,10 @@ Meta leaderboard combines data from multiple different leaderboards about LLMs.
 The focus is primarily on Open LLMs.
 
 Todo:
-- Add to automated change tracker for AgentBench
-- Track the code benchmark bookmarked in X
 - On all the charts implement truncating model labels.
 - Generate model folder make sure minutes is locked across generations.
+- Add to automated change tracker for AgentBench
+- Track the code benchmark bookmarked in X
 - Create space to show all the diagrams.
 
 Ideas:

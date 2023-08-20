@@ -1,14 +1,13 @@
-import datetime
+
 import os
 import inspect
 
-def save_chart(plt, chart_name):
+def save_chart(plt, chart_name, date_time):
+    global global_config
+
     target_dir = '../generated_plots/'
 
-    today = datetime.datetime.now()
-    formatted_date = today.strftime('%Y%m%d_%H%M')
-
-    target_dir += formatted_date + '/'
+    target_dir += date_time + '/'
 
     # Make a directory if it does not exist yet
     os.makedirs(target_dir, exist_ok=True)
@@ -22,12 +21,12 @@ def save_chart(plt, chart_name):
     # Close the plot
     plt.close()
 
-def display_or_save(plt, save_to_file_flag):
+def display_or_save(plt, save_to_file_flag, date_time):
     if save_to_file_flag:
         # Get the caller's file name
         caller_filename = inspect.stack()[1].filename
         current_file = os.path.basename(caller_filename)
         stripped_current_file = os.path.splitext(current_file)[0]
-        save_chart(plt, stripped_current_file)
+        save_chart(plt, stripped_current_file, date_time)
     else:
         plt.show()

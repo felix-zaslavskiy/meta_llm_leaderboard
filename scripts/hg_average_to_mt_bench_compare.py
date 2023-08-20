@@ -35,6 +35,10 @@ plt.figure(figsize=(15, 8))
 sns.barplot(x="Average", y="Model", data=filtered_data, color="skyblue", label="HF LLM Average")
 sns.barplot(x="MT-bench", y="Model", data=filtered_data, color="red", label="MT-bench (scaled by 3)")
 
+# Truncate y-axis labels if they are too long
+y_labels = [label.get_text() if len(label.get_text()) <= 36 else '...' + label.get_text()[-36:] for label in plt.gca().get_yticklabels()]
+plt.gca().set_yticklabels(y_labels)
+
 # Add legend
 plt.legend(loc='lower right')
 

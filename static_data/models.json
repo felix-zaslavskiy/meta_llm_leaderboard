@@ -7701,5 +7701,14 @@
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
+    },
+    {
+        "ID": "DeciCoder-1B",
+        "HF_ID": "DeciCoder-1B",
+        "URL": "",
+        "SIZE": "1B",
+        "LICENSE": "other",
+        "ALIASES": ["DeciCoder-1B"],
+        "CONTAMINATED": false
     }
 ]

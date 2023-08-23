@@ -7,6 +7,7 @@ from models import Model
 from save_chart import display_or_save
 import argparse
 import json
+
 # Make a chart of the models from HF leaderboard based on size category.
 
 # Set up the argument parser
@@ -90,6 +91,12 @@ best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
 # can put back 20B , 40B or 16B in the future, remove 6B
 order = [ '70B', '65B', '30B', '13B', '7B', '6B', '3B', '1B']
 
+license_colors = {
+    "NC": "royalblue",
+    "CP": "green",
+    "O": "orange"
+}
+
 # Convert the size_type to a category type with the defined order
 best_models['size_type'] = pd.Categorical(best_models['size_type'], categories=order, ordered=True)
 
@@ -122,12 +129,22 @@ label_offset_license = max_average + 0.045 * max_average  # adds a 2% buffer to 
 plt.figure(figsize=(8, 8))
 
 sns.set_theme(style='whitegrid')
-barplot = sns.barplot(x="Average", y="size_type", data=best_models, color="royalblue", edgecolor='black')
+
+license_colors_mapping = {
+    'non-commercial': 'royalblue',
+    'commercial': 'green',
+    'other': 'orange'
+}
+
+colors_list = best_models['license_type'].apply(lambda x: license_colors_mapping.get(x, 'royalblue')).tolist()
+
+barplot = sns.barplot(x="Average", y="size_type", data=best_models, palette=colors_list, color="royalblue", edgecolor='black')
 
 # Create custom legend handles
-legend_elements = [Line2D([0], [0], color='white', markerfacecolor='black', marker='o', markersize=8, label='CP - Commercially Permissible'),
-                   Line2D([0], [0], color='white', markerfacecolor='black', marker='o', markersize=8, label='NC - Non-Commercial'),
-                   Line2D([0], [0], color='white', markerfacecolor='black', marker='o', markersize=8, label='O - Other or Unknown')]
+legend_elements = [Line2D([0], [0], color='white', markerfacecolor=license_colors["CP"], marker='s', markersize=8, label='CP - Commercially Permissible'),
+                   Line2D([0], [0], color='white', markerfacecolor=license_colors["NC"], marker='s', markersize=8, label='NC - Non-Commercial'),
+                   Line2D([0], [0], color='white', markerfacecolor=license_colors["O"], marker='s', markersize=8, label='O - Other or Unknown')]
+
 
 # Add the legend to the plot
 plt.legend(handles=legend_elements, loc='lower right', title='Licenses')

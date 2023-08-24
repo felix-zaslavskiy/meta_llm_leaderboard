@@ -2,7 +2,7 @@ import subprocess
 import json
 import datetime
 
-def run_script(script_name, save_to_file=False, global_config=None):
+def run_script(script_name, save_to_file=False, global_config=None, rescored_version=False):
     """
     Run a python script and optionally pass an argument to it.
 
@@ -19,6 +19,9 @@ def run_script(script_name, save_to_file=False, global_config=None):
     if save_to_file:
         command.append("--save_to_file")
 
+    if rescored_version:
+        command.append("--rescore")
+
     if global_config:
         command.extend(["--global_config", json.dumps(global_config)])
 
@@ -33,6 +36,7 @@ global_config = {
 }
 
 scripts_to_run = ["hf_llm_diagramv2.py",
+                  "hf_llm_diagramv2.py",
                   "hg_average_to_agentbench_compare.py",
                   "hg_average_to_alpacaeval_compare.py",
                   "hg_average_to_mosaic_compare.py",
@@ -40,5 +44,10 @@ scripts_to_run = ["hf_llm_diagramv2.py",
                   "hg_average_to_opencompass_compare.py"
                   ]
 
-for script in scripts_to_run:
-    run_script(script, True, global_config)
+rescore = [1]
+
+for i, script in enumerate(scripts_to_run):
+    if i in rescore:
+        run_script(script, True, global_config, True)
+    else:
+        run_script(script, True, global_config)

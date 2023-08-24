@@ -21,12 +21,14 @@ def save_chart(plt, chart_name, date_time):
     # Close the plot
     plt.close()
 
-def display_or_save(plt, save_to_file_flag, date_time):
+def display_or_save(plt, save_to_file_flag, date_time, rescored=False):
     if save_to_file_flag:
         # Get the caller's file name
         caller_filename = inspect.stack()[1].filename
         current_file = os.path.basename(caller_filename)
         stripped_current_file = os.path.splitext(current_file)[0]
+        if rescored:
+            stripped_current_file += "_rescored"
         save_chart(plt, stripped_current_file, date_time)
     else:
         plt.show()

@@ -212,4 +212,4 @@ plt.text(0.05, 0.95, global_config.get("CHART_TAG"), fontsize=12, transform=plt.
 
 plt.tight_layout()
 
-display_or_save(plt, save_to_file, global_config.get("DATETIME"))
+display_or_save(plt, save_to_file, global_config.get("DATETIME"), rescore)

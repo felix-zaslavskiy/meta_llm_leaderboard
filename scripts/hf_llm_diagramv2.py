@@ -14,6 +14,7 @@ import json
 parser = argparse.ArgumentParser(description="Your script description")
 parser.add_argument('--rescore', action='store_true', help="Set rescore to True")
 parser.add_argument('--save_to_file', action='store_true')
+parser.add_argument('--permissive_only', action='store_true', help="Only show models with permissive license")
 parser.add_argument("--global_config", type=str, help="JSON string containing global configurations.")
 
 # Parse the arguments
@@ -28,6 +29,7 @@ else:
 # Set the variable based on the presence of --rescore
 rescore = args.rescore
 save_to_file = args.save_to_file
+permissive_only = args.permissive_only
 
 # Load the data
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
@@ -48,41 +50,56 @@ df = filtered_df
 
 if rescore == True:
     df['Average'] = df['ARC'] * 0.3 + df['HellaSwag'] * 0.3 + df['MMLU'] * 0.3 + df['TruthfulQA'] * 0.1
+
+
+def strip_brackets(license_str):
+    # Check if the input is a string
+    if not isinstance(license_str, str):
+        return license_str
+    # If the string starts with '[' and ends with ']', strip them
+    if license_str.startswith('[\'') and license_str.endswith('\']'):
+        return license_str[2:-2]
+    return license_str
+
+# Non-Commercial (blue - can't use commercially)
+# Commercial - commercially permissible.
+# Other - Unknown.
 def commercial_permissible(license):
+    license = strip_brackets(license)
     match license:
-        # Llama1 is not a HF license. Model is under Llama1 rules.
-        case 'llama1':
-            return "non-commercial"
-        # StableBeluga not a HF license
-        case 'StableBeluga':
-            return "non-commercial"
+        case 'apache-2.0':
+            return 'commercial'
+        case 'bigscience-openrail-m':
+            return "commercial"
+        case 'bsd-3-clause':
+            return "commercial"
         case 'cc-by-nc-4.0':
             return "non-commercial"
         case 'cc-by-nc-sa-4.0':
             return "non-commercial"
-        case 'other':
-            return 'other'
+        case 'creativeml-openrail-m':
+            return "commercial"
+        case 'gpl-3.0':
+            return "non-commercial"
+        case 'llama1':
+            return "non-commercial"
         case 'llama2':
             return 'commercial'
-        case 'cc-by-nc-sa-4.0':
-            return
-        case 'apache-2.0':
+        case 'mit':
             return 'commercial'
-        case "['mit']":
-            return 'commercial'
-        case "mit":
-            return 'commercial'
-        case "gpl-3.0":
+        case 'openrail':
+            return "commercial"
+        case 'other':
+            return 'other'
+        case 'StableBeluga':
             return "non-commercial"
-        case "openrail":
-            return "commercial"
-        case "bigscience-openrail-m":
-            return "commercial"
-        case "creativeml-openrail-m":
-            return "commercial"
-        case "bsd-3-clause":
-            return "commercial"
     return ""
+df['license_type'] = df['Hub License'].apply(commercial_permissible)
+
+if permissive_only:
+    df_filtered = df[df['license_type'].isin(['commercial'])]
+    df = df_filtered
+
 
 # Find the best model within each size_type
 best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
@@ -91,11 +108,6 @@ best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
 # can put back 20B , 40B or 16B in the future, remove 6B
 order = [ '70B', '65B', '30B', '13B', '7B', '6B', '3B', '1B']
 
-license_colors = {
-    "NC": "royalblue",
-    "CP": "green",
-    "O": "orange"
-}
 
 # Convert the size_type to a category type with the defined order
 best_models['size_type'] = pd.Categorical(best_models['size_type'], categories=order, ordered=True)
@@ -106,7 +118,6 @@ best_models = best_models.dropna(subset=['size_type'])
 # Sort the DataFrame according to the new order
 best_models = best_models.sort_values('size_type')
 
-best_models['license_type'] = best_models['Hub License'].apply(commercial_permissible)
 
 # If the license is empty string we want to check in Models registry.
 def get_license_or_check_registry(row):
@@ -136,6 +147,11 @@ license_colors_mapping = {
     'other': 'orange'
 }
 
+license_colors = {
+    "NC": "royalblue",
+    "CP": "green",
+    "O": "orange"
+}
 colors_list = best_models['license_type'].apply(lambda x: license_colors_mapping.get(x, 'royalblue')).tolist()
 
 barplot = sns.barplot(x="Average", y="size_type", data=best_models, palette=colors_list, color="royalblue", edgecolor='black')

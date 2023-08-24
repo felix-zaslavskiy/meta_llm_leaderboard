@@ -2,6 +2,7 @@ import pandas as pd
 from scripts.models import Model
 
 # Load the provided Excel file again
+# From https://github.com/THUDM/AgentBench/tree/main/assets
 df = pd.read_excel("../temp_data/agentbench_leaderboard-230808.xlsx")
 
 df['Model_ID_Temp'] = df['Models'] + df['VER'].apply(lambda x: '_' + x if x != '-' else '')

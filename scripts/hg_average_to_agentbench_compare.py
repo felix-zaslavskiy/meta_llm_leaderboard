@@ -1,3 +1,4 @@
+from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -53,6 +54,8 @@ plt.xlabel('Score', fontsize=12)
 plt.ylabel('Model', fontsize=12)
 plt.title('Comparison of HF LLM Average and AgentBench Scores by Model', fontsize=14)
 
+current_date = datetime.today().strftime('%Y-%m-%d')
+plt.text(0.95, 0.95, current_date, fontsize=12, transform=plt.gcf().transFigure, horizontalalignment='right', verticalalignment='top')
 plt.text(0.05, 0.95, global_config.get("CHART_TAG"), fontsize=12, transform=plt.gcf().transFigure, verticalalignment='top')
 
 # Use tight_layout to ensure that everything fits within the figure bounds

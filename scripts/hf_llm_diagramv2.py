@@ -200,8 +200,10 @@ plt.text(0.5, 0.95, title_text, fontweight='bold', fontsize=14, transform=plt.gc
 
 # Annotate the model names on the bars in horizontal orientation
 # Annotate the model names on the bars in horizontal orientation
+model_id_list = []
 for i, row in best_models.iterrows():
     model_name = row['Model']
+    model_id_list.append(model_name)
     size_type = row['size_type']
     y_position = order.index(size_type)  # Get the index from the order list
     font_size = 16
@@ -271,4 +273,4 @@ if rescore:
 elif show_license != 'all':
     postfix = show_license
 
-display_or_save(plt, save_to_file, global_config.get("DATETIME"), postfix)
+display_or_save(plt, save_to_file, global_config.get("DATETIME"), postfix, model_id_list=model_id_list)

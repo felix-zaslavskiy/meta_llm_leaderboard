@@ -12,9 +12,9 @@ import json
 
 # Set up the argument parser
 parser = argparse.ArgumentParser(description="Your script description")
+parser.add_argument('--license', type=str, choices=['all', 'other_permissive', 'permissive'], default='all', help="Which models to show")
 parser.add_argument('--rescore', action='store_true', help="Set rescore to True")
 parser.add_argument('--save_to_file', action='store_true')
-parser.add_argument('--permissive_only', action='store_true', help="Only show models with permissive license")
 parser.add_argument("--global_config", type=str, help="JSON string containing global configurations.")
 
 # Parse the arguments
@@ -29,7 +29,7 @@ else:
 # Set the variable based on the presence of --rescore
 rescore = args.rescore
 save_to_file = args.save_to_file
-permissive_only = args.permissive_only
+show_license = args.license
 
 # Load the data
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
@@ -110,12 +110,29 @@ def commercial_permissible(license):
         case 'StableBeluga':
             return "non-commercial"
     return ""
+
+# If the license is empty string we want to check in Models registry.
+def get_license_from_registry(row):
+    if row['license_type'] == '' or row['license_type'] == 'other':
+        model = Model.find_by_hf_id("../static_data/models.json", row['Model'])
+        if model is None:
+            return 'other'
+        else:
+            return commercial_permissible(model.LICENSE)
+    return row['license_type']
+
+# Apply license type calculation on the Hug license
 df['license_type'] = df['Hub License'].apply(commercial_permissible)
 
-if permissive_only:
-    df_filtered = df[df['license_type'].isin(['commercial'])]
-    df = df_filtered
+# Fill in or override license based on model registry
+df['license_type'] = df.apply(get_license_from_registry, axis=1)
 
+if show_license == 'other_permissive':
+    df_filtered = df[df['license_type'].isin(['commercial']) | df['license_type'].isin(['other'])]
+    df = df_filtered
+elif show_license == 'permissive':
+    df_filtered =  df[df['license_type'].isin(['commercial'])]
+    df = df_filtered
 
 # Find the best model within each size_type
 best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
@@ -134,18 +151,6 @@ best_models = best_models.dropna(subset=['size_type'])
 # Sort the DataFrame according to the new order
 best_models = best_models.sort_values('size_type')
 
-
-# If the license is empty string we want to check in Models registry.
-def get_license_or_check_registry(row):
-    if row['license_type'] == '' or row['license_type'] == 'other':
-        model = Model.find_by_hf_id("../static_data/models.json", row['Model'])
-        if model is None:
-            return 'other'
-        else:
-            return commercial_permissible(model.LICENSE)
-    return row['license_type']
-
-best_models['license_type'] = best_models.apply(get_license_or_check_registry, axis=1)
 
 label_offset = 5
 
@@ -194,19 +199,22 @@ plt.xlabel(xlabel_text, fontsize=12)
 plt.text(0.5, 0.95, title_text, fontweight='bold', fontsize=14, transform=plt.gcf().transFigure, horizontalalignment='center', verticalalignment='top')
 
 # Annotate the model names on the bars in horizontal orientation
-for i in range(best_models.shape[0]):
-    model_name = best_models.Model.iloc[i]
-    font_size=16
-    license_type = best_models.license_type.iloc[i]
+# Annotate the model names on the bars in horizontal orientation
+for i, row in best_models.iterrows():
+    model_name = row['Model']
+    size_type = row['size_type']
+    y_position = order.index(size_type)  # Get the index from the order list
+    font_size = 16
+    license_type = row['license_type']
     license_type_display = ''
     if license_type == 'commercial':
-        license_type_display='CP'
+        license_type_display = 'CP'
     elif license_type == 'non-commercial':
-        license_type_display='NC'
+        license_type_display = 'NC'
     else:
         license_type_display = 'O'
 
-    if len(model_name) > best_models.Average.iloc[i] * 0.7:
+    if len(model_name) > row['Average'] * 0.7:
         slash_index = model_name.find('/')
         name_length = len(model_name) - slash_index + 1
         model_name = '...' + model_name[slash_index:]
@@ -219,7 +227,7 @@ for i in range(best_models.shape[0]):
 
     # Use the constant label_offset for the x position
     plt.text(label_offset,  # Aligned to the left of each bar
-             i,
+             y_position,  # Use y_position instead of i
              model_name,
              ha='left',  # Left-align the text
              va='center',
@@ -229,7 +237,7 @@ for i in range(best_models.shape[0]):
              color='white')
 
     plt.text(label_offset_license,
-             i,
+             y_position,  # Use y_position instead of i
              license_type_display,
              rotation=0,
              fontsize=12,
@@ -237,11 +245,30 @@ for i in range(best_models.shape[0]):
              fontweight='bold',
              ha='right')
 
+
 # Add current date to the top right corner
 current_date = datetime.today().strftime('%Y-%m-%d')
 plt.text(0.95, 0.95, current_date, fontsize=12, transform=plt.gcf().transFigure, horizontalalignment='right', verticalalignment='top')
 plt.text(0.05, 0.95, global_config.get("CHART_TAG"), fontsize=12, transform=plt.gcf().transFigure, verticalalignment='top')
 
+# Check for missing data in each size_type and annotate
+for i, size in enumerate(order):
+    if size not in best_models['size_type'].values:
+        plt.text(5,  # This will place the text at the start of where the bar would be
+                 i,  # This will place the text at the correct y position
+                 "No model at this size",
+                 ha='left',
+                 va='center',
+                 rotation=0,
+                 fontsize=14,
+                 color='grey')  # You can adjust the color as needed
+
 plt.tight_layout()
 
-display_or_save(plt, save_to_file, global_config.get("DATETIME"), rescore)
+postfix = None
+if rescore:
+    postfix = 'rescore'
+elif show_license != 'all':
+    postfix = show_license
+
+display_or_save(plt, save_to_file, global_config.get("DATETIME"), postfix)

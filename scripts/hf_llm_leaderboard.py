@@ -9,8 +9,10 @@ create_init_list = False
 
 client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
 
-json_data = client.predict(
-    fn_index=7)
+job = client.submit(fn_index=6)
+json_data = job.result(timeout=120)
+#json_data = client.predict(fn_index=6)
+
 
 #json_data = client.predict(
 #    "null",	# str representing filepath to JSON file in 'parameter_13' Dataframe component

@@ -67,20 +67,34 @@ def strip_brackets(license_str):
 def commercial_permissible(license):
     license = strip_brackets(license)
     match license:
+        case 'agpl-3.0':
+            return 'commercial'
         case 'apache-2.0':
             return 'commercial'
+        case 'bigcode-openrail-m':
+            return "commercial"
         case 'bigscience-openrail-m':
+            return "commercial"
+        case 'bigscience-bloom-rail-1.0':
             return "commercial"
         case 'bsd-3-clause':
             return "commercial"
+        case 'cc':
+            return "commercial"
+        case 'cc0-1.0':
+            return "non-commercial"
         case 'cc-by-nc-4.0':
+            return "non-commercial"
+        case 'cc-by-nc-nd-4.0':
             return "non-commercial"
         case 'cc-by-nc-sa-4.0':
             return "non-commercial"
         case 'creativeml-openrail-m':
             return "commercial"
+        case 'gpl':
+            return "commercial"
         case 'gpl-3.0':
-            return "non-commercial"
+            return "commercial"
         case 'llama1':
             return "non-commercial"
         case 'llama2':
@@ -88,6 +102,8 @@ def commercial_permissible(license):
         case 'mit':
             return 'commercial'
         case 'openrail':
+            return "commercial"
+        case 'openrail++':
             return "commercial"
         case 'other':
             return 'other'

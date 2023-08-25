@@ -21,7 +21,7 @@ def save_chart(plt, chart_name, date_time):
     # Close the plot
     plt.close()
 
-def display_or_save(plt, save_to_file_flag, date_time, postfix):
+def display_or_save(plt, save_to_file_flag, date_time, postfix=None):
     if save_to_file_flag:
         # Get the caller's file name
         caller_filename = inspect.stack()[1].filename

@@ -3,8 +3,8 @@ Meta leaderboard combines data from multiple different leaderboards about LLMs.
 The focus is primarily on Open LLMs.
 
 Todo:
-- Add to automated change tracker for AgentBench - checkout repo.. see if a new file is present?
-- Links to the HF models that are in graph.
+- Hugging Face API call stopped working. Figure out how to call another endpoint
+- Add to automated change tracker for AgentBench - checkout repo see if a new file is present?
 - Create visualizations for top models for other benchmarks by model size. https://huggingface.co/spaces/bigcode/multilingual-code-evals
 
 Ideas:

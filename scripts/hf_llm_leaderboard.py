@@ -1,5 +1,3 @@
-from gradio_client import Client
-import json
 import csv
 from models import Model
 from change_tracker import load_previous_data, save_current_data, track_changes
@@ -30,26 +28,10 @@ BENCHMARK_COLS = [
         AutoEvalColumn.truthfulqa,
     ]
 ]
-original_df = get_leaderboard_df(eval_results, None, COLS, BENCHMARK_COLS)
-
-space_off = "https://huggingfaceh4-open-llm-leaderboard.hf.space/"
-
-space = "https://felixz-open-llm-leaderboard2.hf.space/"
-#space = "http://127.0.0.1:7862/"
-#client = Client(space)
-
-#json_data = client.predict( fn_index=6)
-
-#with open(json_data[0], 'r') as file:
-#    file_data = file.read()
-
-# Load the JSON data
-#data = json.loads(file_data)
-data = original_df
+data = get_leaderboard_df(eval_results, None, COLS, BENCHMARK_COLS)
 
 # Get the headers and the data
 headers = list(data)
-#data = data['data']
 
 def categorize_size(params, name):
     if params == 0.0:
@@ -83,6 +65,10 @@ def categorize_size(params, name):
     else:
         raise Exception("Param too big")
 
+def clean_headers(value):
+    text = value.replace('\u2b06\ufe0f', '')
+    text = text.replace('\u2764\uFE0F', '').rstrip()
+    return text
 # Create a new dictionary with model->status
 model_status_dict = {}
 init_list = []
@@ -90,12 +76,8 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
     headers_clean = []
 
     for value in headers:
-        text = value.replace('\u2b06\ufe0f', '')
-        text = text.replace('\u2764\uFE0F', '').rstrip()
+        text = clean_headers(value)
         headers_clean.append(text)
-
-    # Create a dictionary from the headers and the data
-    data_dict = [dict(zip(headers_clean, d)) for d in data]
 
     headers_clean.pop()
     headers_clean.pop()
@@ -103,7 +85,10 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
     w = csv.DictWriter(f, headers_clean)
     w.writeheader()
 
-    for d in data_dict:
+    print(headers_clean)
+    for index, row in data.iterrows():
+        d = {clean_headers(key): value for key, value in row.to_dict().items()}
+
         # Parse the HTML to get the model name
         #soup = BeautifulSoup(d['Model'], 'html.parser')
         if d['Model'] == '<p>Baseline</p>':

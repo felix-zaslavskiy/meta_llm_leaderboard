@@ -8,9 +8,9 @@ import huggingface_hub
 from huggingface_hub import HfApi
 from tqdm import tqdm
 
-from src.display_models.model_metadata_flags import DO_NOT_SUBMIT_MODELS, FLAGGED_MODELS
-from src.display_models.model_metadata_type import MODEL_TYPE_METADATA, ModelType, model_type_from_str
-from src.display_models.utils import AutoEvalColumn, model_hyperlink
+from scripts.display_models.model_metadata_flags import DO_NOT_SUBMIT_MODELS, FLAGGED_MODELS
+from scripts.display_models.model_metadata_type import MODEL_TYPE_METADATA, ModelType, model_type_from_str
+from scripts.display_models.utils import AutoEvalColumn, model_hyperlink
 
 api = HfApi(token=os.environ.get("H4_TOKEN", None))
 

@@ -3,13 +3,24 @@ import os
 
 import pandas as pd
 from huggingface_hub import Repository
-
-
+from transformers import AutoConfig
 
 from scripts.display_models.get_model_metadata import apply_metadata
 from scripts.display_models.read_results import get_eval_results_dicts, make_clickable_model
 from scripts.display_models.utils import AutoEvalColumn, EvalQueueColumn, has_no_nan_values
 
+baseline = {
+    AutoEvalColumn.model.name: "<p>Baseline</p>",
+    AutoEvalColumn.revision.name: "N/A",
+    AutoEvalColumn.precision.name: None,
+    AutoEvalColumn.average.name: 25.0,
+    AutoEvalColumn.arc.name: 25.0,
+    AutoEvalColumn.hellaswag.name: 25.0,
+    AutoEvalColumn.mmlu.name: 25.0,
+    AutoEvalColumn.truthfulqa.name: 25.0,
+    AutoEvalColumn.dummy.name: "baseline",
+    AutoEvalColumn.model_type.name: "",
+}
 
 def load_all_info_from_hub(RESULTS_REPO: str, RESULTS_PATH: str) -> Repository:
 

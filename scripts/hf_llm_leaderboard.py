@@ -3,22 +3,27 @@ import json
 import csv
 from models import Model
 from change_tracker import load_previous_data, save_current_data, track_changes
+from load_from_hub import load_all_info_from_hub
+
 
 # Param to initialize the model list json in temp data folder. Only needed on demand.
 create_init_list = False
 
-client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
+RESULTS_REPO = "open-llm-leaderboard/results"
+EVAL_RESULTS_PATH = "eval-results"
 
-job = client.submit(fn_index=6)
-json_data = job.result(timeout=120)
-#json_data = client.predict(fn_index=6)
+eval_results = load_all_info_from_hub(
+     RESULTS_REPO, EVAL_RESULTS_PATH
+)
+original_df = get_leaderboard_df(eval_results, eval_results_private, COLS, BENCHMARK_COLS)
 
+space_off = "https://huggingfaceh4-open-llm-leaderboard.hf.space/"
 
-#json_data = client.predict(
-#    "null",	# str representing filepath to JSON file in 'parameter_13' Dataframe component
-#    "null",	# str representing filepath to JSON file in 'parameter_12' Dataframe component
-#    "all",
-#    fn_index=2)
+space = "https://felixz-open-llm-leaderboard2.hf.space/"
+#space = "http://127.0.0.1:7862/"
+client = Client(space)
+
+json_data = client.predict( fn_index=6)
 
 with open(json_data[0], 'r') as file:
     file_data = file.read()

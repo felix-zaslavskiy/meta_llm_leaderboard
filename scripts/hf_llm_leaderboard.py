@@ -36,15 +36,16 @@ space_off = "https://huggingfaceh4-open-llm-leaderboard.hf.space/"
 
 space = "https://felixz-open-llm-leaderboard2.hf.space/"
 #space = "http://127.0.0.1:7862/"
-client = Client(space)
+#client = Client(space)
 
-json_data = client.predict( fn_index=6)
+#json_data = client.predict( fn_index=6)
 
-with open(json_data[0], 'r') as file:
-    file_data = file.read()
+#with open(json_data[0], 'r') as file:
+#    file_data = file.read()
 
 # Load the JSON data
-data = json.loads(file_data)
+#data = json.loads(file_data)
+data = original_df
 
 # Get the headers and the data
 headers = data['headers']

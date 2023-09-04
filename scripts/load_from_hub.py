@@ -1,13 +1,11 @@
-import json
-import os
 
 import pandas as pd
 from huggingface_hub import Repository
 from transformers import AutoConfig
 
 from scripts.display_models.get_model_metadata import apply_metadata
-from scripts.display_models.read_results import get_eval_results_dicts, make_clickable_model
-from scripts.display_models.utils import AutoEvalColumn, EvalQueueColumn, has_no_nan_values
+from scripts.display_models.read_results import get_eval_results_dicts
+from scripts.display_models.utils import AutoEvalColumn, has_no_nan_values
 
 baseline = {
     AutoEvalColumn.model.name: "<p>Baseline</p>",
@@ -28,10 +26,11 @@ def load_all_info_from_hub(RESULTS_REPO: str, RESULTS_PATH: str) -> Repository:
 
     eval_results_repo = Repository(
         local_dir=RESULTS_PATH,
-        clone_from=RESULTS_REPO,
+        # clone_from=RESULTS_REPO,
         repo_type="dataset",
     )
-    eval_results_repo.git_pull()
+    # TODO: disable git pull for testing.
+    # eval_results_repo.git_pull()
 
     return eval_results_repo
 
@@ -41,7 +40,8 @@ def get_leaderboard_df(
 ) -> pd.DataFrame:
     if eval_results:
         print("Pulling evaluation results for the leaderboard.")
-        eval_results.git_pull()
+        # Disable temporarily
+        # eval_results.git_pull()
     if eval_results_private:
         print("Pulling evaluation results for the leaderboard.")
         eval_results_private.git_pull()

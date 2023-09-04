@@ -3,8 +3,12 @@ import json
 import csv
 from models import Model
 from change_tracker import load_previous_data, save_current_data, track_changes
-from load_from_hub import load_all_info_from_hub
+from load_from_hub import load_all_info_from_hub, get_leaderboard_df
 
+from scripts.display_models.utils import (
+    AutoEvalColumn,
+    fields,
+)
 
 # Param to initialize the model list json in temp data folder. Only needed on demand.
 create_init_list = False
@@ -15,7 +19,18 @@ EVAL_RESULTS_PATH = "eval-results"
 eval_results = load_all_info_from_hub(
      RESULTS_REPO, EVAL_RESULTS_PATH
 )
-original_df = get_leaderboard_df(eval_results, eval_results_private, COLS, BENCHMARK_COLS)
+# Column selection
+COLS = [c.name for c in fields(AutoEvalColumn) if not c.hidden]
+BENCHMARK_COLS = [
+    c.name
+    for c in [
+        AutoEvalColumn.arc,
+        AutoEvalColumn.hellaswag,
+        AutoEvalColumn.mmlu,
+        AutoEvalColumn.truthfulqa,
+    ]
+]
+original_df = get_leaderboard_df(eval_results, None, COLS, BENCHMARK_COLS)
 
 space_off = "https://huggingfaceh4-open-llm-leaderboard.hf.space/"
 

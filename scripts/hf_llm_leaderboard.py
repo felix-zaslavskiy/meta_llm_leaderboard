@@ -48,8 +48,8 @@ space = "https://felixz-open-llm-leaderboard2.hf.space/"
 data = original_df
 
 # Get the headers and the data
-headers = data['headers']
-data = data['data']
+headers = list(data)
+#data = data['data']
 
 def categorize_size(params, name):
     if params == 0.0:

@@ -670,7 +670,7 @@
         "HF_ID": "DataLinguistic/DataLinguistic-34B-V1.0",
         "URL": "https://huggingface.co/DataLinguistic/DataLinguistic-34B-V1.0",
         "SIZE": "30B",
-        "LICENSE": "apache-2.0",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1362,6 +1362,15 @@
         "ID": "Kiddyz/testlm-1-1",
         "HF_ID": "Kiddyz/testlm-1-1",
         "URL": "https://huggingface.co/Kiddyz/testlm-1-1",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Kiddyz/testlm-3",
+        "HF_ID": "Kiddyz/testlm-3",
+        "URL": "https://huggingface.co/Kiddyz/testlm-3",
         "SIZE": "other",
         "LICENSE": null,
         "ALIASES": [],
@@ -2065,6 +2074,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Mikivis/gpt2-large-lora-sft",
+        "HF_ID": "Mikivis/gpt2-large-lora-sft",
+        "URL": "https://huggingface.co/Mikivis/gpt2-large-lora-sft",
+        "SIZE": "other",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "Mikivis/xuanxuan",
         "HF_ID": "Mikivis/xuanxuan",
         "URL": "https://huggingface.co/Mikivis/xuanxuan",
@@ -2249,6 +2267,17 @@
         "HF_ID": "NousResearch/Nous-Hermes-Llama2-13b",
         "URL": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b",
         "SIZE": "13B",
+        "LICENSE": [
+            "mit"
+        ],
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NousResearch/Nous-Hermes-Llama2-70b",
+        "HF_ID": "NousResearch/Nous-Hermes-Llama2-70b",
+        "URL": "https://huggingface.co/NousResearch/Nous-Hermes-Llama2-70b",
+        "SIZE": "70B",
         "LICENSE": [
             "mit"
         ],
@@ -2606,6 +2635,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "PeanutJar/LLaMa-2-PeanutButter_v10-7B",
+        "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v10-7B",
+        "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v10-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "PeanutJar/LLaMa-2-PeanutButter_v14-7B",
+        "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v14-7B",
+        "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v14-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "PeanutJar/LLaMa-2-PeanutButter_v18_A-7B",
         "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v18_A-7B",
         "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v18_A-7B",
@@ -2618,6 +2665,15 @@
         "ID": "PeanutJar/LLaMa-2-PeanutButter_v18_B-7B",
         "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v18_B-7B",
         "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v18_B-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "PeanutJar/LLaMa-2-PeanutButter_v4-7B",
+        "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v4-7B",
+        "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v4-7B",
         "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
@@ -3510,7 +3566,7 @@
         "HF_ID": "TheBloke/EverythingLM-13B-16K-GPTQ",
         "URL": "https://huggingface.co/TheBloke/EverythingLM-13B-16K-GPTQ",
         "SIZE": "13B",
-        "LICENSE": "other",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4390,9 +4446,45 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Undi95/LewdEngine",
+        "HF_ID": "Undi95/LewdEngine",
+        "URL": "https://huggingface.co/Undi95/LewdEngine",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Undi95/MLewd-L2-13B",
+        "HF_ID": "Undi95/MLewd-L2-13B",
+        "URL": "https://huggingface.co/Undi95/MLewd-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Undi95/Nous-Hermes-13B-Code",
+        "HF_ID": "Undi95/Nous-Hermes-13B-Code",
+        "URL": "https://huggingface.co/Undi95/Nous-Hermes-13B-Code",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "Undi95/ReMM-L2-13B",
         "HF_ID": "Undi95/ReMM-L2-13B",
         "URL": "https://huggingface.co/Undi95/ReMM-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Undi95/ReMM-L2-13B-PIPPA",
+        "HF_ID": "Undi95/ReMM-L2-13B-PIPPA",
+        "URL": "https://huggingface.co/Undi95/ReMM-L2-13B-PIPPA",
         "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
@@ -6489,6 +6581,15 @@
         "URL": "https://huggingface.co/ehartford/Wizard-Vicuna-7B-Uncensored",
         "SIZE": "7B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/WizardLM-1.0-Uncensored-CodeLlama-34b",
+        "HF_ID": "ehartford/WizardLM-1.0-Uncensored-CodeLlama-34b",
+        "URL": "https://huggingface.co/ehartford/WizardLM-1.0-Uncensored-CodeLlama-34b",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -8931,9 +9032,16 @@
         "URL": "https://huggingface.co/openchat/openchat_v3.2",
         "SIZE": "other",
         "LICENSE": "llama2",
-        "ALIASES": [
-            "openchat-13b_v3.2"
-        ],
+        "ALIASES": ["openchat-13b_v3.2"],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "openchat/openchat_v3.2_super",
+        "HF_ID": "openchat/openchat_v3.2_super",
+        "URL": "https://huggingface.co/openchat/openchat_v3.2_super",
+        "SIZE": "other",
+        "LICENSE": "llama2",
+        "ALIASES": [],
         "CONTAMINATED": false
     },
     {
@@ -10044,6 +10152,15 @@
         "ID": "uukuguy/speechless-codellama-orca-13b",
         "HF_ID": "uukuguy/speechless-codellama-orca-13b",
         "URL": "https://huggingface.co/uukuguy/speechless-codellama-orca-13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-codellama-orca-airoboros-13b-0.10e",
+        "HF_ID": "uukuguy/speechless-codellama-orca-airoboros-13b-0.10e",
+        "URL": "https://huggingface.co/uukuguy/speechless-codellama-orca-airoboros-13b-0.10e",
         "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": [],

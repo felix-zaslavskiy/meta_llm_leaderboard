@@ -25,10 +25,13 @@ data = data['data']
 
 def categorize_size(params, name):
 
-    model = Model.find_by_hf_id("../static_data/models.json", name)
-    if model is None:
         if params == 0.0:
-            return 'other'
+            model = Model.find_by_hf_id("../static_data/models.json", name)
+            if model is None:
+                return 'other'
+            else:
+                return model.SIZE
+            #return 'other'
         elif params <= 2.0:
             return "1B"
         elif params <= 4.0:
@@ -53,8 +56,7 @@ def categorize_size(params, name):
             return "70B"
         else:
             raise Exception("Param too big")
-    else:
-        return model.SIZE
+
 
 # Create a new dictionary with model->status
 model_status_dict = {}

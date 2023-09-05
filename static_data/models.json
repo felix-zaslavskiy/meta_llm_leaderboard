@@ -1077,7 +1077,7 @@
         "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
-        "CONTAMINATED": false
+        "CONTAMINATED": true
     },
     {
         "ID": "Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4",

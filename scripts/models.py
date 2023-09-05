@@ -35,12 +35,26 @@ class Model:
             'CONTAMINATED': self.CONTAMINATED
         }
 
+    _cache = {}  # This dictionary will act as a cache for data loaded from files
+
     @classmethod
     def load_from_file(cls, filename):
         """Load a list of Model instances from a JSON file."""
+
+        # Check if data for the given filename is already cached
+        if filename in cls._cache:
+            return cls._cache[filename]
+
         with open(filename, 'r') as f:
             models_list = json.load(f)
-        return [cls.from_dict(model_dict) for model_dict in models_list]
+
+        # Convert the dictionaries to Model instances
+        instances = [cls.from_dict(model_dict) for model_dict in models_list]
+
+        # Store the list of Model instances in the cache for subsequent calls
+        cls._cache[filename] = instances
+
+        return instances
 
     @classmethod
     def find_by_hf_id(cls, filename, hf_id):

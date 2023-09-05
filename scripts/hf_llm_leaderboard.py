@@ -11,14 +11,7 @@ client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
 
 job = client.submit(fn_index=6)
 json_data = job.result(timeout=120)
-#json_data = client.predict(fn_index=6)
 
-
-#json_data = client.predict(
-#    "null",	# str representing filepath to JSON file in 'parameter_13' Dataframe component
-#    "null",	# str representing filepath to JSON file in 'parameter_12' Dataframe component
-#    "all",
-#    fn_index=2)
 
 with open(json_data[0], 'r') as file:
     file_data = file.read()
@@ -31,36 +24,37 @@ headers = data['headers']
 data = data['data']
 
 def categorize_size(params, name):
-    if params == 0.0:
-        model = Model.find_by_hf_id("../static_data/models.json", name)
-        if model is None:
+
+    model = Model.find_by_hf_id("../static_data/models.json", name)
+    if model is None:
+        if params == 0.0:
             return 'other'
+        elif params <= 1.0:
+            return "1B"
+        elif params <= 3.0:
+            return "3B"
+        elif params <= 6.0:
+            return "6B"
+        elif params <= 7.5:
+            return "7B"
+        elif params <= 13.5:
+            return "13B"
+        elif params <= 16.5:
+            return "16B"
+        elif params <= 20.5:
+            return "20B"
+        elif params <= 35.0:
+            return "30B"
+        elif params <= 45.0:
+            return "40B"
+        elif params <= 66.0:
+            return "65B"
+        elif params <= 75.0:
+            return "70B"
         else:
-            return model.SIZE
-    elif params <= 1.0:
-        return "1B"
-    elif params <= 3.0:
-        return "3B"
-    elif params <= 6.0:
-        return "6B"
-    elif params <= 7.5:
-        return "7B"
-    elif params <= 13.5:
-        return "13B"
-    elif params <= 16.5:
-        return "16B"
-    elif params <= 20.5:
-        return "20B"
-    elif params <= 35.0:
-        return "30B"
-    elif params <= 45.0:
-        return "40B"
-    elif params <= 66.0:
-        return "65B"
-    elif params <= 75.0:
-        return "70B"
+            raise Exception("Param too big")
     else:
-        raise Exception("Param too big")
+        return model.SIZE
 
 # Create a new dictionary with model->status
 model_status_dict = {}

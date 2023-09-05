@@ -111,7 +111,7 @@
         "ID": "Andron00e/YetAnother_Open-Llama-3B-LoRA-OpenOrca",
         "HF_ID": "Andron00e/YetAnother_Open-Llama-3B-LoRA-OpenOrca",
         "URL": "https://huggingface.co/Andron00e/YetAnother_Open-Llama-3B-LoRA-OpenOrca",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -525,7 +525,7 @@
         "ID": "CobraMamba/mamba-gpt-3b",
         "HF_ID": "CobraMamba/mamba-gpt-3b",
         "URL": "https://huggingface.co/CobraMamba/mamba-gpt-3b",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -534,7 +534,7 @@
         "ID": "CobraMamba/mamba-gpt-3b-v2",
         "HF_ID": "CobraMamba/mamba-gpt-3b-v2",
         "URL": "https://huggingface.co/CobraMamba/mamba-gpt-3b-v2",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -543,7 +543,7 @@
         "ID": "CobraMamba/mamba-gpt-3b-v3",
         "HF_ID": "CobraMamba/mamba-gpt-3b-v3",
         "URL": "https://huggingface.co/CobraMamba/mamba-gpt-3b-v3",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -561,7 +561,7 @@
         "ID": "Corianas/1.3b",
         "HF_ID": "Corianas/1.3b",
         "URL": "https://huggingface.co/Corianas/1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -597,7 +597,7 @@
         "ID": "Corianas/Quokka_1.3b",
         "HF_ID": "Corianas/Quokka_1.3b",
         "URL": "https://huggingface.co/Corianas/Quokka_1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -705,7 +705,7 @@
         "ID": "Devio/test-1400",
         "HF_ID": "Devio/test-1400",
         "URL": "https://huggingface.co/Devio/test-1400",
-        "SIZE": "30B",
+        "SIZE": "20B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -714,7 +714,7 @@
         "ID": "Devio/test-22B",
         "HF_ID": "Devio/test-22B",
         "URL": "https://huggingface.co/Devio/test-22B",
-        "SIZE": "30B",
+        "SIZE": "20B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -723,7 +723,7 @@
         "ID": "Devio/test-3b",
         "HF_ID": "Devio/test-3b",
         "URL": "https://huggingface.co/Devio/test-3b",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -732,7 +732,7 @@
         "ID": "Devio/test100",
         "HF_ID": "Devio/test100",
         "URL": "https://huggingface.co/Devio/test100",
-        "SIZE": "30B",
+        "SIZE": "20B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -741,7 +741,7 @@
         "ID": "Devio/testC",
         "HF_ID": "Devio/testC",
         "URL": "https://huggingface.co/Devio/testC",
-        "SIZE": "30B",
+        "SIZE": "20B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -768,7 +768,7 @@
         "ID": "EleutherAI/gpt-neo-1.3B",
         "HF_ID": "EleutherAI/gpt-neo-1.3B",
         "URL": "https://huggingface.co/EleutherAI/gpt-neo-1.3B",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "mit",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -795,7 +795,7 @@
         "ID": "EleutherAI/gpt-neox-20b",
         "HF_ID": "EleutherAI/gpt-neox-20b",
         "URL": "https://huggingface.co/EleutherAI/gpt-neox-20b",
-        "SIZE": "30B",
+        "SIZE": "20B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -813,7 +813,7 @@
         "ID": "EleutherAI/pythia-1.3b",
         "HF_ID": "EleutherAI/pythia-1.3b",
         "URL": "https://huggingface.co/EleutherAI/pythia-1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -822,7 +822,7 @@
         "ID": "EleutherAI/pythia-1.4b-deduped",
         "HF_ID": "EleutherAI/pythia-1.4b-deduped",
         "URL": "https://huggingface.co/EleutherAI/pythia-1.4b-deduped",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -867,7 +867,7 @@
         "ID": "EleutherAI/pythia-1b-deduped",
         "HF_ID": "EleutherAI/pythia-1b-deduped",
         "URL": "https://huggingface.co/EleutherAI/pythia-1b-deduped",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -966,7 +966,7 @@
         "ID": "FabbriSimo01/Cerebras_1.3b_Quantized",
         "HF_ID": "FabbriSimo01/Cerebras_1.3b_Quantized",
         "URL": "https://huggingface.co/FabbriSimo01/Cerebras_1.3b_Quantized",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "mit",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1227,7 +1227,7 @@
         "ID": "Harshvir/LaMini-Neo-1.3B-Mental-Health_lora",
         "HF_ID": "Harshvir/LaMini-Neo-1.3B-Mental-Health_lora",
         "URL": "https://huggingface.co/Harshvir/LaMini-Neo-1.3B-Mental-Health_lora",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1434,7 +1434,7 @@
         "ID": "KnutJaegersberg/galactica-orca-wizardlm-1.3b",
         "HF_ID": "KnutJaegersberg/galactica-orca-wizardlm-1.3b",
         "URL": "https://huggingface.co/KnutJaegersberg/galactica-orca-wizardlm-1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1443,7 +1443,7 @@
         "ID": "KnutJaegersberg/gpt-2-xl-EvolInstruct",
         "HF_ID": "KnutJaegersberg/gpt-2-xl-EvolInstruct",
         "URL": "https://huggingface.co/KnutJaegersberg/gpt-2-xl-EvolInstruct",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1641,7 +1641,7 @@
         "ID": "KoboldAI/fairseq-dense-1.3B",
         "HF_ID": "KoboldAI/fairseq-dense-1.3B",
         "URL": "https://huggingface.co/KoboldAI/fairseq-dense-1.3B",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1897,7 +1897,7 @@
         "ID": "MBZUAI/LaMini-GPT-1.5B",
         "HF_ID": "MBZUAI/LaMini-GPT-1.5B",
         "URL": "https://huggingface.co/MBZUAI/LaMini-GPT-1.5B",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1924,7 +1924,7 @@
         "ID": "MBZUAI/lamini-cerebras-1.3b",
         "HF_ID": "MBZUAI/lamini-cerebras-1.3b",
         "URL": "https://huggingface.co/MBZUAI/lamini-cerebras-1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1960,7 +1960,7 @@
         "ID": "MBZUAI/lamini-neo-1.3b",
         "HF_ID": "MBZUAI/lamini-neo-1.3b",
         "URL": "https://huggingface.co/MBZUAI/lamini-neo-1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1978,7 +1978,7 @@
         "ID": "MayaPH/FinOPT-Franklin",
         "HF_ID": "MayaPH/FinOPT-Franklin",
         "URL": "https://huggingface.co/MayaPH/FinOPT-Franklin",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "cc-by-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2737,7 +2737,7 @@
         "ID": "PygmalionAI/metharme-1.3b",
         "HF_ID": "PygmalionAI/metharme-1.3b",
         "URL": "https://huggingface.co/PygmalionAI/metharme-1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2746,7 +2746,7 @@
         "ID": "PygmalionAI/pygmalion-1.3b",
         "HF_ID": "PygmalionAI/pygmalion-1.3b",
         "URL": "https://huggingface.co/PygmalionAI/pygmalion-1.3b",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": "agpl-3.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2890,7 +2890,7 @@
         "ID": "RobbeD/OpenLlama-Platypus-3B",
         "HF_ID": "RobbeD/OpenLlama-Platypus-3B",
         "URL": "https://huggingface.co/RobbeD/OpenLlama-Platypus-3B",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "cc-by-nc-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2899,7 +2899,7 @@
         "ID": "RobbeD/Orca-Platypus-3B",
         "HF_ID": "RobbeD/Orca-Platypus-3B",
         "URL": "https://huggingface.co/RobbeD/Orca-Platypus-3B",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "cc-by-nc-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3151,7 +3151,7 @@
         "ID": "TFLai/gpt-neo-1.3B-4bit-alpaca",
         "HF_ID": "TFLai/gpt-neo-1.3B-4bit-alpaca",
         "URL": "https://huggingface.co/TFLai/gpt-neo-1.3B-4bit-alpaca",
-        "SIZE": "3B",
+        "SIZE": "1B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3466,7 +3466,7 @@
         "ID": "The-Face-Of-Goonery/Huginn-22b-Prototype",
         "HF_ID": "The-Face-Of-Goonery/Huginn-22b-Prototype",
         "URL": "https://huggingface.co/The-Face-Of-Goonery/Huginn-22b-Prototype",
-        "SIZE": "30B",
+        "SIZE": "20B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false

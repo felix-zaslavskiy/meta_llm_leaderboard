@@ -3437,7 +3437,7 @@
         "ID": "TheBloke/Airoboros-L2-13B-2.1-GPTQ",
         "HF_ID": "TheBloke/Airoboros-L2-13B-2.1-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Airoboros-L2-13B-2.1-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3446,7 +3446,7 @@
         "ID": "TheBloke/Airoboros-L2-70B-2.1-GPTQ",
         "HF_ID": "TheBloke/Airoboros-L2-70B-2.1-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Airoboros-L2-70B-2.1-GPTQ",
-        "SIZE": "13B",
+        "SIZE": "70B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3509,7 +3509,7 @@
         "ID": "TheBloke/EverythingLM-13B-16K-GPTQ",
         "HF_ID": "TheBloke/EverythingLM-13B-16K-GPTQ",
         "URL": "https://huggingface.co/TheBloke/EverythingLM-13B-16K-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3527,7 +3527,7 @@
         "ID": "TheBloke/Genz-70b-GPTQ",
         "HF_ID": "TheBloke/Genz-70b-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Genz-70b-GPTQ",
-        "SIZE": "13B",
+        "SIZE": "70B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3554,7 +3554,7 @@
         "ID": "TheBloke/Lemur-70B-Chat-v1-GPTQ",
         "HF_ID": "TheBloke/Lemur-70B-Chat-v1-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Lemur-70B-Chat-v1-GPTQ",
-        "SIZE": "13B",
+        "SIZE": "70B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3563,7 +3563,7 @@
         "ID": "TheBloke/Llama-2-13B-GPTQ",
         "HF_ID": "TheBloke/Llama-2-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Llama-2-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3581,7 +3581,7 @@
         "ID": "TheBloke/Llama-2-70B-chat-GPTQ",
         "HF_ID": "TheBloke/Llama-2-70B-chat-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Llama-2-70B-chat-GPTQ",
-        "SIZE": "13B",
+        "SIZE": "70B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3599,7 +3599,7 @@
         "ID": "TheBloke/Llama-2-7B-GPTQ",
         "HF_ID": "TheBloke/Llama-2-7B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Llama-2-7B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "7B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3608,7 +3608,7 @@
         "ID": "TheBloke/LongChat-13B-GPTQ",
         "HF_ID": "TheBloke/LongChat-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/LongChat-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3617,7 +3617,7 @@
         "ID": "TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GPTQ",
         "HF_ID": "TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3644,7 +3644,7 @@
         "ID": "TheBloke/OpenOrca-Platypus2-13B-GPTQ",
         "HF_ID": "TheBloke/OpenOrca-Platypus2-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3653,7 +3653,7 @@
         "ID": "TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ",
         "HF_ID": "TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3680,7 +3680,7 @@
         "ID": "TheBloke/Platypus2-70B-Instruct-GPTQ",
         "HF_ID": "TheBloke/Platypus2-70B-Instruct-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GPTQ",
-        "SIZE": "13B",
+        "SIZE": "70B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3689,7 +3689,7 @@
         "ID": "TheBloke/Project-Baize-v2-13B-GPTQ",
         "HF_ID": "TheBloke/Project-Baize-v2-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Project-Baize-v2-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3698,7 +3698,7 @@
         "ID": "TheBloke/Project-Baize-v2-7B-GPTQ",
         "HF_ID": "TheBloke/Project-Baize-v2-7B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Project-Baize-v2-7B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "7B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3752,7 +3752,7 @@
         "ID": "TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
         "HF_ID": "TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3779,7 +3779,7 @@
         "ID": "TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
         "HF_ID": "TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
         "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3815,7 +3815,7 @@
         "ID": "TheBloke/WizardLM-13B-V1.1-GPTQ",
         "HF_ID": "TheBloke/WizardLM-13B-V1.1-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-13B-V1.1-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3824,7 +3824,7 @@
         "ID": "TheBloke/WizardLM-30B-GPTQ",
         "HF_ID": "TheBloke/WizardLM-30B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-30B-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3833,7 +3833,7 @@
         "ID": "TheBloke/WizardLM-30B-Uncensored-GPTQ",
         "HF_ID": "TheBloke/WizardLM-30B-Uncensored-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3851,7 +3851,7 @@
         "ID": "TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
         "HF_ID": "TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3860,7 +3860,7 @@
         "ID": "TheBloke/WizardLM-70B-V1.0-GPTQ",
         "HF_ID": "TheBloke/WizardLM-70B-V1.0-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-70B-V1.0-GPTQ",
-        "SIZE": "13B",
+        "SIZE": "70B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3869,7 +3869,7 @@
         "ID": "TheBloke/WizardLM-7B-uncensored-GPTQ",
         "HF_ID": "TheBloke/WizardLM-7B-uncensored-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-7B-uncensored-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "7B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3878,7 +3878,7 @@
         "ID": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
         "HF_ID": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3923,7 +3923,7 @@
         "ID": "TheBloke/chronos-wizardlm-uc-scot-st-13B-GPTQ",
         "HF_ID": "TheBloke/chronos-wizardlm-uc-scot-st-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/chronos-wizardlm-uc-scot-st-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3995,7 +3995,7 @@
         "ID": "TheBloke/guanaco-33B-GPTQ",
         "HF_ID": "TheBloke/guanaco-33B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/guanaco-33B-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4078,7 +4078,7 @@
         "ID": "TheBloke/medalpaca-13B-GPTQ-4bit",
         "HF_ID": "TheBloke/medalpaca-13B-GPTQ-4bit",
         "URL": "https://huggingface.co/TheBloke/medalpaca-13B-GPTQ-4bit",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "cc",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4087,7 +4087,7 @@
         "ID": "TheBloke/openchat_v2_openorca_preview-GPTQ",
         "HF_ID": "TheBloke/openchat_v2_openorca_preview-GPTQ",
         "URL": "https://huggingface.co/TheBloke/openchat_v2_openorca_preview-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4096,7 +4096,7 @@
         "ID": "TheBloke/orca_mini_13B-GPTQ",
         "HF_ID": "TheBloke/orca_mini_13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/orca_mini_13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "mit",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4105,7 +4105,7 @@
         "ID": "TheBloke/orca_mini_v3_7B-GPTQ",
         "HF_ID": "TheBloke/orca_mini_v3_7B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/orca_mini_v3_7B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "7B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4123,7 +4123,7 @@
         "ID": "TheBloke/robin-33B-v2-GPTQ",
         "HF_ID": "TheBloke/robin-33B-v2-GPTQ",
         "URL": "https://huggingface.co/TheBloke/robin-33B-v2-GPTQ",
-        "SIZE": "6B",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4195,7 +4195,7 @@
         "ID": "TheBloke/vicuna-13b-v1.3.0-GPTQ",
         "HF_ID": "TheBloke/vicuna-13b-v1.3.0-GPTQ",
         "URL": "https://huggingface.co/TheBloke/vicuna-13b-v1.3.0-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4204,7 +4204,7 @@
         "ID": "TheBloke/wizard-mega-13B-GPTQ",
         "HF_ID": "TheBloke/wizard-mega-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4213,7 +4213,7 @@
         "ID": "TheBloke/wizard-vicuna-13B-GPTQ",
         "HF_ID": "TheBloke/wizard-vicuna-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/wizard-vicuna-13B-GPTQ",
-        "SIZE": "3B",
+        "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false

@@ -5,7 +5,7 @@ from models import Model
 from change_tracker import load_previous_data, save_current_data, track_changes
 
 # Param to initialize the model list json in temp data folder. Only needed on demand.
-create_init_list = False
+create_init_list = True
 
 client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
 
@@ -29,19 +29,19 @@ def categorize_size(params, name):
     if model is None:
         if params == 0.0:
             return 'other'
-        elif params <= 1.0:
+        elif params <= 2.0:
             return "1B"
-        elif params <= 3.5:
+        elif params <= 4.0:
             return "3B"
         elif params <= 6.5:
             return "6B"
-        elif params <= 7.5:
+        elif params <= 8.0:
             return "7B"
         elif params <= 13.5:
             return "13B"
-        elif params <= 16.5:
+        elif params <= 17.0:
             return "16B"
-        elif params <= 20.5:
+        elif params <= 25.0:
             return "20B"
         elif params <= 35.0:
             return "30B"

@@ -117,6 +117,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Aspik101/30B-Lazarus-instruct-PL-lora_unload",
+        "HF_ID": "Aspik101/30B-Lazarus-instruct-PL-lora_unload",
+        "URL": "https://huggingface.co/Aspik101/30B-Lazarus-instruct-PL-lora_unload",
+        "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "Aspik101/Llama-2-7b-hf-instruct-pl-lora_unload",
         "HF_ID": "Aspik101/Llama-2-7b-hf-instruct-pl-lora_unload",
         "URL": "https://huggingface.co/Aspik101/Llama-2-7b-hf-instruct-pl-lora_unload",
@@ -252,6 +261,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Azure99/blossom-v1-3b",
+        "HF_ID": "Azure99/blossom-v1-3b",
+        "URL": "https://huggingface.co/Azure99/blossom-v1-3b",
+        "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "Azure99/blossom-v2-3b",
         "HF_ID": "Azure99/blossom-v2-3b",
         "URL": "https://huggingface.co/Azure99/blossom-v2-3b",
@@ -324,6 +342,132 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE2_TEST_2.2w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE2_TEST_2.2w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE2_TEST_2.2w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-Fintune_1_17w-gate_up_down_proj",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-Fintune_1_17w-gate_up_down_proj",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-Fintune_1_17w-gate_up_down_proj",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-OpenOrca_5w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-OpenOrca_5w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-OpenOrca_5w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-alpaca-test",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-alpaca-test",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-alpaca-test",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-dolphin_20w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-dolphin_20w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-dolphin_20w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-dolphin_5w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-dolphin_5w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-dolphin_5w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w-gate_up_down_proj",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w-gate_up_down_proj",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w-gate_up_down_proj",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w-q_k_v_o_proj",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w-q_k_v_o_proj",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-huangyt_FINETUNE2_3w-q_k_v_o_proj",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w-gate_up_down_proj",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w-gate_up_down_proj",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w-gate_up_down_proj",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w-q_k_v_o_proj",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w-q_k_v_o_proj",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-huangyt_Fintune_1_17w-q_k_v_o_proj",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-open_orca_20w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-open_orca_20w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-open_orca_20w",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-7b-dolphin_10w-test",
+        "HF_ID": "CHIH-HUNG/llama-2-7b-dolphin_10w-test",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-7b-dolphin_10w-test",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "CalderaAI/13B-BlueMethod",
         "HF_ID": "CalderaAI/13B-BlueMethod",
         "URL": "https://huggingface.co/CalderaAI/13B-BlueMethod",
@@ -364,6 +508,15 @@
         "HF_ID": "CalderaAI/30B-Lazarus",
         "URL": "https://huggingface.co/CalderaAI/30B-Lazarus",
         "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Charlie911/vicuna-7b-v1.5-lora-mctaco",
+        "HF_ID": "Charlie911/vicuna-7b-v1.5-lora-mctaco",
+        "URL": "https://huggingface.co/Charlie911/vicuna-7b-v1.5-lora-mctaco",
+        "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -432,6 +585,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Corianas/590m",
+        "HF_ID": "Corianas/590m",
+        "URL": "https://huggingface.co/Corianas/590m",
+        "SIZE": "1B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "Corianas/Quokka_1.3b",
         "HF_ID": "Corianas/Quokka_1.3b",
         "URL": "https://huggingface.co/Corianas/Quokka_1.3b",
@@ -482,6 +644,105 @@
         "URL": "https://huggingface.co/DanielSc4/RedPajama-INCITE-Chat-3B-v1-FT-LoRA-8bit-test1",
         "SIZE": "3B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "DanielSc4/RedPajama-INCITE-Chat-3B-v1-RL-LoRA-8bit-test1",
+        "HF_ID": "DanielSc4/RedPajama-INCITE-Chat-3B-v1-RL-LoRA-8bit-test1",
+        "URL": "https://huggingface.co/DanielSc4/RedPajama-INCITE-Chat-3B-v1-RL-LoRA-8bit-test1",
+        "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Danielbrdz/Barcenas-7b",
+        "HF_ID": "Danielbrdz/Barcenas-7b",
+        "URL": "https://huggingface.co/Danielbrdz/Barcenas-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "DataLinguistic/DataLinguistic-34B-V1.0",
+        "HF_ID": "DataLinguistic/DataLinguistic-34B-V1.0",
+        "URL": "https://huggingface.co/DataLinguistic/DataLinguistic-34B-V1.0",
+        "SIZE": "30B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Deci/DeciCoder-1b",
+        "HF_ID": "Deci/DeciCoder-1b",
+        "URL": "https://huggingface.co/Deci/DeciCoder-1b",
+        "SIZE": "1B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "DevaMalla/llama-base-7b",
+        "HF_ID": "DevaMalla/llama-base-7b",
+        "URL": "https://huggingface.co/DevaMalla/llama-base-7b",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "DevaMalla/llama7b_alpaca_1gpu_bf16",
+        "HF_ID": "DevaMalla/llama7b_alpaca_1gpu_bf16",
+        "URL": "https://huggingface.co/DevaMalla/llama7b_alpaca_1gpu_bf16",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Devio/test-1400",
+        "HF_ID": "Devio/test-1400",
+        "URL": "https://huggingface.co/Devio/test-1400",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Devio/test-22B",
+        "HF_ID": "Devio/test-22B",
+        "URL": "https://huggingface.co/Devio/test-22B",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Devio/test-3b",
+        "HF_ID": "Devio/test-3b",
+        "URL": "https://huggingface.co/Devio/test-3b",
+        "SIZE": "6B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Devio/test100",
+        "HF_ID": "Devio/test100",
+        "URL": "https://huggingface.co/Devio/test100",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Devio/testC",
+        "HF_ID": "Devio/testC",
+        "URL": "https://huggingface.co/Devio/testC",
+        "SIZE": "30B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -702,6 +963,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "FabbriSimo01/Cerebras_1.3b_Quantized",
+        "HF_ID": "FabbriSimo01/Cerebras_1.3b_Quantized",
+        "URL": "https://huggingface.co/FabbriSimo01/Cerebras_1.3b_Quantized",
+        "SIZE": "3B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "FabbriSimo01/GPT_Large_Quantized",
+        "HF_ID": "FabbriSimo01/GPT_Large_Quantized",
+        "URL": "https://huggingface.co/FabbriSimo01/GPT_Large_Quantized",
+        "SIZE": "other",
+        "LICENSE": "unknown",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Faradaylab/Aria-70B",
+        "HF_ID": "Faradaylab/Aria-70B",
+        "URL": "https://huggingface.co/Faradaylab/Aria-70B",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "FelixChao/llama2-13b-math1.1",
         "HF_ID": "FelixChao/llama2-13b-math1.1",
         "URL": "https://huggingface.co/FelixChao/llama2-13b-math1.1",
@@ -716,6 +1004,15 @@
         "URL": "https://huggingface.co/FelixChao/llama2-13b-math1.2",
         "SIZE": "13B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "FelixChao/vicuna-33b-coder",
+        "HF_ID": "FelixChao/vicuna-33b-coder",
+        "URL": "https://huggingface.co/FelixChao/vicuna-33b-coder",
+        "SIZE": "30B",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -751,6 +1048,24 @@
         "HF_ID": "Fredithefish/CrimsonPajama",
         "URL": "https://huggingface.co/Fredithefish/CrimsonPajama",
         "SIZE": "other",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Fredithefish/Guanaco-3B-Uncensored",
+        "HF_ID": "Fredithefish/Guanaco-3B-Uncensored",
+        "URL": "https://huggingface.co/Fredithefish/Guanaco-3B-Uncensored",
+        "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Fredithefish/Guanaco-3B-Uncensored-v2",
+        "HF_ID": "Fredithefish/Guanaco-3B-Uncensored-v2",
+        "URL": "https://huggingface.co/Fredithefish/Guanaco-3B-Uncensored-v2",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -806,6 +1121,15 @@
         "URL": "https://huggingface.co/GOAT-AI/GOAT-7B-Community",
         "SIZE": "7B",
         "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "GeorgiaTechResearchInstitute/galactica-6.7b-evol-instruct-70k",
+        "HF_ID": "GeorgiaTechResearchInstitute/galactica-6.7b-evol-instruct-70k",
+        "URL": "https://huggingface.co/GeorgiaTechResearchInstitute/galactica-6.7b-evol-instruct-70k",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -963,6 +1287,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "HyperbeeAI/Tulpar-7b-v0",
+        "HF_ID": "HyperbeeAI/Tulpar-7b-v0",
+        "URL": "https://huggingface.co/HyperbeeAI/Tulpar-7b-v0",
+        "SIZE": "7B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "IDEA-CCNL/Ziya-LLaMA-13B-Pretrain-v1",
         "HF_ID": "IDEA-CCNL/Ziya-LLaMA-13B-Pretrain-v1",
         "URL": "https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-Pretrain-v1",
@@ -977,6 +1310,24 @@
         "URL": "https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1",
         "SIZE": "13B",
         "LICENSE": "gpl-3.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "IGeniusDev/llama13B-quant8-testv1-openorca-customdataset",
+        "HF_ID": "IGeniusDev/llama13B-quant8-testv1-openorca-customdataset",
+        "URL": "https://huggingface.co/IGeniusDev/llama13B-quant8-testv1-openorca-customdataset",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "IkariDev/Athena-tmp",
+        "HF_ID": "IkariDev/Athena-tmp",
+        "URL": "https://huggingface.co/IkariDev/Athena-tmp",
+        "SIZE": "other",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1026,6 +1377,51 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "KnutJaegersberg/LLongMA-3b-LIMA",
+        "HF_ID": "KnutJaegersberg/LLongMA-3b-LIMA",
+        "URL": "https://huggingface.co/KnutJaegersberg/LLongMA-3b-LIMA",
+        "SIZE": "3B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "KnutJaegersberg/black_goo_recipe_a",
+        "HF_ID": "KnutJaegersberg/black_goo_recipe_a",
+        "URL": "https://huggingface.co/KnutJaegersberg/black_goo_recipe_a",
+        "SIZE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "KnutJaegersberg/black_goo_recipe_b",
+        "HF_ID": "KnutJaegersberg/black_goo_recipe_b",
+        "URL": "https://huggingface.co/KnutJaegersberg/black_goo_recipe_b",
+        "SIZE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "KnutJaegersberg/black_goo_recipe_c",
+        "HF_ID": "KnutJaegersberg/black_goo_recipe_c",
+        "URL": "https://huggingface.co/KnutJaegersberg/black_goo_recipe_c",
+        "SIZE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "KnutJaegersberg/black_goo_recipe_d",
+        "HF_ID": "KnutJaegersberg/black_goo_recipe_d",
+        "URL": "https://huggingface.co/KnutJaegersberg/black_goo_recipe_d",
+        "SIZE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "KnutJaegersberg/galactica-orca-wizardlm-1.3b",
         "HF_ID": "KnutJaegersberg/galactica-orca-wizardlm-1.3b",
         "URL": "https://huggingface.co/KnutJaegersberg/galactica-orca-wizardlm-1.3b",
@@ -1038,7 +1434,7 @@
         "ID": "KnutJaegersberg/gpt-2-xl-EvolInstruct",
         "HF_ID": "KnutJaegersberg/gpt-2-xl-EvolInstruct",
         "URL": "https://huggingface.co/KnutJaegersberg/gpt-2-xl-EvolInstruct",
-        "SIZE": "other",
+        "SIZE": "3B",
         "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1328,9 +1724,16 @@
         "URL": "https://huggingface.co/LLMs/WizardLM-13B-V1.0",
         "SIZE": "13B",
         "LICENSE": "gpl-3.0",
-        "ALIASES": [
-            "wizardlm-13b_v1.0"
-        ],
+        "ALIASES": [ "wizardlm-13b_v1.0" ],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "LLMs/WizardLM-30B-V1.0",
+        "HF_ID": "LLMs/WizardLM-30B-V1.0",
+        "URL": "https://huggingface.co/LLMs/WizardLM-30B-V1.0",
+        "SIZE": "30B",
+        "LICENSE": "gpl-3.0",
+        "ALIASES": [],
         "CONTAMINATED": false
     },
     {
@@ -1445,6 +1848,15 @@
         "ID": "Locutusque/gpt2-conversational-or-qa",
         "HF_ID": "Locutusque/gpt2-conversational-or-qa",
         "URL": "https://huggingface.co/Locutusque/gpt2-conversational-or-qa",
+        "SIZE": "1B",
+        "LICENSE": "openrail",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Locutusque/gpt2-large-conversational",
+        "HF_ID": "Locutusque/gpt2-large-conversational",
+        "URL": "https://huggingface.co/Locutusque/gpt2-large-conversational",
         "SIZE": "1B",
         "LICENSE": "openrail",
         "ALIASES": [],
@@ -1612,7 +2024,7 @@
         "HF_ID": "MayaPH/GodziLLa2-70B",
         "URL": "https://huggingface.co/MayaPH/GodziLLa2-70B",
         "SIZE": "70B",
-        "LICENSE": "cc-by-sa-4.0",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1649,6 +2061,15 @@
         "URL": "https://huggingface.co/Mikael110/llama-2-7b-guanaco-fp16",
         "SIZE": "7B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Mikivis/xuanxuan",
+        "HF_ID": "Mikivis/xuanxuan",
+        "URL": "https://huggingface.co/Mikivis/xuanxuan",
+        "SIZE": "1B",
+        "LICENSE": "mit",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1734,6 +2155,87 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "NobodyExistsOnTheInternet/GiftedConvo13bLoraNoEcons",
+        "HF_ID": "NobodyExistsOnTheInternet/GiftedConvo13bLoraNoEcons",
+        "URL": "https://huggingface.co/NobodyExistsOnTheInternet/GiftedConvo13bLoraNoEcons",
+        "SIZE": "13B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NobodyExistsOnTheInternet/GiftedConvo13bLoraNoEconsE4",
+        "HF_ID": "NobodyExistsOnTheInternet/GiftedConvo13bLoraNoEconsE4",
+        "URL": "https://huggingface.co/NobodyExistsOnTheInternet/GiftedConvo13bLoraNoEconsE4",
+        "SIZE": "13B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NobodyExistsOnTheInternet/PuffedConvo13bLoraE4",
+        "HF_ID": "NobodyExistsOnTheInternet/PuffedConvo13bLoraE4",
+        "URL": "https://huggingface.co/NobodyExistsOnTheInternet/PuffedConvo13bLoraE4",
+        "SIZE": "13B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NobodyExistsOnTheInternet/PuffedLIMA13bQLORA",
+        "HF_ID": "NobodyExistsOnTheInternet/PuffedLIMA13bQLORA",
+        "URL": "https://huggingface.co/NobodyExistsOnTheInternet/PuffedLIMA13bQLORA",
+        "SIZE": "13B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Norquinal/llama-2-7b-claude-chat",
+        "HF_ID": "Norquinal/llama-2-7b-claude-chat",
+        "URL": "https://huggingface.co/Norquinal/llama-2-7b-claude-chat",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Norquinal/llama-2-7b-claude-chat-rp",
+        "HF_ID": "Norquinal/llama-2-7b-claude-chat-rp",
+        "URL": "https://huggingface.co/Norquinal/llama-2-7b-claude-chat-rp",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NousResearch/CodeLlama-13b-hf",
+        "HF_ID": "NousResearch/CodeLlama-13b-hf",
+        "URL": "https://huggingface.co/NousResearch/CodeLlama-13b-hf",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NousResearch/CodeLlama-34b-hf",
+        "HF_ID": "NousResearch/CodeLlama-34b-hf",
+        "URL": "https://huggingface.co/NousResearch/CodeLlama-34b-hf",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "NousResearch/CodeLlama-7b-hf",
+        "HF_ID": "NousResearch/CodeLlama-7b-hf",
+        "URL": "https://huggingface.co/NousResearch/CodeLlama-7b-hf",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "NousResearch/Nous-Hermes-13b",
         "HF_ID": "NousResearch/Nous-Hermes-13b",
         "URL": "https://huggingface.co/NousResearch/Nous-Hermes-13b",
@@ -1765,6 +2267,17 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "NousResearch/Nous-Puffin-70B",
+        "HF_ID": "NousResearch/Nous-Puffin-70B",
+        "URL": "https://huggingface.co/NousResearch/Nous-Puffin-70B",
+        "SIZE": "70B",
+        "LICENSE": [
+            "mit"
+        ],
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "NousResearch/Redmond-Puffin-13B",
         "HF_ID": "NousResearch/Redmond-Puffin-13B",
         "URL": "https://huggingface.co/NousResearch/Redmond-Puffin-13B",
@@ -1772,6 +2285,24 @@
         "LICENSE": [
             "mit"
         ],
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Open-Orca/LlongOrca-13B-16k",
+        "HF_ID": "Open-Orca/LlongOrca-13B-16k",
+        "URL": "https://huggingface.co/Open-Orca/LlongOrca-13B-16k",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Open-Orca/LlongOrca-7B-16k",
+        "HF_ID": "Open-Orca/LlongOrca-7B-16k",
+        "URL": "https://huggingface.co/Open-Orca/LlongOrca-7B-16k",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1803,6 +2334,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "OpenAssistant/codellama-13b-oasst-sft-v10",
+        "HF_ID": "OpenAssistant/codellama-13b-oasst-sft-v10",
+        "URL": "https://huggingface.co/OpenAssistant/codellama-13b-oasst-sft-v10",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenAssistant/galactica-6.7b-finetuned",
+        "HF_ID": "OpenAssistant/galactica-6.7b-finetuned",
+        "URL": "https://huggingface.co/OpenAssistant/galactica-6.7b-finetuned",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenAssistant/llama2-13b-megacode2-oasst",
+        "HF_ID": "OpenAssistant/llama2-13b-megacode2-oasst",
+        "URL": "https://huggingface.co/OpenAssistant/llama2-13b-megacode2-oasst",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "OpenAssistant/llama2-13b-orca-8k-3319",
         "HF_ID": "OpenAssistant/llama2-13b-orca-8k-3319",
         "URL": "https://huggingface.co/OpenAssistant/llama2-13b-orca-8k-3319",
@@ -1817,6 +2375,15 @@
         "URL": "https://huggingface.co/OpenAssistant/llama2-13b-orca-v2-8k-3166",
         "SIZE": "13B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenAssistant/llama2-70b-oasst-sft-v10",
+        "HF_ID": "OpenAssistant/llama2-70b-oasst-sft-v10",
+        "URL": "https://huggingface.co/OpenAssistant/llama2-70b-oasst-sft-v10",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1868,6 +2435,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "OpenAssistant/pythia-12b-sft-v8-rlhf-2k-steps",
+        "HF_ID": "OpenAssistant/pythia-12b-sft-v8-rlhf-2k-steps",
+        "URL": "https://huggingface.co/OpenAssistant/pythia-12b-sft-v8-rlhf-2k-steps",
+        "SIZE": "13B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "OpenAssistant/stablelm-7b-sft-v7-epoch-3",
         "HF_ID": "OpenAssistant/stablelm-7b-sft-v7-epoch-3",
         "URL": "https://huggingface.co/OpenAssistant/stablelm-7b-sft-v7-epoch-3",
@@ -1895,10 +2471,37 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "OpenBuddy/openbuddy-llama2-13b-v11-bf16",
+        "HF_ID": "OpenBuddy/openbuddy-llama2-13b-v11-bf16",
+        "URL": "https://huggingface.co/OpenBuddy/openbuddy-llama2-13b-v11-bf16",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenBuddy/openbuddy-llama2-13b-v11.1-bf16",
+        "HF_ID": "OpenBuddy/openbuddy-llama2-13b-v11.1-bf16",
+        "URL": "https://huggingface.co/OpenBuddy/openbuddy-llama2-13b-v11.1-bf16",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "OpenBuddy/openbuddy-llama2-13b-v8.1-fp16",
         "HF_ID": "OpenBuddy/openbuddy-llama2-13b-v8.1-fp16",
         "URL": "https://huggingface.co/OpenBuddy/openbuddy-llama2-13b-v8.1-fp16",
         "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenBuddy/openbuddy-llama2-70b-v10.1-bf16",
+        "HF_ID": "OpenBuddy/openbuddy-llama2-70b-v10.1-bf16",
+        "URL": "https://huggingface.co/OpenBuddy/openbuddy-llama2-70b-v10.1-bf16",
+        "SIZE": "70B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -1927,6 +2530,24 @@
         "URL": "https://huggingface.co/OpenBuddyEA/openbuddy-llama-30b-v7.1-bf16",
         "SIZE": "30B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenLemur/lemur-70b-chat-v1",
+        "HF_ID": "OpenLemur/lemur-70b-chat-v1",
+        "URL": "https://huggingface.co/OpenLemur/lemur-70b-chat-v1",
+        "SIZE": "70B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenLemur/lemur-70b-v1",
+        "HF_ID": "OpenLemur/lemur-70b-v1",
+        "URL": "https://huggingface.co/OpenLemur/lemur-70b-v1",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1981,6 +2602,51 @@
         "URL": "https://huggingface.co/Panchovix/airoboros-33b-gpt4-1.2-SuperHOT-8k",
         "SIZE": "30B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "PeanutJar/LLaMa-2-PeanutButter_v18_A-7B",
+        "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v18_A-7B",
+        "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v18_A-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "PeanutJar/LLaMa-2-PeanutButter_v18_B-7B",
+        "HF_ID": "PeanutJar/LLaMa-2-PeanutButter_v18_B-7B",
+        "URL": "https://huggingface.co/PeanutJar/LLaMa-2-PeanutButter_v18_B-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Phind/Phind-CodeLlama-34B-Python-v1",
+        "HF_ID": "Phind/Phind-CodeLlama-34B-Python-v1",
+        "URL": "https://huggingface.co/Phind/Phind-CodeLlama-34B-Python-v1",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Phind/Phind-CodeLlama-34B-v1",
+        "HF_ID": "Phind/Phind-CodeLlama-34B-v1",
+        "URL": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v1",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Phind/Phind-CodeLlama-34B-v2",
+        "HF_ID": "Phind/Phind-CodeLlama-34B-v2",
+        "URL": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2066,10 +2732,91 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "RWKV/rwkv-4-14b-pile",
+        "HF_ID": "RWKV/rwkv-4-14b-pile",
+        "URL": "https://huggingface.co/RWKV/rwkv-4-14b-pile",
+        "SIZE": "16B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-4-169m-pile",
+        "HF_ID": "RWKV/rwkv-4-169m-pile",
+        "URL": "https://huggingface.co/RWKV/rwkv-4-169m-pile",
+        "SIZE": "1B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-4-1b5-pile",
+        "HF_ID": "RWKV/rwkv-4-1b5-pile",
+        "URL": "https://huggingface.co/RWKV/rwkv-4-1b5-pile",
+        "SIZE": "1B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-4-3b-pile",
+        "HF_ID": "RWKV/rwkv-4-3b-pile",
+        "URL": "https://huggingface.co/RWKV/rwkv-4-3b-pile",
+        "SIZE": "3B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-4-430m-pile",
+        "HF_ID": "RWKV/rwkv-4-430m-pile",
+        "URL": "https://huggingface.co/RWKV/rwkv-4-430m-pile",
+        "SIZE": "1B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-4-7b-pile",
+        "HF_ID": "RWKV/rwkv-4-7b-pile",
+        "URL": "https://huggingface.co/RWKV/rwkv-4-7b-pile",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "RWKV/rwkv-raven-14b",
         "HF_ID": "RWKV/rwkv-raven-14b",
         "URL": "https://huggingface.co/RWKV/rwkv-raven-14b",
         "SIZE": "16B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-raven-1b5",
+        "HF_ID": "RWKV/rwkv-raven-1b5",
+        "URL": "https://huggingface.co/RWKV/rwkv-raven-1b5",
+        "SIZE": "1B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-raven-3b",
+        "HF_ID": "RWKV/rwkv-raven-3b",
+        "URL": "https://huggingface.co/RWKV/rwkv-raven-3b",
+        "SIZE": "3B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RWKV/rwkv-raven-7b",
+        "HF_ID": "RWKV/rwkv-raven-7b",
+        "URL": "https://huggingface.co/RWKV/rwkv-raven-7b",
+        "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2080,6 +2827,24 @@
         "URL": "https://huggingface.co/Rachneet/gpt2-xl-alpaca",
         "SIZE": "other",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RobbeD/OpenLlama-Platypus-3B",
+        "HF_ID": "RobbeD/OpenLlama-Platypus-3B",
+        "URL": "https://huggingface.co/RobbeD/OpenLlama-Platypus-3B",
+        "SIZE": "6B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "RobbeD/Orca-Platypus-3B",
+        "HF_ID": "RobbeD/Orca-Platypus-3B",
+        "URL": "https://huggingface.co/RobbeD/Orca-Platypus-3B",
+        "SIZE": "6B",
+        "LICENSE": "cc-by-nc-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2129,6 +2894,51 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Sao10K/Medusa-13b",
+        "HF_ID": "Sao10K/Medusa-13b",
+        "URL": "https://huggingface.co/Sao10K/Medusa-13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Sao10K/Mythical-Destroyer-L2-13B",
+        "HF_ID": "Sao10K/Mythical-Destroyer-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Mythical-Destroyer-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Sao10K/Mythical-Destroyer-V2-L2-13B",
+        "HF_ID": "Sao10K/Mythical-Destroyer-V2-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Mythical-Destroyer-V2-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Sao10K/Stheno-Inverted-L2-13B",
+        "HF_ID": "Sao10K/Stheno-Inverted-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-Inverted-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Sao10K/Stheno-L2-13B",
+        "HF_ID": "Sao10K/Stheno-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "SaylorTwift/gpt2_test",
         "HF_ID": "SaylorTwift/gpt2_test",
         "URL": "https://huggingface.co/SaylorTwift/gpt2_test",
@@ -2143,6 +2953,141 @@
         "URL": "https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction",
         "SIZE": "1B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "StudentLLM/Alpagasus-2-13B-QLoRA-pipeline",
+        "HF_ID": "StudentLLM/Alpagasus-2-13B-QLoRA-pipeline",
+        "URL": "https://huggingface.co/StudentLLM/Alpagasus-2-13B-QLoRA-pipeline",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Airboros2.1-Platypus2-13B-QLora-0.80-epoch",
+        "HF_ID": "TFLai/Airboros2.1-Platypus2-13B-QLora-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Airboros2.1-Platypus2-13B-QLora-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Athena-Platypus2-13B-QLora-0.80-epoch",
+        "HF_ID": "TFLai/Athena-Platypus2-13B-QLora-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Athena-Platypus2-13B-QLora-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Ensemble5-Platypus2-13B-QLora-0.80-epoch",
+        "HF_ID": "TFLai/Ensemble5-Platypus2-13B-QLora-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Ensemble5-Platypus2-13B-QLora-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Limarp-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/Limarp-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Limarp-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Luban-Platypus2-13B-QLora-0.80-epoch",
+        "HF_ID": "TFLai/Luban-Platypus2-13B-QLora-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Luban-Platypus2-13B-QLora-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/MythicalDestroyerV2-Platypus2-13B-QLora-0.80-epoch",
+        "HF_ID": "TFLai/MythicalDestroyerV2-Platypus2-13B-QLora-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/MythicalDestroyerV2-Platypus2-13B-QLora-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/MythoMix-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/MythoMix-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/MythoMix-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Nous-Hermes-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/Nous-Hermes-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Nous-Hermes-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/OpenOrca-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/OpenOrca-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/OpenOrca-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/OpenOrcaPlatypus2-Platypus2-13B-QLora-0.80-epoch",
+        "HF_ID": "TFLai/OpenOrcaPlatypus2-Platypus2-13B-QLora-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/OpenOrcaPlatypus2-Platypus2-13B-QLora-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/OrcaMini-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/OrcaMini-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/OrcaMini-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/PuddleJumper-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/PuddleJumper-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/PuddleJumper-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/Stable-Platypus2-13B-QLoRA-0.80-epoch",
+        "HF_ID": "TFLai/Stable-Platypus2-13B-QLoRA-0.80-epoch",
+        "URL": "https://huggingface.co/TFLai/Stable-Platypus2-13B-QLoRA-0.80-epoch",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2201,10 +3146,28 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TFLai/pythia-2.8b-4bit-alpaca",
+        "HF_ID": "TFLai/pythia-2.8b-4bit-alpaca",
+        "URL": "https://huggingface.co/TFLai/pythia-2.8b-4bit-alpaca",
+        "SIZE": "3B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "THUDM/chatglm2-6b",
         "HF_ID": "THUDM/chatglm2-6b",
         "URL": "https://huggingface.co/THUDM/chatglm2-6b",
         "SIZE": "6B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Taekyoon/llama2-ko-7b-test",
+        "HF_ID": "Taekyoon/llama2-ko-7b-test",
+        "URL": "https://huggingface.co/Taekyoon/llama2-ko-7b-test",
+        "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2215,6 +3178,42 @@
         "URL": "https://huggingface.co/Tap-M/Luna-AI-Llama2-Uncensored",
         "SIZE": "other",
         "LICENSE": "cc-by-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TaylorAI/FLAN-Llama-7B-2_Llama2-7B-Flash_868_full_model",
+        "HF_ID": "TaylorAI/FLAN-Llama-7B-2_Llama2-7B-Flash_868_full_model",
+        "URL": "https://huggingface.co/TaylorAI/FLAN-Llama-7B-2_Llama2-7B-Flash_868_full_model",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TaylorAI/Flash-Llama-13B",
+        "HF_ID": "TaylorAI/Flash-Llama-13B",
+        "URL": "https://huggingface.co/TaylorAI/Flash-Llama-13B",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TaylorAI/Flash-Llama-3B",
+        "HF_ID": "TaylorAI/Flash-Llama-3B",
+        "URL": "https://huggingface.co/TaylorAI/Flash-Llama-3B",
+        "SIZE": "3B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TaylorAI/Flash-Llama-7B",
+        "HF_ID": "TaylorAI/Flash-Llama-7B",
+        "URL": "https://huggingface.co/TaylorAI/Flash-Llama-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2345,10 +3344,28 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TehVenom/Pygmalion-Vicuna-1.1-7b",
+        "HF_ID": "TehVenom/Pygmalion-Vicuna-1.1-7b",
+        "URL": "https://huggingface.co/TehVenom/Pygmalion-Vicuna-1.1-7b",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TehVenom/Pygmalion_AlpacaLora-7b",
         "HF_ID": "TehVenom/Pygmalion_AlpacaLora-7b",
         "URL": "https://huggingface.co/TehVenom/Pygmalion_AlpacaLora-7b",
         "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TehVenom/oasst-sft-6-llama-33b-xor-MERGED-16bit",
+        "HF_ID": "TehVenom/oasst-sft-6-llama-33b-xor-MERGED-16bit",
+        "URL": "https://huggingface.co/TehVenom/oasst-sft-6-llama-33b-xor-MERGED-16bit",
+        "SIZE": "30B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2366,6 +3383,24 @@
         "ID": "The-Face-Of-Goonery/Huginn-13b-FP16",
         "HF_ID": "The-Face-Of-Goonery/Huginn-13b-FP16",
         "URL": "https://huggingface.co/The-Face-Of-Goonery/Huginn-13b-FP16",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "The-Face-Of-Goonery/Huginn-13b-V4",
+        "HF_ID": "The-Face-Of-Goonery/Huginn-13b-V4",
+        "URL": "https://huggingface.co/The-Face-Of-Goonery/Huginn-13b-V4",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "The-Face-Of-Goonery/Huginn-13b-v4.5",
+        "HF_ID": "The-Face-Of-Goonery/Huginn-13b-v4.5",
+        "URL": "https://huggingface.co/The-Face-Of-Goonery/Huginn-13b-v4.5",
         "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
@@ -2399,6 +3434,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/Airoboros-L2-13B-2.1-GPTQ",
+        "HF_ID": "TheBloke/Airoboros-L2-13B-2.1-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Airoboros-L2-13B-2.1-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Airoboros-L2-70B-2.1-GPTQ",
+        "HF_ID": "TheBloke/Airoboros-L2-70B-2.1-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Airoboros-L2-70B-2.1-GPTQ",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/CAMEL-33B-Combined-Data-SuperHOT-8K-fp16",
         "HF_ID": "TheBloke/CAMEL-33B-Combined-Data-SuperHOT-8K-fp16",
         "URL": "https://huggingface.co/TheBloke/CAMEL-33B-Combined-Data-SuperHOT-8K-fp16",
@@ -2417,11 +3470,101 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/CodeLlama-13B-Instruct-fp16",
+        "HF_ID": "TheBloke/CodeLlama-13B-Instruct-fp16",
+        "URL": "https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-fp16",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/CodeLlama-13B-Python-fp16",
+        "HF_ID": "TheBloke/CodeLlama-13B-Python-fp16",
+        "URL": "https://huggingface.co/TheBloke/CodeLlama-13B-Python-fp16",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/CodeLlama-34B-Instruct-fp16",
+        "HF_ID": "TheBloke/CodeLlama-34B-Instruct-fp16",
+        "URL": "https://huggingface.co/TheBloke/CodeLlama-34B-Instruct-fp16",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/CodeLlama-34B-Python-fp16",
+        "HF_ID": "TheBloke/CodeLlama-34B-Python-fp16",
+        "URL": "https://huggingface.co/TheBloke/CodeLlama-34B-Python-fp16",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/EverythingLM-13B-16K-GPTQ",
+        "HF_ID": "TheBloke/EverythingLM-13B-16K-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/EverythingLM-13B-16K-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/GPlatty-30B-SuperHOT-8K-fp16",
         "HF_ID": "TheBloke/GPlatty-30B-SuperHOT-8K-fp16",
         "URL": "https://huggingface.co/TheBloke/GPlatty-30B-SuperHOT-8K-fp16",
         "SIZE": "30B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Genz-70b-GPTQ",
+        "HF_ID": "TheBloke/Genz-70b-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Genz-70b-GPTQ",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Kimiko-13B-fp16",
+        "HF_ID": "TheBloke/Kimiko-13B-fp16",
+        "URL": "https://huggingface.co/TheBloke/Kimiko-13B-fp16",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Kimiko-v2-13B-fp16",
+        "HF_ID": "TheBloke/Kimiko-v2-13B-fp16",
+        "URL": "https://huggingface.co/TheBloke/Kimiko-v2-13B-fp16",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Lemur-70B-Chat-v1-GPTQ",
+        "HF_ID": "TheBloke/Lemur-70B-Chat-v1-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Lemur-70B-Chat-v1-GPTQ",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Llama-2-13B-GPTQ",
+        "HF_ID": "TheBloke/Llama-2-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Llama-2-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2435,10 +3578,46 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/Llama-2-70B-chat-GPTQ",
+        "HF_ID": "TheBloke/Llama-2-70B-chat-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Llama-2-70B-chat-GPTQ",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/Llama-2-70B-fp16",
         "HF_ID": "TheBloke/Llama-2-70B-fp16",
         "URL": "https://huggingface.co/TheBloke/Llama-2-70B-fp16",
         "SIZE": "70B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Llama-2-7B-GPTQ",
+        "HF_ID": "TheBloke/Llama-2-7B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Llama-2-7B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/LongChat-13B-GPTQ",
+        "HF_ID": "TheBloke/LongChat-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/LongChat-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GPTQ",
+        "HF_ID": "TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Manticore-13B-Chat-Pyg-Guanaco-SuperHOT-8K-GPTQ",
+        "SIZE": "3B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2462,6 +3641,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/OpenOrca-Platypus2-13B-GPTQ",
+        "HF_ID": "TheBloke/OpenOrca-Platypus2-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ",
+        "HF_ID": "TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/Planner-7B-fp16",
         "HF_ID": "TheBloke/Planner-7B-fp16",
         "URL": "https://huggingface.co/TheBloke/Planner-7B-fp16",
@@ -2475,6 +3672,33 @@
         "HF_ID": "TheBloke/Platypus-30B-SuperHOT-8K-fp16",
         "URL": "https://huggingface.co/TheBloke/Platypus-30B-SuperHOT-8K-fp16",
         "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Platypus2-70B-Instruct-GPTQ",
+        "HF_ID": "TheBloke/Platypus2-70B-Instruct-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GPTQ",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Project-Baize-v2-13B-GPTQ",
+        "HF_ID": "TheBloke/Project-Baize-v2-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Project-Baize-v2-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Project-Baize-v2-7B-GPTQ",
+        "HF_ID": "TheBloke/Project-Baize-v2-7B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Project-Baize-v2-7B-GPTQ",
+        "SIZE": "3B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2525,6 +3749,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
+        "HF_ID": "TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/Wizard-Vicuna-13B-Uncensored-HF",
         "HF_ID": "TheBloke/Wizard-Vicuna-13B-Uncensored-HF",
         "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-HF",
@@ -2538,6 +3771,15 @@
         "HF_ID": "TheBloke/Wizard-Vicuna-30B-Superhot-8K-fp16",
         "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Superhot-8K-fp16",
         "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
+        "HF_ID": "TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
+        "SIZE": "6B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2570,6 +3812,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/WizardLM-13B-V1.1-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-13B-V1.1-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-13B-V1.1-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/WizardLM-30B-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-30B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-30B-GPTQ",
+        "SIZE": "6B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/WizardLM-30B-Uncensored-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-30B-Uncensored-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GPTQ",
+        "SIZE": "6B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/WizardLM-30B-fp16",
         "HF_ID": "TheBloke/WizardLM-30B-fp16",
         "URL": "https://huggingface.co/TheBloke/WizardLM-30B-fp16",
@@ -2579,10 +3848,55 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
+        "SIZE": "6B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/WizardLM-70B-V1.0-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-70B-V1.0-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-70B-V1.0-GPTQ",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/WizardLM-7B-uncensored-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-7B-uncensored-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-7B-uncensored-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
+        "SIZE": "6B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/airoboros-13B-HF",
         "HF_ID": "TheBloke/airoboros-13B-HF",
         "URL": "https://huggingface.co/TheBloke/airoboros-13B-HF",
         "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/airoboros-33B-gpt4-1-4-SuperHOT-8K-fp16",
+        "HF_ID": "TheBloke/airoboros-33B-gpt4-1-4-SuperHOT-8K-fp16",
+        "URL": "https://huggingface.co/TheBloke/airoboros-33B-gpt4-1-4-SuperHOT-8K-fp16",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2606,11 +3920,29 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/chronos-wizardlm-uc-scot-st-13B-GPTQ",
+        "HF_ID": "TheBloke/chronos-wizardlm-uc-scot-st-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/chronos-wizardlm-uc-scot-st-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/dromedary-65b-lora-HF",
         "HF_ID": "TheBloke/dromedary-65b-lora-HF",
         "URL": "https://huggingface.co/TheBloke/dromedary-65b-lora-HF",
         "SIZE": "65B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/fiction.live-Kimiko-V2-70B-fp16",
+        "HF_ID": "TheBloke/fiction.live-Kimiko-V2-70B-fp16",
+        "URL": "https://huggingface.co/TheBloke/fiction.live-Kimiko-V2-70B-fp16",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2646,7 +3978,7 @@
         "HF_ID": "TheBloke/gpt4-x-vicuna-13B-HF",
         "URL": "https://huggingface.co/TheBloke/gpt4-x-vicuna-13B-HF",
         "SIZE": "13B",
-        "LICENSE": "other",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -2655,6 +3987,15 @@
         "HF_ID": "TheBloke/guanaco-13B-HF",
         "URL": "https://huggingface.co/TheBloke/guanaco-13B-HF",
         "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/guanaco-33B-GPTQ",
+        "HF_ID": "TheBloke/guanaco-33B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/guanaco-33B-GPTQ",
+        "SIZE": "6B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2734,10 +4075,55 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/medalpaca-13B-GPTQ-4bit",
+        "HF_ID": "TheBloke/medalpaca-13B-GPTQ-4bit",
+        "URL": "https://huggingface.co/TheBloke/medalpaca-13B-GPTQ-4bit",
+        "SIZE": "3B",
+        "LICENSE": "cc",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/openchat_v2_openorca_preview-GPTQ",
+        "HF_ID": "TheBloke/openchat_v2_openorca_preview-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/openchat_v2_openorca_preview-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/orca_mini_13B-GPTQ",
+        "HF_ID": "TheBloke/orca_mini_13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/orca_mini_13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/orca_mini_v3_7B-GPTQ",
+        "HF_ID": "TheBloke/orca_mini_v3_7B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/orca_mini_v3_7B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/robin-13B-v2-fp16",
         "HF_ID": "TheBloke/robin-13B-v2-fp16",
         "URL": "https://huggingface.co/TheBloke/robin-13B-v2-fp16",
         "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/robin-33B-v2-GPTQ",
+        "HF_ID": "TheBloke/robin-33B-v2-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/robin-33B-v2-GPTQ",
+        "SIZE": "6B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2761,10 +4147,28 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TheBloke/stable-vicuna-13B-HF",
+        "HF_ID": "TheBloke/stable-vicuna-13B-HF",
+        "URL": "https://huggingface.co/TheBloke/stable-vicuna-13B-HF",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TheBloke/tulu-13B-fp16",
         "HF_ID": "TheBloke/tulu-13B-fp16",
         "URL": "https://huggingface.co/TheBloke/tulu-13B-fp16",
         "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/tulu-30B-fp16",
+        "HF_ID": "TheBloke/tulu-30B-fp16",
+        "URL": "https://huggingface.co/TheBloke/tulu-30B-fp16",
+        "SIZE": "30B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2783,6 +4187,33 @@
         "HF_ID": "TheBloke/vicuna-13B-1.1-HF",
         "URL": "https://huggingface.co/TheBloke/vicuna-13B-1.1-HF",
         "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/vicuna-13b-v1.3.0-GPTQ",
+        "HF_ID": "TheBloke/vicuna-13b-v1.3.0-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/vicuna-13b-v1.3.0-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/wizard-mega-13B-GPTQ",
+        "HF_ID": "TheBloke/wizard-mega-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/wizard-mega-13B-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/wizard-vicuna-13B-GPTQ",
+        "HF_ID": "TheBloke/wizard-vicuna-13B-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/wizard-vicuna-13B-GPTQ",
+        "SIZE": "3B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -2896,6 +4327,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TigerResearch/tigerbot-7b-base",
+        "HF_ID": "TigerResearch/tigerbot-7b-base",
+        "URL": "https://huggingface.co/TigerResearch/tigerbot-7b-base",
+        "SIZE": "7B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TigerResearch/tigerbot-7b-sft",
         "HF_ID": "TigerResearch/tigerbot-7b-sft",
         "URL": "https://huggingface.co/TigerResearch/tigerbot-7b-sft",
@@ -2908,6 +4348,15 @@
         "ID": "Tincando/fiction_story_generator",
         "HF_ID": "Tincando/fiction_story_generator",
         "URL": "https://huggingface.co/Tincando/fiction_story_generator",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TinyPixel/lima-test",
+        "HF_ID": "TinyPixel/lima-test",
+        "URL": "https://huggingface.co/TinyPixel/lima-test",
         "SIZE": "other",
         "LICENSE": null,
         "ALIASES": [],
@@ -2941,6 +4390,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "Undi95/ReMM-L2-13B",
+        "HF_ID": "Undi95/ReMM-L2-13B",
+        "URL": "https://huggingface.co/Undi95/ReMM-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Undi95/UndiMix-v1-13b",
+        "HF_ID": "Undi95/UndiMix-v1-13b",
+        "URL": "https://huggingface.co/Undi95/UndiMix-v1-13b",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "VMware/open-llama-0.7T-7B-open-instruct-v1.1",
         "HF_ID": "VMware/open-llama-0.7T-7B-open-instruct-v1.1",
         "URL": "https://huggingface.co/VMware/open-llama-0.7T-7B-open-instruct-v1.1",
@@ -2955,6 +4422,15 @@
         "URL": "https://huggingface.co/VMware/open-llama-7b-open-instruct",
         "SIZE": "7B",
         "LICENSE": "cc-by-sa-3.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ValiantLabs/ShiningValiant",
+        "HF_ID": "ValiantLabs/ShiningValiant",
+        "URL": "https://huggingface.co/ValiantLabs/ShiningValiant",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -3022,14 +4498,30 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "WhoTookMyAmogusNickname/NewHope_HF_not_official",
+        "HF_ID": "WhoTookMyAmogusNickname/NewHope_HF_not_official",
+        "URL": "https://huggingface.co/WhoTookMyAmogusNickname/NewHope_HF_not_official",
+        "SIZE": "other",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "WizardLM/WizardCoder-15B-V1.0",
         "HF_ID": "WizardLM/WizardCoder-15B-V1.0",
         "URL": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
         "SIZE": "16B",
         "LICENSE": "bigscience-openrail-m",
-        "ALIASES": [
-            "wizardcoder-15b_v1.0"
-        ],
+        "ALIASES": ["wizardcoder-15b_v1.0"],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "WizardLM/WizardCoder-Python-34B-V1.0",
+        "HF_ID": "WizardLM/WizardCoder-Python-34B-V1.0",
+        "URL": "https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
         "CONTAMINATED": false
     },
     {
@@ -3089,6 +4581,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "WizardLM/WizardMath-7B-V1.0",
+        "HF_ID": "WizardLM/WizardMath-7B-V1.0",
+        "URL": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Writer/InstructPalmyra-20b",
+        "HF_ID": "Writer/InstructPalmyra-20b",
+        "URL": "https://huggingface.co/Writer/InstructPalmyra-20b",
+        "SIZE": "20B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "Writer/camel-5b-hf",
         "HF_ID": "Writer/camel-5b-hf",
         "URL": "https://huggingface.co/Writer/camel-5b-hf",
@@ -3101,6 +4611,15 @@
         "ID": "Writer/palmyra-base",
         "HF_ID": "Writer/palmyra-base",
         "URL": "https://huggingface.co/Writer/palmyra-base",
+        "SIZE": "other",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Writer/palmyra-large",
+        "HF_ID": "Writer/palmyra-large",
+        "URL": "https://huggingface.co/Writer/palmyra-large",
         "SIZE": "other",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
@@ -3233,9 +4752,9 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "acrastt/EverythingLM-3B",
-        "HF_ID": "acrastt/EverythingLM-3B",
-        "URL": "https://huggingface.co/acrastt/EverythingLM-3B",
+        "ID": "acrastt/Bean-3B",
+        "HF_ID": "acrastt/Bean-3B",
+        "URL": "https://huggingface.co/acrastt/Bean-3B",
         "SIZE": "6B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
@@ -3260,6 +4779,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "acrastt/Marx-3B-V2",
+        "HF_ID": "acrastt/Marx-3B-V2",
+        "URL": "https://huggingface.co/acrastt/Marx-3B-V2",
+        "SIZE": "6B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "acrastt/OmegLLaMA-3B",
+        "HF_ID": "acrastt/OmegLLaMA-3B",
+        "URL": "https://huggingface.co/acrastt/OmegLLaMA-3B",
+        "SIZE": "6B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "acrastt/Puma-3B",
         "HF_ID": "acrastt/Puma-3B",
         "URL": "https://huggingface.co/acrastt/Puma-3B",
@@ -3278,11 +4815,11 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "acrastt/Vicuna-3B",
-        "HF_ID": "acrastt/Vicuna-3B",
-        "URL": "https://huggingface.co/acrastt/Vicuna-3B",
-        "SIZE": "6B",
-        "LICENSE": "apache-2.0",
+        "ID": "ai-business/Luban-13B",
+        "HF_ID": "ai-business/Luban-13B",
+        "URL": "https://huggingface.co/ai-business/Luban-13B",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -3292,6 +4829,15 @@
         "URL": "https://huggingface.co/ai-forever/rugpt3large_based_on_gpt2",
         "SIZE": "other",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "aiplanet/effi-13b",
+        "HF_ID": "aiplanet/effi-13b",
+        "URL": "https://huggingface.co/aiplanet/effi-13b",
+        "SIZE": "13B",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -3395,10 +4941,64 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "ajibawa-2023/carl-33b",
+        "HF_ID": "ajibawa-2023/carl-33b",
+        "URL": "https://huggingface.co/ajibawa-2023/carl-33b",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-nd-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ajibawa-2023/carl-7b",
+        "HF_ID": "ajibawa-2023/carl-7b",
+        "URL": "https://huggingface.co/ajibawa-2023/carl-7b",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-nd-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ajibawa-2023/scarlett-33b",
+        "HF_ID": "ajibawa-2023/scarlett-33b",
+        "URL": "https://huggingface.co/ajibawa-2023/scarlett-33b",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-nd-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ajibawa-2023/scarlett-7b",
+        "HF_ID": "ajibawa-2023/scarlett-7b",
+        "URL": "https://huggingface.co/ajibawa-2023/scarlett-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "alibidaran/medical_transcription_generator",
         "HF_ID": "alibidaran/medical_transcription_generator",
         "URL": "https://huggingface.co/alibidaran/medical_transcription_generator",
         "SIZE": "1B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "amazon/LightGPT",
+        "HF_ID": "amazon/LightGPT",
+        "URL": "https://huggingface.co/amazon/LightGPT",
+        "SIZE": "other",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "anas-awadalla/mpt-7b",
+        "HF_ID": "anas-awadalla/mpt-7b",
+        "URL": "https://huggingface.co/anas-awadalla/mpt-7b",
+        "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3539,6 +5139,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "ausboss/llama7b-wizardlm-unfiltered",
+        "HF_ID": "ausboss/llama7b-wizardlm-unfiltered",
+        "URL": "https://huggingface.co/ausboss/llama7b-wizardlm-unfiltered",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "baichuan-inc/Baichuan-7B",
         "HF_ID": "baichuan-inc/Baichuan-7B",
         "URL": "https://huggingface.co/baichuan-inc/Baichuan-7B",
@@ -3568,20 +5177,29 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "beaugogh/Llama2-7b-sharegpt4",
-        "HF_ID": "beaugogh/Llama2-7b-sharegpt4",
-        "URL": "https://huggingface.co/beaugogh/Llama2-7b-sharegpt4",
+        "ID": "beaugogh/Llama2-7b-openorca-mc-v1",
+        "HF_ID": "beaugogh/Llama2-7b-openorca-mc-v1",
+        "URL": "https://huggingface.co/beaugogh/Llama2-7b-openorca-mc-v1",
         "SIZE": "7B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
     {
-        "ID": "beaugogh/Llama2-7b-sharegpt4-resubmit",
-        "HF_ID": "beaugogh/Llama2-7b-sharegpt4-resubmit",
-        "URL": "https://huggingface.co/beaugogh/Llama2-7b-sharegpt4-resubmit",
+        "ID": "beaugogh/Llama2-7b-openorca-mc-v2",
+        "HF_ID": "beaugogh/Llama2-7b-openorca-mc-v2",
+        "URL": "https://huggingface.co/beaugogh/Llama2-7b-openorca-mc-v2",
         "SIZE": "7B",
-        "LICENSE": null,
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "beaugogh/Llama2-7b-sharegpt4",
+        "HF_ID": "beaugogh/Llama2-7b-sharegpt4",
+        "URL": "https://huggingface.co/beaugogh/Llama2-7b-sharegpt4",
+        "SIZE": "7B",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -3663,6 +5281,15 @@
         "URL": "https://huggingface.co/bigcode/gpt_bigcode-santacoder",
         "SIZE": "3B",
         "LICENSE": "openrail",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "bigcode/santacoder",
+        "HF_ID": "bigcode/santacoder",
+        "URL": "https://huggingface.co/bigcode/santacoder",
+        "SIZE": "other",
+        "LICENSE": "bigcode-openrail-m",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -3757,6 +5384,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "bigscience/bloomz-7b1",
+        "HF_ID": "bigscience/bloomz-7b1",
+        "URL": "https://huggingface.co/bigscience/bloomz-7b1",
+        "SIZE": "7B",
+        "LICENSE": "bigscience-bloom-rail-1.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "bigscience/bloomz-7b1-mt",
         "HF_ID": "bigscience/bloomz-7b1-mt",
         "URL": "https://huggingface.co/bigscience/bloomz-7b1-mt",
@@ -3793,11 +5429,29 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "bofenghuang/vigogne-2-7b-chat",
+        "HF_ID": "bofenghuang/vigogne-2-7b-chat",
+        "URL": "https://huggingface.co/bofenghuang/vigogne-2-7b-chat",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "bofenghuang/vigogne-2-7b-instruct",
         "HF_ID": "bofenghuang/vigogne-2-7b-instruct",
         "URL": "https://huggingface.co/bofenghuang/vigogne-2-7b-instruct",
         "SIZE": "7B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "bofenghuang/vigogne-33b-instruct",
+        "HF_ID": "bofenghuang/vigogne-33b-instruct",
+        "URL": "https://huggingface.co/bofenghuang/vigogne-33b-instruct",
+        "SIZE": "30B",
+        "LICENSE": "openrail",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -3820,10 +5474,28 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "bongchoi/test-llama2-7b",
+        "HF_ID": "bongchoi/test-llama2-7b",
+        "URL": "https://huggingface.co/bongchoi/test-llama2-7b",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "breadlicker45/dough-instruct-base-001",
         "HF_ID": "breadlicker45/dough-instruct-base-001",
         "URL": "https://huggingface.co/breadlicker45/dough-instruct-base-001",
         "SIZE": "1B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "budecosystem/genz-13b-v2",
+        "HF_ID": "budecosystem/genz-13b-v2",
+        "URL": "https://huggingface.co/budecosystem/genz-13b-v2",
+        "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3901,6 +5573,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "cerebras/Cerebras-GPT-590M",
+        "HF_ID": "cerebras/Cerebras-GPT-590M",
+        "URL": "https://huggingface.co/cerebras/Cerebras-GPT-590M",
+        "SIZE": "1B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "cerebras/Cerebras-GPT-6.7B",
         "HF_ID": "cerebras/Cerebras-GPT-6.7B",
         "URL": "https://huggingface.co/cerebras/Cerebras-GPT-6.7B",
@@ -3928,6 +5609,51 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "chargoddard/Chronorctypus-Limarobormes-13b",
+        "HF_ID": "chargoddard/Chronorctypus-Limarobormes-13b",
+        "URL": "https://huggingface.co/chargoddard/Chronorctypus-Limarobormes-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/MelangeA-70b",
+        "HF_ID": "chargoddard/MelangeA-70b",
+        "URL": "https://huggingface.co/chargoddard/MelangeA-70b",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/MelangeB-70b",
+        "HF_ID": "chargoddard/MelangeB-70b",
+        "URL": "https://huggingface.co/chargoddard/MelangeB-70b",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/MelangeC-70b",
+        "HF_ID": "chargoddard/MelangeC-70b",
+        "URL": "https://huggingface.co/chargoddard/MelangeC-70b",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/llama-2-34b-uncode",
+        "HF_ID": "chargoddard/llama-2-34b-uncode",
+        "URL": "https://huggingface.co/chargoddard/llama-2-34b-uncode",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "chargoddard/llama2-22b",
         "HF_ID": "chargoddard/llama2-22b",
         "URL": "https://huggingface.co/chargoddard/llama2-22b",
@@ -3940,6 +5666,33 @@
         "ID": "chargoddard/llama2-22b-blocktriangular",
         "HF_ID": "chargoddard/llama2-22b-blocktriangular",
         "URL": "https://huggingface.co/chargoddard/llama2-22b-blocktriangular",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/platypus-2-22b-relora",
+        "HF_ID": "chargoddard/platypus-2-22b-relora",
+        "URL": "https://huggingface.co/chargoddard/platypus-2-22b-relora",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/platypus2-22b-relora",
+        "HF_ID": "chargoddard/platypus2-22b-relora",
+        "URL": "https://huggingface.co/chargoddard/platypus2-22b-relora",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "chargoddard/ypotryll-22b-epoch2-qlora",
+        "HF_ID": "chargoddard/ypotryll-22b-epoch2-qlora",
+        "URL": "https://huggingface.co/chargoddard/ypotryll-22b-epoch2-qlora",
         "SIZE": "30B",
         "LICENSE": null,
         "ALIASES": [],
@@ -3982,11 +5735,101 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "clibrain/Llama-2-13b-ft-instruct-es",
+        "HF_ID": "clibrain/Llama-2-13b-ft-instruct-es",
+        "URL": "https://huggingface.co/clibrain/Llama-2-13b-ft-instruct-es",
+        "SIZE": "13B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "clibrain/Llama-2-7b-ft-instruct-es",
         "HF_ID": "clibrain/Llama-2-7b-ft-instruct-es",
         "URL": "https://huggingface.co/clibrain/Llama-2-7b-ft-instruct-es",
         "SIZE": "7B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-13b-Instruct-hf",
+        "HF_ID": "codellama/CodeLlama-13b-Instruct-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-13b-Python-hf",
+        "HF_ID": "codellama/CodeLlama-13b-Python-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-13b-Python-hf",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-13b-hf",
+        "HF_ID": "codellama/CodeLlama-13b-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-13b-hf",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-34b-Instruct-hf",
+        "HF_ID": "codellama/CodeLlama-34b-Instruct-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-34b-Python-hf",
+        "HF_ID": "codellama/CodeLlama-34b-Python-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-34b-Python-hf",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-34b-hf",
+        "HF_ID": "codellama/CodeLlama-34b-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-34b-hf",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-7b-Instruct-hf",
+        "HF_ID": "codellama/CodeLlama-7b-Instruct-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-7b-Python-hf",
+        "HF_ID": "codellama/CodeLlama-7b-Python-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "codellama/CodeLlama-7b-hf",
+        "HF_ID": "codellama/CodeLlama-7b-hf",
+        "URL": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4022,6 +5865,24 @@
         "HF_ID": "conceptofmind/LLongMA-2-13b-16k",
         "URL": "https://huggingface.co/conceptofmind/LLongMA-2-13b-16k",
         "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "conceptofmind/LLongMA-2-7b-16k",
+        "HF_ID": "conceptofmind/LLongMA-2-7b-16k",
+        "URL": "https://huggingface.co/conceptofmind/LLongMA-2-7b-16k",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "conceptofmind/Open-LLongMA-3b",
+        "HF_ID": "conceptofmind/Open-LLongMA-3b",
+        "URL": "https://huggingface.co/conceptofmind/Open-LLongMA-3b",
+        "SIZE": "3B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4087,7 +5948,7 @@
         "HF_ID": "davzoku/cria-llama2-7b-v1.3",
         "URL": "https://huggingface.co/davzoku/cria-llama2-7b-v1.3",
         "SIZE": "7B",
-        "LICENSE": null,
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4096,7 +5957,7 @@
         "HF_ID": "davzoku/cria-llama2-7b-v1.3_peft",
         "URL": "https://huggingface.co/davzoku/cria-llama2-7b-v1.3_peft",
         "SIZE": "7B",
-        "LICENSE": null,
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4110,11 +5971,20 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "deepnight-research/llama-2-70B-inst",
-        "HF_ID": "deepnight-research/llama-2-70B-inst",
-        "URL": "https://huggingface.co/deepnight-research/llama-2-70B-inst",
-        "SIZE": "70B",
+        "ID": "deepnight-research/zsc-text",
+        "HF_ID": "deepnight-research/zsc-text",
+        "URL": "https://huggingface.co/deepnight-research/zsc-text",
+        "SIZE": "other",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "deepse/CodeUp-Llama-2-13b-chat-hf",
+        "HF_ID": "deepse/CodeUp-Llama-2-13b-chat-hf",
+        "URL": "https://huggingface.co/deepse/CodeUp-Llama-2-13b-chat-hf",
+        "SIZE": "13B",
+        "LICENSE": "openrail++",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4133,6 +6003,69 @@
         "URL": "https://huggingface.co/dfurman/llama-2-70b-dolphin-peft",
         "SIZE": "70B",
         "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/Llama-2-7b-hf-wiki30k_r_64_alpha_16",
+        "HF_ID": "dhmeltzer/Llama-2-7b-hf-wiki30k_r_64_alpha_16",
+        "URL": "https://huggingface.co/dhmeltzer/Llama-2-7b-hf-wiki30k_r_64_alpha_16",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/Llama-2-7b-hf-wiki_r_64_alpha_16",
+        "HF_ID": "dhmeltzer/Llama-2-7b-hf-wiki_r_64_alpha_16",
+        "URL": "https://huggingface.co/dhmeltzer/Llama-2-7b-hf-wiki_r_64_alpha_16",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/llama-7b-SFT_ds_eli5_1024_r_64_alpha_16",
+        "HF_ID": "dhmeltzer/llama-7b-SFT_ds_eli5_1024_r_64_alpha_16",
+        "URL": "https://huggingface.co/dhmeltzer/llama-7b-SFT_ds_eli5_1024_r_64_alpha_16",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/llama-7b-SFT_ds_eli5_1024_r_64_alpha_16_merged",
+        "HF_ID": "dhmeltzer/llama-7b-SFT_ds_eli5_1024_r_64_alpha_16_merged",
+        "URL": "https://huggingface.co/dhmeltzer/llama-7b-SFT_ds_eli5_1024_r_64_alpha_16_merged",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/llama-7b-SFT_ds_wiki65k_1024_r_64_alpha_16_merged",
+        "HF_ID": "dhmeltzer/llama-7b-SFT_ds_wiki65k_1024_r_64_alpha_16_merged",
+        "URL": "https://huggingface.co/dhmeltzer/llama-7b-SFT_ds_wiki65k_1024_r_64_alpha_16_merged",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/llama-7b-SFT_eli5_wiki65k_1024_r_64_alpha_16",
+        "HF_ID": "dhmeltzer/llama-7b-SFT_eli5_wiki65k_1024_r_64_alpha_16",
+        "URL": "https://huggingface.co/dhmeltzer/llama-7b-SFT_eli5_wiki65k_1024_r_64_alpha_16",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dhmeltzer/llama-7b-SFT_eli5_wiki65k_1024_r_64_alpha_16_merged",
+        "HF_ID": "dhmeltzer/llama-7b-SFT_eli5_wiki65k_1024_r_64_alpha_16_merged",
+        "URL": "https://huggingface.co/dhmeltzer/llama-7b-SFT_eli5_wiki65k_1024_r_64_alpha_16_merged",
+        "SIZE": "7B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4254,6 +6187,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "doas/test2",
+        "HF_ID": "doas/test2",
+        "URL": "https://huggingface.co/doas/test2",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "doas/test5",
+        "HF_ID": "doas/test5",
+        "URL": "https://huggingface.co/doas/test5",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "dsvv-cair/alpaca-cleaned-llama-30b-bf16",
         "HF_ID": "dsvv-cair/alpaca-cleaned-llama-30b-bf16",
         "URL": "https://huggingface.co/dsvv-cair/alpaca-cleaned-llama-30b-bf16",
@@ -4353,9 +6304,36 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "dvruette/oasst-pythia-12b-6000-steps",
+        "HF_ID": "dvruette/oasst-pythia-12b-6000-steps",
+        "URL": "https://huggingface.co/dvruette/oasst-pythia-12b-6000-steps",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dvruette/oasst-pythia-12b-flash-attn-5000-steps",
+        "HF_ID": "dvruette/oasst-pythia-12b-flash-attn-5000-steps",
+        "URL": "https://huggingface.co/dvruette/oasst-pythia-12b-flash-attn-5000-steps",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "dvruette/oasst-pythia-12b-pretrained-sft",
         "HF_ID": "dvruette/oasst-pythia-12b-pretrained-sft",
         "URL": "https://huggingface.co/dvruette/oasst-pythia-12b-pretrained-sft",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "dvruette/oasst-pythia-12b-reference",
+        "HF_ID": "dvruette/oasst-pythia-12b-reference",
+        "URL": "https://huggingface.co/dvruette/oasst-pythia-12b-reference",
         "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
@@ -4421,6 +6399,69 @@
         "URL": "https://huggingface.co/edor/Stable-Platypus2-mini-7B",
         "SIZE": "7B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/CodeLlama-34b-Instruct-hf",
+        "HF_ID": "ehartford/CodeLlama-34b-Instruct-hf",
+        "URL": "https://huggingface.co/ehartford/CodeLlama-34b-Instruct-hf",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/CodeLlama-34b-Python-hf",
+        "HF_ID": "ehartford/CodeLlama-34b-Python-hf",
+        "URL": "https://huggingface.co/ehartford/CodeLlama-34b-Python-hf",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/Samantha-1.1-70b",
+        "HF_ID": "ehartford/Samantha-1.1-70b",
+        "URL": "https://huggingface.co/ehartford/Samantha-1.1-70b",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/Samantha-1.11-13b",
+        "HF_ID": "ehartford/Samantha-1.11-13b",
+        "URL": "https://huggingface.co/ehartford/Samantha-1.11-13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/Samantha-1.11-70b",
+        "HF_ID": "ehartford/Samantha-1.11-70b",
+        "URL": "https://huggingface.co/ehartford/Samantha-1.11-70b",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/Samantha-1.11-7b",
+        "HF_ID": "ehartford/Samantha-1.11-7b",
+        "URL": "https://huggingface.co/ehartford/Samantha-1.11-7b",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "ehartford/Samantha-1.11-CodeLlama-34b",
+        "HF_ID": "ehartford/Samantha-1.11-CodeLlama-34b",
+        "URL": "https://huggingface.co/ehartford/Samantha-1.11-CodeLlama-34b",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4560,6 +6601,42 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "elyza/ELYZA-japanese-Llama-2-7b",
+        "HF_ID": "elyza/ELYZA-japanese-Llama-2-7b",
+        "URL": "https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "elyza/ELYZA-japanese-Llama-2-7b-fast",
+        "HF_ID": "elyza/ELYZA-japanese-Llama-2-7b-fast",
+        "URL": "https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "elyza/ELYZA-japanese-Llama-2-7b-fast-instruct",
+        "HF_ID": "elyza/ELYZA-japanese-Llama-2-7b-fast-instruct",
+        "URL": "https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast-instruct",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+        "HF_ID": "elyza/ELYZA-japanese-Llama-2-7b-instruct",
+        "URL": "https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "euclaise/gpt-neox-122m-minipile-digits",
         "HF_ID": "euclaise/gpt-neox-122m-minipile-digits",
         "URL": "https://huggingface.co/euclaise/gpt-neox-122m-minipile-digits",
@@ -4574,6 +6651,15 @@
         "URL": "https://huggingface.co/ewof/koishi-instruct-3b",
         "SIZE": "3B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "facebook/galactica-1.3b",
+        "HF_ID": "facebook/galactica-1.3b",
+        "URL": "https://huggingface.co/facebook/galactica-1.3b",
+        "SIZE": "3B",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4659,6 +6745,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "facebook/opt-iml-max-1.3b",
+        "HF_ID": "facebook/opt-iml-max-1.3b",
+        "URL": "https://huggingface.co/facebook/opt-iml-max-1.3b",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "facebook/opt-iml-max-30b",
         "HF_ID": "facebook/opt-iml-max-30b",
         "URL": "https://huggingface.co/facebook/opt-iml-max-30b",
@@ -4704,10 +6799,37 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "fangloveskari/ORCA_LLaMA_70B_QLoRA",
+        "HF_ID": "fangloveskari/ORCA_LLaMA_70B_QLoRA",
+        "URL": "https://huggingface.co/fangloveskari/ORCA_LLaMA_70B_QLoRA",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "fangloveskari/Platypus_QLoRA_LLaMA_70b",
+        "HF_ID": "fangloveskari/Platypus_QLoRA_LLaMA_70b",
+        "URL": "https://huggingface.co/fangloveskari/Platypus_QLoRA_LLaMA_70b",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "fireballoon/baichuan-vicuna-chinese-7b",
         "HF_ID": "fireballoon/baichuan-vicuna-chinese-7b",
         "URL": "https://huggingface.co/fireballoon/baichuan-vicuna-chinese-7b",
         "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "frank098/Wizard-Vicuna-13B-juniper",
+        "HF_ID": "frank098/Wizard-Vicuna-13B-juniper",
+        "URL": "https://huggingface.co/frank098/Wizard-Vicuna-13B-juniper",
+        "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4731,6 +6853,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "gaodrew/OpenOrca-Platypus2-13B-thera-1250",
+        "HF_ID": "gaodrew/OpenOrca-Platypus2-13B-thera-1250",
+        "URL": "https://huggingface.co/gaodrew/OpenOrca-Platypus2-13B-thera-1250",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "gaodrew/gaodrew-gorgonzola-13b",
+        "HF_ID": "gaodrew/gaodrew-gorgonzola-13b",
+        "URL": "https://huggingface.co/gaodrew/gaodrew-gorgonzola-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps",
+        "HF_ID": "gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps",
+        "URL": "https://huggingface.co/gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps",
+        "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "garage-bAInd/Camel-Platypus2-13B",
         "HF_ID": "garage-bAInd/Camel-Platypus2-13B",
         "URL": "https://huggingface.co/garage-bAInd/Camel-Platypus2-13B",
@@ -4749,20 +6898,11 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "garage-bAInd/Dolphin-Platypus2-70B",
-        "HF_ID": "garage-bAInd/Dolphin-Platypus2-70B",
-        "URL": "https://huggingface.co/garage-bAInd/Dolphin-Platypus2-70B",
-        "SIZE": "70B",
-        "LICENSE": "llama2",
-        "ALIASES": [],
-        "CONTAMINATED": false
-    },
-    {
-        "ID": "garage-bAInd/GPlatty-30B",
-        "HF_ID": "garage-bAInd/GPlatty-30B",
-        "URL": "https://huggingface.co/garage-bAInd/GPlatty-30B",
+        "ID": "garage-bAInd/Platypus-30B",
+        "HF_ID": "garage-bAInd/Platypus-30B",
+        "URL": "https://huggingface.co/garage-bAInd/Platypus-30B",
         "SIZE": "30B",
-        "LICENSE": "llama1",
+        "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4790,6 +6930,15 @@
         "URL": "https://huggingface.co/garage-bAInd/Platypus2-70B-instruct",
         "SIZE": "70B",
         "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "garage-bAInd/Platypus2-7B",
+        "HF_ID": "garage-bAInd/Platypus2-7B",
+        "URL": "https://huggingface.co/garage-bAInd/Platypus2-7B",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4844,6 +6993,24 @@
         "URL": "https://huggingface.co/golaxy/gogpt-7b-bloom",
         "SIZE": "7B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "golaxy/gogpt2-13b",
+        "HF_ID": "golaxy/gogpt2-13b",
+        "URL": "https://huggingface.co/golaxy/gogpt2-13b",
+        "SIZE": "13B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "golaxy/gogpt2-13b-chat",
+        "HF_ID": "golaxy/gogpt2-13b-chat",
+        "URL": "https://huggingface.co/golaxy/gogpt2-13b-chat",
+        "SIZE": "13B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4920,6 +7087,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "grimpep/L2-MythoMax22b-instruct-Falseblock",
+        "HF_ID": "grimpep/L2-MythoMax22b-instruct-Falseblock",
+        "URL": "https://huggingface.co/grimpep/L2-MythoMax22b-instruct-Falseblock",
+        "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "grimpep/llama2-22B-GPLATTY",
         "HF_ID": "grimpep/llama2-22B-GPLATTY",
         "URL": "https://huggingface.co/grimpep/llama2-22B-GPLATTY",
@@ -4938,9 +7114,27 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "grimpep/llama2-28B-Airo03",
+        "HF_ID": "grimpep/llama2-28B-Airo03",
+        "URL": "https://huggingface.co/grimpep/llama2-28B-Airo03",
+        "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "gywy/llama2-13b-chinese-v1",
         "HF_ID": "gywy/llama2-13b-chinese-v1",
         "URL": "https://huggingface.co/gywy/llama2-13b-chinese-v1",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "gywy/llama2-13b-chinese-v2",
+        "HF_ID": "gywy/llama2-13b-chinese-v2",
+        "URL": "https://huggingface.co/gywy/llama2-13b-chinese-v2",
         "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
@@ -5139,6 +7333,15 @@
         "ID": "heegyu/WizardVicuna-Uncensored-3B-0719",
         "HF_ID": "heegyu/WizardVicuna-Uncensored-3B-0719",
         "URL": "https://huggingface.co/heegyu/WizardVicuna-Uncensored-3B-0719",
+        "SIZE": "6B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "heegyu/WizardVicuna-open-llama-3b-v2",
+        "HF_ID": "heegyu/WizardVicuna-open-llama-3b-v2",
+        "URL": "https://huggingface.co/heegyu/WizardVicuna-open-llama-3b-v2",
         "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
@@ -5150,6 +7353,15 @@
         "URL": "https://huggingface.co/heegyu/WizardVicuna2-13b-hf",
         "SIZE": "13B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "huashiyiqike/testmodel",
+        "HF_ID": "huashiyiqike/testmodel",
+        "URL": "https://huggingface.co/huashiyiqike/testmodel",
+        "SIZE": "1B",
+        "LICENSE": "cc-by-nc-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -5226,6 +7438,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "huggyllama/llama-30b",
+        "HF_ID": "huggyllama/llama-30b",
+        "URL": "https://huggingface.co/huggyllama/llama-30b",
+        "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "huggyllama/llama-65b",
         "HF_ID": "huggyllama/llama-65b",
         "URL": "https://huggingface.co/huggyllama/llama-65b",
@@ -5280,6 +7501,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "jjaaaww/posi_13b",
+        "HF_ID": "jjaaaww/posi_13b",
+        "URL": "https://huggingface.co/jjaaaww/posi_13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "jlevin/guanaco-13b-llama-2",
         "HF_ID": "jlevin/guanaco-13b-llama-2",
         "URL": "https://huggingface.co/jlevin/guanaco-13b-llama-2",
@@ -5292,6 +7522,15 @@
         "ID": "jlevin/guanaco-unchained-llama-2-7b",
         "HF_ID": "jlevin/guanaco-unchained-llama-2-7b",
         "URL": "https://huggingface.co/jlevin/guanaco-unchained-llama-2-7b",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "joehuangx/spatial-vicuna-7b-v1.5-LoRA",
+        "HF_ID": "joehuangx/spatial-vicuna-7b-v1.5-LoRA",
+        "URL": "https://huggingface.co/joehuangx/spatial-vicuna-7b-v1.5-LoRA",
         "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
@@ -5442,6 +7681,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "jondurbin/airoboros-65b-gpt4-1.4-peft",
+        "HF_ID": "jondurbin/airoboros-65b-gpt4-1.4-peft",
+        "URL": "https://huggingface.co/jondurbin/airoboros-65b-gpt4-1.4-peft",
+        "SIZE": "65B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "jondurbin/airoboros-65b-gpt4-2.0",
         "HF_ID": "jondurbin/airoboros-65b-gpt4-2.0",
         "URL": "https://huggingface.co/jondurbin/airoboros-65b-gpt4-2.0",
@@ -5523,11 +7771,29 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "jondurbin/airoboros-c34b-2.1",
+        "HF_ID": "jondurbin/airoboros-c34b-2.1",
+        "URL": "https://huggingface.co/jondurbin/airoboros-c34b-2.1",
+        "SIZE": "30B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "jondurbin/airoboros-gpt-3.5-turbo-100k-7b",
         "HF_ID": "jondurbin/airoboros-gpt-3.5-turbo-100k-7b",
         "URL": "https://huggingface.co/jondurbin/airoboros-gpt-3.5-turbo-100k-7b",
         "SIZE": "7B",
         "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "jondurbin/airoboros-l2-13b-2.1",
+        "HF_ID": "jondurbin/airoboros-l2-13b-2.1",
+        "URL": "https://huggingface.co/jondurbin/airoboros-l2-13b-2.1",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -5559,6 +7825,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "jondurbin/airoboros-l2-70b-2.1",
+        "HF_ID": "jondurbin/airoboros-l2-70b-2.1",
+        "URL": "https://huggingface.co/jondurbin/airoboros-l2-70b-2.1",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "jondurbin/airoboros-l2-70b-gpt4-1.4.1",
         "HF_ID": "jondurbin/airoboros-l2-70b-gpt4-1.4.1",
         "URL": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1",
@@ -5582,6 +7857,15 @@
         "URL": "https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-m2.0",
         "SIZE": "70B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "jondurbin/airoboros-l2-7b-2.1",
+        "HF_ID": "jondurbin/airoboros-l2-7b-2.1",
+        "URL": "https://huggingface.co/jondurbin/airoboros-l2-7b-2.1",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -5685,11 +7969,29 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "kajdun/iubaris-13b-v3",
+        "HF_ID": "kajdun/iubaris-13b-v3",
+        "URL": "https://huggingface.co/kajdun/iubaris-13b-v3",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "kajdun/viwaai-30b_v4",
         "HF_ID": "kajdun/viwaai-30b_v4",
         "URL": "https://huggingface.co/kajdun/viwaai-30b_v4",
         "SIZE": "30B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "kashif/stack-llama-2",
+        "HF_ID": "kashif/stack-llama-2",
+        "URL": "https://huggingface.co/kashif/stack-llama-2",
+        "SIZE": "other",
+        "LICENSE": "bigscience-openrail-m",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -5829,6 +8131,42 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "lgaalves/gpt2_guanaco-dolly-platypus",
+        "HF_ID": "lgaalves/gpt2_guanaco-dolly-platypus",
+        "URL": "https://huggingface.co/lgaalves/gpt2_guanaco-dolly-platypus",
+        "SIZE": "other",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "lgaalves/gpt2_open-platypus",
+        "HF_ID": "lgaalves/gpt2_open-platypus",
+        "URL": "https://huggingface.co/lgaalves/gpt2_open-platypus",
+        "SIZE": "other",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "lgaalves/gpt2_platypus-dolly-guanaco",
+        "HF_ID": "lgaalves/gpt2_platypus-dolly-guanaco",
+        "URL": "https://huggingface.co/lgaalves/gpt2_platypus-dolly-guanaco",
+        "SIZE": "other",
+        "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "lgaalves/llama-2-7b-hf_open-platypus",
+        "HF_ID": "lgaalves/llama-2-7b-hf_open-platypus",
+        "URL": "https://huggingface.co/lgaalves/llama-2-7b-hf_open-platypus",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "lilloukas/GPlatty-30B",
         "HF_ID": "lilloukas/GPlatty-30B",
         "URL": "https://huggingface.co/lilloukas/GPlatty-30B",
@@ -5860,6 +8198,15 @@
         "HF_ID": "lizhuang144/llama_mirror_13b_v1.0",
         "URL": "https://huggingface.co/lizhuang144/llama_mirror_13b_v1.0",
         "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "lizhuang144/starcoder_mirror",
+        "HF_ID": "lizhuang144/starcoder_mirror",
+        "URL": "https://huggingface.co/lizhuang144/starcoder_mirror",
+        "SIZE": "other",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -5986,6 +8333,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "luffycodes/mcq-hal-vicuna-13b-v1.5",
+        "HF_ID": "luffycodes/mcq-hal-vicuna-13b-v1.5",
+        "URL": "https://huggingface.co/luffycodes/mcq-hal-vicuna-13b-v1.5",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "luffycodes/mcq-vicuna-13b-v1.5",
+        "HF_ID": "luffycodes/mcq-vicuna-13b-v1.5",
+        "URL": "https://huggingface.co/luffycodes/mcq-vicuna-13b-v1.5",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "luffycodes/nash-vicuna-13b-v1dot5-ep2-w-rag-w-simple",
+        "HF_ID": "luffycodes/nash-vicuna-13b-v1dot5-ep2-w-rag-w-simple",
+        "URL": "https://huggingface.co/luffycodes/nash-vicuna-13b-v1dot5-ep2-w-rag-w-simple",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "lvkaokao/llama2-7b-hf-chat-lora",
         "HF_ID": "lvkaokao/llama2-7b-hf-chat-lora",
         "URL": "https://huggingface.co/lvkaokao/llama2-7b-hf-chat-lora",
@@ -5998,6 +8372,15 @@
         "ID": "lvkaokao/llama2-7b-hf-chat-lora-v2",
         "HF_ID": "lvkaokao/llama2-7b-hf-chat-lora-v2",
         "URL": "https://huggingface.co/lvkaokao/llama2-7b-hf-chat-lora-v2",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "lvkaokao/llama2-7b-hf-chat-lora-v3",
+        "HF_ID": "lvkaokao/llama2-7b-hf-chat-lora-v3",
+        "URL": "https://huggingface.co/lvkaokao/llama2-7b-hf-chat-lora-v3",
         "SIZE": "7B",
         "LICENSE": "llama2",
         "ALIASES": [],
@@ -6018,6 +8401,24 @@
         "URL": "https://huggingface.co/lxe/Cerebras-GPT-2.7B-Alpaca-SP",
         "SIZE": "3B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "malhajar/Platypus2-70B-instruct-4bit-gptq",
+        "HF_ID": "malhajar/Platypus2-70B-instruct-4bit-gptq",
+        "URL": "https://huggingface.co/malhajar/Platypus2-70B-instruct-4bit-gptq",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "marcchew/test1",
+        "HF_ID": "marcchew/test1",
+        "URL": "https://huggingface.co/marcchew/test1",
+        "SIZE": "other",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6136,6 +8537,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "migtissera/Synthia-70B",
+        "HF_ID": "migtissera/Synthia-70B",
+        "URL": "https://huggingface.co/migtissera/Synthia-70B",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "migtissera/Synthia-70B-v1.1",
+        "HF_ID": "migtissera/Synthia-70B-v1.1",
+        "URL": "https://huggingface.co/migtissera/Synthia-70B-v1.1",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "migtissera/Synthia-70B-v1.2",
+        "HF_ID": "migtissera/Synthia-70B-v1.2",
+        "URL": "https://huggingface.co/migtissera/Synthia-70B-v1.2",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "migtissera/Synthia-7B",
         "HF_ID": "migtissera/Synthia-7B",
         "URL": "https://huggingface.co/migtissera/Synthia-7B",
@@ -6149,6 +8577,15 @@
         "HF_ID": "minlik/chinese-alpaca-33b-merged",
         "URL": "https://huggingface.co/minlik/chinese-alpaca-33b-merged",
         "SIZE": "30B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "mncai/SGPT-1.3B-insurance-epoch10",
+        "HF_ID": "mncai/SGPT-1.3B-insurance-epoch10",
+        "URL": "https://huggingface.co/mncai/SGPT-1.3B-insurance-epoch10",
+        "SIZE": "3B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -6190,6 +8627,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "mosaicml/mpt-7b",
+        "HF_ID": "mosaicml/mpt-7b",
+        "URL": "https://huggingface.co/mosaicml/mpt-7b",
+        "SIZE": "7B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "mosaicml/mpt-7b-8k-chat",
+        "HF_ID": "mosaicml/mpt-7b-8k-chat",
+        "URL": "https://huggingface.co/mosaicml/mpt-7b-8k-chat",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "mosaicml/mpt-7b-8k-instruct",
+        "HF_ID": "mosaicml/mpt-7b-8k-instruct",
+        "URL": "https://huggingface.co/mosaicml/mpt-7b-8k-instruct",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-sa-3.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "mosaicml/mpt-7b-chat",
         "HF_ID": "mosaicml/mpt-7b-chat",
         "URL": "https://huggingface.co/mosaicml/mpt-7b-chat",
@@ -6226,47 +8690,29 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "nicholasKluge/Aira-Instruct-124M",
-        "HF_ID": "nicholasKluge/Aira-Instruct-124M",
-        "URL": "https://huggingface.co/nicholasKluge/Aira-Instruct-124M",
+        "ID": "nathan0/mpt_delta_tuned_model_v2",
+        "HF_ID": "nathan0/mpt_delta_tuned_model_v2",
+        "URL": "https://huggingface.co/nathan0/mpt_delta_tuned_model_v2",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "nathan0/mpt_delta_tuned_model_v3",
+        "HF_ID": "nathan0/mpt_delta_tuned_model_v3",
+        "URL": "https://huggingface.co/nathan0/mpt_delta_tuned_model_v3",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "nicholasKluge/Aira-124M",
+        "HF_ID": "nicholasKluge/Aira-124M",
+        "URL": "https://huggingface.co/nicholasKluge/Aira-124M",
         "SIZE": "1B",
-        "LICENSE": "apache-2.0",
-        "ALIASES": [],
-        "CONTAMINATED": false
-    },
-    {
-        "ID": "nicholasKluge/Aira-Instruct-1B5",
-        "HF_ID": "nicholasKluge/Aira-Instruct-1B5",
-        "URL": "https://huggingface.co/nicholasKluge/Aira-Instruct-1B5",
-        "SIZE": "3B",
-        "LICENSE": "apache-2.0",
-        "ALIASES": [],
-        "CONTAMINATED": false
-    },
-    {
-        "ID": "nicholasKluge/Aira-Instruct-355M",
-        "HF_ID": "nicholasKluge/Aira-Instruct-355M",
-        "URL": "https://huggingface.co/nicholasKluge/Aira-Instruct-355M",
-        "SIZE": "1B",
-        "LICENSE": "apache-2.0",
-        "ALIASES": [],
-        "CONTAMINATED": false
-    },
-    {
-        "ID": "nicholasKluge/Aira-Instruct-774M",
-        "HF_ID": "nicholasKluge/Aira-Instruct-774M",
-        "URL": "https://huggingface.co/nicholasKluge/Aira-Instruct-774M",
-        "SIZE": "1B",
-        "LICENSE": "apache-2.0",
-        "ALIASES": [],
-        "CONTAMINATED": false
-    },
-    {
-        "ID": "nicholasKluge/Aira-Instruct-PT-1B7",
-        "HF_ID": "nicholasKluge/Aira-Instruct-PT-1B7",
-        "URL": "https://huggingface.co/nicholasKluge/Aira-Instruct-PT-1B7",
-        "SIZE": "3B",
-        "LICENSE": "bigscience-bloom-rail-1.0",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6285,6 +8731,15 @@
         "URL": "https://huggingface.co/nkpz/llama2-22b-daydreamer-v3",
         "SIZE": "30B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "nomic-ai/gpt4all-j",
+        "HF_ID": "nomic-ai/gpt4all-j",
+        "URL": "https://huggingface.co/nomic-ai/gpt4all-j",
+        "SIZE": "other",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6556,6 +9011,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "pe-nlp/llama-2-13b-platypus-vicuna-wizard",
+        "HF_ID": "pe-nlp/llama-2-13b-platypus-vicuna-wizard",
+        "URL": "https://huggingface.co/pe-nlp/llama-2-13b-platypus-vicuna-wizard",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "pe-nlp/llama-2-13b-vicuna-wizard",
         "HF_ID": "pe-nlp/llama-2-13b-vicuna-wizard",
         "URL": "https://huggingface.co/pe-nlp/llama-2-13b-vicuna-wizard",
@@ -6570,6 +9034,51 @@
         "URL": "https://huggingface.co/pillowtalks-ai/delta13b",
         "SIZE": "13B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "porkorbeef/Llama-2-13b",
+        "HF_ID": "porkorbeef/Llama-2-13b",
+        "URL": "https://huggingface.co/porkorbeef/Llama-2-13b",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "porkorbeef/Llama-2-13b-12_153950",
+        "HF_ID": "porkorbeef/Llama-2-13b-12_153950",
+        "URL": "https://huggingface.co/porkorbeef/Llama-2-13b-12_153950",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "porkorbeef/Llama-2-13b-public",
+        "HF_ID": "porkorbeef/Llama-2-13b-public",
+        "URL": "https://huggingface.co/porkorbeef/Llama-2-13b-public",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "porkorbeef/Llama-2-13b-sf",
+        "HF_ID": "porkorbeef/Llama-2-13b-sf",
+        "URL": "https://huggingface.co/porkorbeef/Llama-2-13b-sf",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "project-baize/baize-healthcare-lora-7B",
+        "HF_ID": "project-baize/baize-healthcare-lora-7B",
+        "URL": "https://huggingface.co/project-baize/baize-healthcare-lora-7B",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6596,7 +9105,7 @@
         "HF_ID": "psmathur/model_007",
         "URL": "https://huggingface.co/psmathur/model_007",
         "SIZE": "other",
-        "LICENSE": null,
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6605,7 +9114,16 @@
         "HF_ID": "psmathur/model_007_13b_v2",
         "URL": "https://huggingface.co/psmathur/model_007_13b_v2",
         "SIZE": "13B",
-        "LICENSE": null,
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "psmathur/model_007_v2",
+        "HF_ID": "psmathur/model_007_v2",
+        "URL": "https://huggingface.co/psmathur/model_007_v2",
+        "SIZE": "other",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6614,7 +9132,7 @@
         "HF_ID": "psmathur/model_009",
         "URL": "https://huggingface.co/psmathur/model_009",
         "SIZE": "other",
-        "LICENSE": null,
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6659,7 +9177,7 @@
         "HF_ID": "psmathur/model_51",
         "URL": "https://huggingface.co/psmathur/model_51",
         "SIZE": "other",
-        "LICENSE": null,
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6763,6 +9281,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "psyche/kollama2-7b-v2",
+        "HF_ID": "psyche/kollama2-7b-v2",
+        "URL": "https://huggingface.co/psyche/kollama2-7b-v2",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "psyche/kollama2-7b-v3",
+        "HF_ID": "psyche/kollama2-7b-v3",
+        "URL": "https://huggingface.co/psyche/kollama2-7b-v3",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "pszemraj/pythia-6.9b-HC3",
         "HF_ID": "pszemraj/pythia-6.9b-HC3",
         "URL": "https://huggingface.co/pszemraj/pythia-6.9b-HC3",
@@ -6799,6 +9335,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "quantumaikr/QuantumLM",
+        "HF_ID": "quantumaikr/QuantumLM",
+        "URL": "https://huggingface.co/quantumaikr/QuantumLM",
+        "SIZE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "quantumaikr/QuantumLM-70B-hf",
         "HF_ID": "quantumaikr/QuantumLM-70B-hf",
         "URL": "https://huggingface.co/quantumaikr/QuantumLM-70B-hf",
@@ -6813,6 +9358,15 @@
         "URL": "https://huggingface.co/quantumaikr/QuantumLM-7B",
         "SIZE": "7B",
         "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "quantumaikr/QuantumLM-llama2-70B-Korean-LoRA",
+        "HF_ID": "quantumaikr/QuantumLM-llama2-70B-Korean-LoRA",
+        "URL": "https://huggingface.co/quantumaikr/QuantumLM-llama2-70B-Korean-LoRA",
+        "SIZE": "70B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6862,6 +9416,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "quantumaikr/quantumairk-llama-2-70B-instruct",
+        "HF_ID": "quantumaikr/quantumairk-llama-2-70B-instruct",
+        "URL": "https://huggingface.co/quantumaikr/quantumairk-llama-2-70B-instruct",
+        "SIZE": "70B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "radm/Philosophy-Platypus2-13b",
+        "HF_ID": "radm/Philosophy-Platypus2-13b",
+        "URL": "https://huggingface.co/radm/Philosophy-Platypus2-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "rinna/bilingual-gpt-neox-4b",
         "HF_ID": "rinna/bilingual-gpt-neox-4b",
         "URL": "https://huggingface.co/rinna/bilingual-gpt-neox-4b",
@@ -6885,6 +9457,33 @@
         "URL": "https://huggingface.co/rishiraj/bloom-560m-guanaco",
         "SIZE": "1B",
         "LICENSE": "bigscience-bloom-rail-1.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "robowaifudev/megatron-gpt2-345m",
+        "HF_ID": "robowaifudev/megatron-gpt2-345m",
+        "URL": "https://huggingface.co/robowaifudev/megatron-gpt2-345m",
+        "SIZE": "1B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "rombodawg/LosslessMegaCoder-llama2-13b-mini",
+        "HF_ID": "rombodawg/LosslessMegaCoder-llama2-13b-mini",
+        "URL": "https://huggingface.co/rombodawg/LosslessMegaCoder-llama2-13b-mini",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "rombodawg/LosslessMegaCoder-llama2-7b-mini",
+        "HF_ID": "rombodawg/LosslessMegaCoder-llama2-7b-mini",
+        "URL": "https://huggingface.co/rombodawg/LosslessMegaCoder-llama2-7b-mini",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6966,6 +9565,15 @@
         "URL": "https://huggingface.co/shaohang/SparseOPT-1.3B",
         "SIZE": "3B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "shareAI/CodeLLaMA-chat-13b-Chinese",
+        "HF_ID": "shareAI/CodeLLaMA-chat-13b-Chinese",
+        "URL": "https://huggingface.co/shareAI/CodeLLaMA-chat-13b-Chinese",
+        "SIZE": "13B",
+        "LICENSE": "openrail",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -7118,6 +9726,33 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "synapsoft/Llama-2-7b-chat-hf-flan2022-1.2M",
+        "HF_ID": "synapsoft/Llama-2-7b-chat-hf-flan2022-1.2M",
+        "URL": "https://huggingface.co/synapsoft/Llama-2-7b-chat-hf-flan2022-1.2M",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "synapsoft/Llama-2-7b-hf-flan2022-1.2M",
+        "HF_ID": "synapsoft/Llama-2-7b-hf-flan2022-1.2M",
+        "URL": "https://huggingface.co/synapsoft/Llama-2-7b-hf-flan2022-1.2M",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "tianyil1/denas-llama2",
+        "HF_ID": "tianyil1/denas-llama2",
+        "URL": "https://huggingface.co/tianyil1/denas-llama2",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "tiiuae/falcon-40b",
         "HF_ID": "tiiuae/falcon-40b",
         "URL": "https://huggingface.co/tiiuae/falcon-40b",
@@ -7163,6 +9798,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "titan087/OpenLlama13B-Guanaco",
+        "HF_ID": "titan087/OpenLlama13B-Guanaco",
+        "URL": "https://huggingface.co/titan087/OpenLlama13B-Guanaco",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "togethercomputer/GPT-JT-6B-v0",
         "HF_ID": "togethercomputer/GPT-JT-6B-v0",
         "URL": "https://huggingface.co/togethercomputer/GPT-JT-6B-v0",
@@ -7202,6 +9846,15 @@
         "ID": "togethercomputer/LLaMA-2-7B-32K",
         "HF_ID": "togethercomputer/LLaMA-2-7B-32K",
         "URL": "https://huggingface.co/togethercomputer/LLaMA-2-7B-32K",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "togethercomputer/Llama-2-7B-32K-Instruct",
+        "HF_ID": "togethercomputer/Llama-2-7B-32K-Instruct",
+        "URL": "https://huggingface.co/togethercomputer/Llama-2-7B-32K-Instruct",
         "SIZE": "7B",
         "LICENSE": "llama2",
         "ALIASES": [],
@@ -7307,11 +9960,38 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "totally-not-an-llm/EverythingLM-13b-V2-16k",
+        "HF_ID": "totally-not-an-llm/EverythingLM-13b-V2-16k",
+        "URL": "https://huggingface.co/totally-not-an-llm/EverythingLM-13b-V2-16k",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "totally-not-an-llm/PuddleJumper-13b",
+        "HF_ID": "totally-not-an-llm/PuddleJumper-13b",
+        "URL": "https://huggingface.co/totally-not-an-llm/PuddleJumper-13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "uberkie/metharme-1.3b-finetuned",
         "HF_ID": "uberkie/metharme-1.3b-finetuned",
         "URL": "https://huggingface.co/uberkie/metharme-1.3b-finetuned",
         "SIZE": "3B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uni-tianyan/Uni-TianYan",
+        "HF_ID": "uni-tianyan/Uni-TianYan",
+        "URL": "https://huggingface.co/uni-tianyan/Uni-TianYan",
+        "SIZE": "other",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -7361,6 +10041,107 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "uukuguy/speechless-codellama-orca-13b",
+        "HF_ID": "uukuguy/speechless-codellama-orca-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-codellama-orca-13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-codellama-orca-platypus-13b-0.10e",
+        "HF_ID": "uukuguy/speechless-codellama-orca-platypus-13b-0.10e",
+        "URL": "https://huggingface.co/uukuguy/speechless-codellama-orca-platypus-13b-0.10e",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-codellama-platypus-13b",
+        "HF_ID": "uukuguy/speechless-codellama-platypus-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-codellama-platypus-13b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-hermes-coig-lite-13b",
+        "HF_ID": "uukuguy/speechless-hermes-coig-lite-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-hermes-coig-lite-13b",
+        "SIZE": "13B",
+        "LICENSE": [
+            "mit"
+        ],
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-llama2-13b",
+        "HF_ID": "uukuguy/speechless-llama2-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-llama2-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-llama2-hermes-orca-platypus-13b",
+        "HF_ID": "uukuguy/speechless-llama2-hermes-orca-platypus-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-llama2-hermes-orca-platypus-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+        "HF_ID": "uukuguy/speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-llama2-hermes-orca-platypus-wizardlm-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-llama2-luban-orca-platypus-13b",
+        "HF_ID": "uukuguy/speechless-llama2-luban-orca-platypus-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-llama2-luban-orca-platypus-13b",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-orca-platypus-coig-lite-2k-0.6e-13b",
+        "HF_ID": "uukuguy/speechless-orca-platypus-coig-lite-2k-0.6e-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-orca-platypus-coig-lite-2k-0.6e-13b",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-orca-platypus-coig-lite-4k-0.5e-13b",
+        "HF_ID": "uukuguy/speechless-orca-platypus-coig-lite-4k-0.5e-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-orca-platypus-coig-lite-4k-0.5e-13b",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "uukuguy/speechless-orca-platypus-coig-lite-4k-0.6e-13b",
+        "HF_ID": "uukuguy/speechless-orca-platypus-coig-lite-4k-0.6e-13b",
+        "URL": "https://huggingface.co/uukuguy/speechless-orca-platypus-coig-lite-4k-0.6e-13b",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "v2ray/LLaMA-2-Jannie-70B-QLoRA",
         "HF_ID": "v2ray/LLaMA-2-Jannie-70B-QLoRA",
         "URL": "https://huggingface.co/v2ray/LLaMA-2-Jannie-70B-QLoRA",
@@ -7374,7 +10155,16 @@
         "HF_ID": "v2ray/LLaMA-2-Wizard-70B-QLoRA",
         "URL": "https://huggingface.co/v2ray/LLaMA-2-Wizard-70B-QLoRA",
         "SIZE": "70B",
-        "LICENSE": "mit",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "venkycs/llama-v2-7b-32kC-Security",
+        "HF_ID": "venkycs/llama-v2-7b-32kC-Security",
+        "URL": "https://huggingface.co/venkycs/llama-v2-7b-32kC-Security",
+        "SIZE": "7B",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -7424,6 +10214,24 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "vihangd/smartplat-3b-v2",
+        "HF_ID": "vihangd/smartplat-3b-v2",
+        "URL": "https://huggingface.co/vihangd/smartplat-3b-v2",
+        "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "vihangd/smartplat-3b-v3",
+        "HF_ID": "vihangd/smartplat-3b-v3",
+        "URL": "https://huggingface.co/vihangd/smartplat-3b-v3",
+        "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "voidful/changpt-bart",
         "HF_ID": "voidful/changpt-bart",
         "URL": "https://huggingface.co/voidful/changpt-bart",
@@ -7438,6 +10246,15 @@
         "URL": "https://huggingface.co/vonjack/Qwen-LLaMAfied-HFTok-7B-Chat",
         "SIZE": "7B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "w601sxs/b1ade-1b",
+        "HF_ID": "w601sxs/b1ade-1b",
+        "URL": "https://huggingface.co/w601sxs/b1ade-1b",
+        "SIZE": "1B",
+        "LICENSE": "mit",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -7514,10 +10331,145 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "xxyyy123/10k_v1_lora_qk_rank14_v2",
+        "HF_ID": "xxyyy123/10k_v1_lora_qk_rank14_v2",
+        "URL": "https://huggingface.co/xxyyy123/10k_v1_lora_qk_rank14_v2",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/10k_v1_lora_qkvo_rank14_v3",
+        "HF_ID": "xxyyy123/10k_v1_lora_qkvo_rank14_v3",
+        "URL": "https://huggingface.co/xxyyy123/10k_v1_lora_qkvo_rank14_v3",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/10k_v1_lora_qkvo_rank28_v2",
+        "HF_ID": "xxyyy123/10k_v1_lora_qkvo_rank28_v2",
+        "URL": "https://huggingface.co/xxyyy123/10k_v1_lora_qkvo_rank28_v2",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/20k_v1_lora_qkvo_rank14_v2",
+        "HF_ID": "xxyyy123/20k_v1_lora_qkvo_rank14_v2",
+        "URL": "https://huggingface.co/xxyyy123/20k_v1_lora_qkvo_rank14_v2",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qk_rank14_v2",
+        "HF_ID": "xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qk_rank14_v2",
+        "URL": "https://huggingface.co/xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qk_rank14_v2",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qkvo_rank14_v2",
+        "HF_ID": "xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qkvo_rank14_v2",
+        "URL": "https://huggingface.co/xxyyy123/mc_data_30k_from_platpus_orca_7b_10k_v1_lora_qkvo_rank14_v2",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/test-28b",
+        "HF_ID": "xxyyy123/test-28b",
+        "URL": "https://huggingface.co/xxyyy123/test-28b",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/test_merge_p_ov1_w0.66_w0.5_n1",
+        "HF_ID": "xxyyy123/test_merge_p_ov1_w0.66_w0.5_n1",
+        "URL": "https://huggingface.co/xxyyy123/test_merge_p_ov1_w0.66_w0.5_n1",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xxyyy123/test_qkvo_adptor",
+        "HF_ID": "xxyyy123/test_qkvo_adptor",
+        "URL": "https://huggingface.co/xxyyy123/test_qkvo_adptor",
+        "SIZE": "other",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "xzuyn/Alpacino-SuperCOT-13B",
         "HF_ID": "xzuyn/Alpacino-SuperCOT-13B",
         "URL": "https://huggingface.co/xzuyn/Alpacino-SuperCOT-13B",
         "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xzuyn/LLaMa-2-LIMA-7B-QLoRA_v2",
+        "HF_ID": "xzuyn/LLaMa-2-LIMA-7B-QLoRA_v2",
+        "URL": "https://huggingface.co/xzuyn/LLaMa-2-LIMA-7B-QLoRA_v2",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xzuyn/LLaMa-2-PeanutButter_v10-7B",
+        "HF_ID": "xzuyn/LLaMa-2-PeanutButter_v10-7B",
+        "URL": "https://huggingface.co/xzuyn/LLaMa-2-PeanutButter_v10-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xzuyn/LLaMa-2-PeanutButter_v14-7B",
+        "HF_ID": "xzuyn/LLaMa-2-PeanutButter_v14-7B",
+        "URL": "https://huggingface.co/xzuyn/LLaMa-2-PeanutButter_v14-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xzuyn/LLaMa-2-PeanutButter_v4-7B",
+        "HF_ID": "xzuyn/LLaMa-2-PeanutButter_v4-7B",
+        "URL": "https://huggingface.co/xzuyn/LLaMa-2-PeanutButter_v4-7B",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xzuyn/LLaMa-2-PeanutButter_v4-7B-QLoRA",
+        "HF_ID": "xzuyn/LLaMa-2-PeanutButter_v4-7B-QLoRA",
+        "URL": "https://huggingface.co/xzuyn/LLaMa-2-PeanutButter_v4-7B-QLoRA",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "xzuyn/LLaMa-2-Tulu-Uncensored-270K-7B",
+        "HF_ID": "xzuyn/LLaMa-2-Tulu-Uncensored-270K-7B",
+        "URL": "https://huggingface.co/xzuyn/LLaMa-2-Tulu-Uncensored-270K-7B",
+        "SIZE": "7B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -7550,6 +10502,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "yeontaek/Platypus2-13B-LoRa-v2",
+        "HF_ID": "yeontaek/Platypus2-13B-LoRa-v2",
+        "URL": "https://huggingface.co/yeontaek/Platypus2-13B-LoRa-v2",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "yeontaek/Platypus2-13B-QLoRa",
         "HF_ID": "yeontaek/Platypus2-13B-QLoRa",
         "URL": "https://huggingface.co/yeontaek/Platypus2-13B-QLoRa",
@@ -7568,9 +10529,144 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-ensemble",
+        "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-ensemble",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-IA3-ensemble",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v2",
+        "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v2",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-IA3-v2",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v2.1",
+        "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v2.1",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-IA3-v2.1",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v3",
+        "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v3",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-IA3-v3",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v4",
+        "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-IA3-v4",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-IA3-v4",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "yeontaek/Platypus2xOpenOrca-13B-LoRa",
         "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-LoRa",
         "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-LoRa",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/Platypus2xOpenOrca-13B-LoRa-v2",
+        "HF_ID": "yeontaek/Platypus2xOpenOrca-13B-LoRa-v2",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrca-13B-LoRa-v2",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/Platypus2xOpenOrcaxGuanaco-13B-LoRa",
+        "HF_ID": "yeontaek/Platypus2xOpenOrcaxGuanaco-13B-LoRa",
+        "URL": "https://huggingface.co/yeontaek/Platypus2xOpenOrcaxGuanaco-13B-LoRa",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/WizardCoder-Python-13B-LoRa",
+        "HF_ID": "yeontaek/WizardCoder-Python-13B-LoRa",
+        "URL": "https://huggingface.co/yeontaek/WizardCoder-Python-13B-LoRa",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/airoboros-2.1-llama-2-13B-QLoRa",
+        "HF_ID": "yeontaek/airoboros-2.1-llama-2-13B-QLoRa",
+        "URL": "https://huggingface.co/yeontaek/airoboros-2.1-llama-2-13B-QLoRa",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13B-ensemble-v1",
+        "HF_ID": "yeontaek/llama-2-13B-ensemble-v1",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13B-ensemble-v1",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13B-ensemble-v3",
+        "HF_ID": "yeontaek/llama-2-13B-ensemble-v3",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13B-ensemble-v3",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13B-ensemble-v4",
+        "HF_ID": "yeontaek/llama-2-13B-ensemble-v4",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13B-ensemble-v4",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13B-ensemble-v5",
+        "HF_ID": "yeontaek/llama-2-13B-ensemble-v5",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13B-ensemble-v5",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13B-ensemble-v6",
+        "HF_ID": "yeontaek/llama-2-13B-ensemble-v6",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13B-ensemble-v6",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13b-Beluga-QLoRA",
+        "HF_ID": "yeontaek/llama-2-13b-Beluga-QLoRA",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13b-Beluga-QLoRA",
         "SIZE": "13B",
         "LICENSE": null,
         "ALIASES": [],
@@ -7581,6 +10677,78 @@
         "HF_ID": "yeontaek/llama-2-13b-Guanaco-QLoRA",
         "URL": "https://huggingface.co/yeontaek/llama-2-13b-Guanaco-QLoRA",
         "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-13b-QLoRA",
+        "HF_ID": "yeontaek/llama-2-13b-QLoRA",
+        "URL": "https://huggingface.co/yeontaek/llama-2-13b-QLoRA",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v2",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v2",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v2",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v3",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v3",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v3",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v4",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v4",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v4",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v5",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v5",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v5",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v6",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v6",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v6",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v7",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v7",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v7",
+        "SIZE": "70B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yeontaek/llama-2-70B-ensemble-v8",
+        "HF_ID": "yeontaek/llama-2-70B-ensemble-v8",
+        "URL": "https://huggingface.co/yeontaek/llama-2-70B-ensemble-v8",
+        "SIZE": "70B",
         "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
@@ -7609,6 +10777,15 @@
         "URL": "https://huggingface.co/yhyhy3/open_llama_7b_v2_med_instruct",
         "SIZE": "7B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yihan6324/instructmining-platypus-15k",
+        "HF_ID": "yihan6324/instructmining-platypus-15k",
+        "URL": "https://huggingface.co/yihan6324/instructmining-platypus-15k",
+        "SIZE": "other",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -7653,7 +10830,16 @@
         "HF_ID": "yihan6324/llama2-7b-instructmining-orca-40k",
         "URL": "https://huggingface.co/yihan6324/llama2-7b-instructmining-orca-40k",
         "SIZE": "7B",
-        "LICENSE": "apache-2.0",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "yihan6324/llama2-7b-instructmining-orca-90k",
+        "HF_ID": "yihan6324/llama2-7b-instructmining-orca-90k",
+        "URL": "https://huggingface.co/yihan6324/llama2-7b-instructmining-orca-90k",
+        "SIZE": "7B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -7663,6 +10849,60 @@
         "URL": "https://huggingface.co/yulan-team/YuLan-Chat-2-13b-fp16",
         "SIZE": "13B",
         "LICENSE": "mit",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "zarakiquemparte/zarablend-l2-7b",
+        "HF_ID": "zarakiquemparte/zarablend-l2-7b",
+        "URL": "https://huggingface.co/zarakiquemparte/zarablend-l2-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "zarakiquemparte/zarablendex-vq-l2-7b",
+        "HF_ID": "zarakiquemparte/zarablendex-vq-l2-7b",
+        "URL": "https://huggingface.co/zarakiquemparte/zarablendex-vq-l2-7b",
+        "SIZE": "7B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "zarakiquemparte/zarafusionex-1.1-l2-7b",
+        "HF_ID": "zarakiquemparte/zarafusionex-1.1-l2-7b",
+        "URL": "https://huggingface.co/zarakiquemparte/zarafusionex-1.1-l2-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "zarakiquemparte/zarafusionix-l2-7b",
+        "HF_ID": "zarakiquemparte/zarafusionix-l2-7b",
+        "URL": "https://huggingface.co/zarakiquemparte/zarafusionix-l2-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "zarakiquemparte/zaraxe-l2-7b",
+        "HF_ID": "zarakiquemparte/zaraxe-l2-7b",
+        "URL": "https://huggingface.co/zarakiquemparte/zaraxe-l2-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "zarakiquemparte/zaraxls-l2-7b",
+        "HF_ID": "zarakiquemparte/zaraxls-l2-7b",
+        "URL": "https://huggingface.co/zarakiquemparte/zaraxls-l2-7b",
+        "SIZE": "7B",
+        "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
     },

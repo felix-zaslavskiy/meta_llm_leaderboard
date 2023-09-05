@@ -31,9 +31,9 @@ def categorize_size(params, name):
             return 'other'
         elif params <= 1.0:
             return "1B"
-        elif params <= 3.0:
+        elif params <= 3.5:
             return "3B"
-        elif params <= 6.0:
+        elif params <= 6.5:
             return "6B"
         elif params <= 7.5:
             return "7B"

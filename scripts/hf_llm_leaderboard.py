@@ -51,6 +51,8 @@ def categorize_size(params, name):
             return "65B"
         elif params <= 75.0:
             return "70B"
+        elif params <= 190.0:
+            return "180B"
         else:
             raise Exception("Param too big")
     else:

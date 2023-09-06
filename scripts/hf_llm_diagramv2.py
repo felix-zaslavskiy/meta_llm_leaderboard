@@ -143,7 +143,7 @@ best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
 
 # Define the order for the size_type
 # can put back 20B , 40B or 16B in the future, remove 6B
-order = [ '70B', '65B', '30B', '13B', '7B', '6B', '3B', '1B']
+order = [ '180B', '70B', '65B', '30B', '13B', '7B', '6B', '3B', '1B']
 
 
 # Convert the size_type to a category type with the defined order

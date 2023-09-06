@@ -4892,7 +4892,7 @@
         "ID": "acrastt/Bean-3B",
         "HF_ID": "acrastt/Bean-3B",
         "URL": "https://huggingface.co/acrastt/Bean-3B",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4910,7 +4910,7 @@
         "ID": "acrastt/Marx-3B",
         "HF_ID": "acrastt/Marx-3B",
         "URL": "https://huggingface.co/acrastt/Marx-3B",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4919,7 +4919,7 @@
         "ID": "acrastt/Marx-3B-V2",
         "HF_ID": "acrastt/Marx-3B-V2",
         "URL": "https://huggingface.co/acrastt/Marx-3B-V2",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4928,7 +4928,7 @@
         "ID": "acrastt/OmegLLaMA-3B",
         "HF_ID": "acrastt/OmegLLaMA-3B",
         "URL": "https://huggingface.co/acrastt/OmegLLaMA-3B",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4937,7 +4937,7 @@
         "ID": "acrastt/Puma-3B",
         "HF_ID": "acrastt/Puma-3B",
         "URL": "https://huggingface.co/acrastt/Puma-3B",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -6046,7 +6046,7 @@
         "ID": "danielhanchen/open_llama_3b_600bt_preview",
         "HF_ID": "danielhanchen/open_llama_3b_600bt_preview",
         "URL": "https://huggingface.co/danielhanchen/open_llama_3b_600bt_preview",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -7488,7 +7488,7 @@
         "ID": "heegyu/WizardVicuna-Uncensored-3B-0719",
         "HF_ID": "heegyu/WizardVicuna-Uncensored-3B-0719",
         "URL": "https://huggingface.co/heegyu/WizardVicuna-Uncensored-3B-0719",
-        "SIZE": "6B",
+        "SIZE": "3B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false

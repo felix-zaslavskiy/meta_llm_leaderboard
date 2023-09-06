@@ -5,7 +5,6 @@ The focus is primarily on Open LLMs.
 Todo:
 - Add to automated change tracker for AgentBench - checkout repo see if a new file is present?
 - Create visualizations for top models for other benchmarks by model size. https://huggingface.co/spaces/bigcode/multilingual-code-evals
-- Make ARC + MMLU average for HuggingFace
 
 Ideas:
 - Create across everything chart. Show model that has been evaluated on all leaderboards.

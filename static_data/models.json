@@ -351,18 +351,18 @@
         "CONTAMINATED": false
     },
     {
-        "ID": "CHIH-HUNG/llama-2-13b-Fintune_1_17w-gate_up_down_proj",
-        "HF_ID": "CHIH-HUNG/llama-2-13b-Fintune_1_17w-gate_up_down_proj",
-        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-Fintune_1_17w-gate_up_down_proj",
+        "ID": "CHIH-HUNG/llama-2-13b-OpenOrca_5w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-OpenOrca_5w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-OpenOrca_5w",
         "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
     {
-        "ID": "CHIH-HUNG/llama-2-13b-OpenOrca_5w",
-        "HF_ID": "CHIH-HUNG/llama-2-13b-OpenOrca_5w",
-        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-OpenOrca_5w",
+        "ID": "CHIH-HUNG/llama-2-13b-Open_Platypus_and_ccp_2.6w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-Open_Platypus_and_ccp_2.6w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-Open_Platypus_and_ccp_2.6w",
         "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": [],
@@ -662,6 +662,15 @@
         "URL": "https://huggingface.co/Danielbrdz/Barcenas-7b",
         "SIZE": "7B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Danielbrdz/CodeBarcenas-7b",
+        "HF_ID": "Danielbrdz/CodeBarcenas-7b",
+        "URL": "https://huggingface.co/Danielbrdz/CodeBarcenas-7b",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -1066,6 +1075,15 @@
         "HF_ID": "Fredithefish/Guanaco-3B-Uncensored-v2",
         "URL": "https://huggingface.co/Fredithefish/Guanaco-3B-Uncensored-v2",
         "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Fredithefish/Guanaco-7B-Uncensored",
+        "HF_ID": "Fredithefish/Guanaco-7B-Uncensored",
+        "URL": "https://huggingface.co/Fredithefish/Guanaco-7B-Uncensored",
+        "SIZE": "7B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -3049,6 +3067,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TFLai/EnsembleV5-Nova-13B",
+        "HF_ID": "TFLai/EnsembleV5-Nova-13B",
+        "URL": "https://huggingface.co/TFLai/EnsembleV5-Nova-13B",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TFLai/Limarp-Platypus2-13B-QLoRA-0.80-epoch",
         "HF_ID": "TFLai/Limarp-Platypus2-13B-QLoRA-0.80-epoch",
         "URL": "https://huggingface.co/TFLai/Limarp-Platypus2-13B-QLoRA-0.80-epoch",
@@ -3094,6 +3121,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "TFLai/Nova-13B",
+        "HF_ID": "TFLai/Nova-13B",
+        "URL": "https://huggingface.co/TFLai/Nova-13B",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "TFLai/OpenOrca-Platypus2-13B-QLoRA-0.80-epoch",
         "HF_ID": "TFLai/OpenOrca-Platypus2-13B-QLoRA-0.80-epoch",
         "URL": "https://huggingface.co/TFLai/OpenOrca-Platypus2-13B-QLoRA-0.80-epoch",
@@ -3135,6 +3171,15 @@
         "URL": "https://huggingface.co/TFLai/PuddleJumper-Platypus2-13B-QLoRA-0.80-epoch",
         "SIZE": "13B",
         "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TFLai/SpeechlessV1-Nova-13B",
+        "HF_ID": "TFLai/SpeechlessV1-Nova-13B",
+        "URL": "https://huggingface.co/TFLai/SpeechlessV1-Nova-13B",
+        "SIZE": "13B",
+        "LICENSE": null,
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4162,7 +4207,7 @@
         "HF_ID": "TheBloke/orca_mini_v3_7B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/orca_mini_v3_7B-GPTQ",
         "SIZE": "7B",
-        "LICENSE": "other",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -6099,6 +6144,15 @@
         "CONTAMINATED": false
     },
     {
+        "ID": "dhmeltzer/Llama-2-13b-hf-eli5-wiki-1024_r_64_alpha_16",
+        "HF_ID": "dhmeltzer/Llama-2-13b-hf-eli5-wiki-1024_r_64_alpha_16",
+        "URL": "https://huggingface.co/dhmeltzer/Llama-2-13b-hf-eli5-wiki-1024_r_64_alpha_16",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
         "ID": "dhmeltzer/Llama-2-7b-hf-wiki30k_r_64_alpha_16",
         "HF_ID": "dhmeltzer/Llama-2-7b-hf-wiki30k_r_64_alpha_16",
         "URL": "https://huggingface.co/dhmeltzer/Llama-2-7b-hf-wiki30k_r_64_alpha_16",
@@ -7697,6 +7751,15 @@
         "URL": "https://huggingface.co/jondurbin/airoboros-13b-gpt4-1.4-fp16",
         "SIZE": "13B",
         "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "jondurbin/airoboros-33b-2.1",
+        "HF_ID": "jondurbin/airoboros-33b-2.1",
+        "URL": "https://huggingface.co/jondurbin/airoboros-33b-2.1",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },

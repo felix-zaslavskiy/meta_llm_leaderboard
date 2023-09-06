@@ -4,6 +4,7 @@ The focus is primarily on Open LLMs.
 
 Todo:
 - Add to automated change tracker for AgentBench - checkout repo see if a new file is present?
+  - Few updates or none.. until see at least one update hold off.
 - Create visualizations for top models for other benchmarks by model size. https://huggingface.co/spaces/bigcode/multilingual-code-evals
 
 Ideas:

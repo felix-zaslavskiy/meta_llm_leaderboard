@@ -4443,7 +4443,7 @@
         "SIZE": "7B",
         "LICENSE": "apache-2.0",
         "ALIASES": [],
-        "CONTAMINATED": false
+        "CONTAMINATED": true
     },
     {
         "ID": "Tincando/fiction_story_generator",

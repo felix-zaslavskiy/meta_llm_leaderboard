@@ -2,7 +2,7 @@ import subprocess
 import json
 import datetime
 
-def run_script(script_name, save_to_file=False, global_config=None, rescored_version=False, license=None):
+def run_script(script_name, save_to_file=False, global_config=None, rescored_version=None, license=None):
     """
     Run a python script and optionally pass an argument to it.
 
@@ -20,7 +20,7 @@ def run_script(script_name, save_to_file=False, global_config=None, rescored_ver
         command.append("--save_to_file")
 
     if rescored_version:
-        command.append("--rescore")
+        command.append("--" + rescored_version)
 
     if license:
         command.append("--license=" + license)
@@ -42,6 +42,7 @@ scripts_to_run = ["hf_llm_diagramv2.py",
                   "hf_llm_diagramv2.py",
                   "hf_llm_diagramv2.py",
                   "hf_llm_diagramv2.py",
+                  "hf_llm_diagramv2.py",
                   "hg_average_to_agentbench_compare.py",
                   "hg_average_to_alpacaeval_compare.py",
                   "hg_average_to_mosaic_compare.py",
@@ -50,11 +51,14 @@ scripts_to_run = ["hf_llm_diagramv2.py",
                   ]
 
 rescore = 1
-license_other_permissive = 2
-license_permissive = 3
+rescore2 = 2
+license_other_permissive = 3
+license_permissive = 4
 for i, script in enumerate(scripts_to_run):
     if i == rescore:
-        run_script(script, True, global_config, True)
+        run_script(script, True, global_config, rescored_version='rescore')
+    elif i == rescore2:
+        run_script(script, True, global_config, rescored_version='rescore2')
     elif i == license_other_permissive:
         run_script(script, True, global_config, license='other_permissive')
     elif i == license_permissive:

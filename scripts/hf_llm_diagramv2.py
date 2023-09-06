@@ -14,6 +14,7 @@ import json
 parser = argparse.ArgumentParser(description="Your script description")
 parser.add_argument('--license', type=str, choices=['all', 'other_permissive', 'permissive'], default='all', help="Which models to show")
 parser.add_argument('--rescore', action='store_true', help="Set rescore to True")
+parser.add_argument('--rescore2', action='store_true', help="Set rescore2 to True")
 parser.add_argument('--save_to_file', action='store_true')
 parser.add_argument("--global_config", type=str, help="JSON string containing global configurations.")
 
@@ -28,6 +29,7 @@ else:
 
 # Set the variable based on the presence of --rescore
 rescore = args.rescore
+rescore2 = args.rescore2
 save_to_file = args.save_to_file
 show_license = args.license
 
@@ -51,6 +53,8 @@ df = filtered_df
 if rescore == True:
     df['Average'] = df['ARC'] * 0.3 + df['HellaSwag'] * 0.3 + df['MMLU'] * 0.3 + df['TruthfulQA'] * 0.1
 
+if rescore2 == True:
+    df['Average'] = df['ARC'] * 0.5 + df['MMLU'] * 0.5
 
 def strip_brackets(license_str):
     # Check if the input is a string
@@ -189,6 +193,9 @@ plt.legend(handles=legend_elements, loc='lower right', title='Licenses')
 if rescore:
     title_text = 'Hugging Face LLM Leaderboard **RESCORED**'
     xlabel_text= 'Average Rating (TruthfulQA = 10%, from original 25% )'
+elif rescore2:
+    title_text = 'Hugging Face LLM Leaderboard **RESCORED** (2)'
+    xlabel_text= 'Average Rating (ARC = 50%, MMLU = 50%)'
 else:
     title_text = 'Hugging Face LLM Leaderboard by Model Size'
     xlabel_text= 'Average Rating'
@@ -270,6 +277,8 @@ plt.tight_layout()
 postfix = None
 if rescore:
     postfix = 'rescore'
+elif rescore2:
+    postfix = 'rescore2'
 elif show_license != 'all':
     postfix = show_license
 

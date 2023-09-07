@@ -25,16 +25,19 @@ merged_data = pd.read_csv(file_path)
 
 # Filter out rows with empty or NaN values in the "MT-bench" column
 filtered_data = merged_data.dropna(subset=['MT-bench'])
+filtered_data = filtered_data[filtered_data['MT-bench'] != "-"]
+filtered_data['MT-bench'] = pd.to_numeric(filtered_data['MT-bench'], errors='coerce')
 
 # Scale the "MT-bench" values by 3 for better visualization
-filtered_data['MT-bench'] *= 3
+filtered_data['MT-bench'] *= 4
+
 
 # Set plot size with increased width for better visibility of model names
 plt.figure(figsize=(15, 8))
 
 # Create a horizontal bar plot for "HF LLM Average" and "MT-bench" values per "Model"
 sns.barplot(x="Average", y="Model", data=filtered_data, color="skyblue", label="HF LLM Average")
-sns.barplot(x="MT-bench", y="Model", data=filtered_data, color="red", label="MT-bench (scaled by 3)")
+sns.barplot(x="MT-bench", y="Model", data=filtered_data, color="red", label="MT-bench (scaled by 4)")
 
 # Truncate y-axis labels if they are too long
 y_labels = [label.get_text() if len(label.get_text()) <= 36 else '...' + label.get_text()[-36:] for label in plt.gca().get_yticklabels()]

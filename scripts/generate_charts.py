@@ -47,7 +47,8 @@ scripts_to_run = ["hf_llm_diagramv2.py",
                   "hg_average_to_alpacaeval_compare.py",
                   "hg_average_to_mosaic_compare.py",
                   "hg_average_to_mt_bench_compare.py",
-                  "hg_average_to_opencompass_compare.py"
+                  "hg_average_to_opencompass_compare.py",
+                  "bigcode_leaderboard.py"
                   ]
 
 rescore = 1

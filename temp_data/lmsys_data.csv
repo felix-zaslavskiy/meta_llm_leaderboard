@@ -1,4 +1,7 @@
 Model_ID,MT-bench (score)
+codellama/CodeLlama-34b-Instruct-hf,-
+WizardLM/WizardLM-70B-V1.0,7.71
+WizardLM/WizardLM-13B-V1.2,7.20
 lmsys/vicuna-33b-v1.3,7.12
 WizardLM/WizardLM-30B-V1.0,7.01
 lmsys/vicuna-13b-v1.5-16k,6.92
@@ -24,7 +27,7 @@ mosaicml/mpt-30b-instruct,5.22
 tiiuae/falcon-40b-instruct,5.17
 THUDM/chatglm2-6b,4.96
 h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-13b,4.63
-THUDM/chatglm-6b,4.5
+THUDM/chatglm-6b,4.50
 OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5,4.32
 BlinkDL/rwkv-4-raven,3.98
 databricks/dolly-v2-12b,3.28

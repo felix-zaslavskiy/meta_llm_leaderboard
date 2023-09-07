@@ -7489,7 +7489,7 @@
         "HF_ID": "hf-extreme-scale/falcon-180B-chat",
         "URL": "https://huggingface.co/hf-extreme-scale/falcon-180B-chat",
         "SIZE": "180B",
-        "LICENSE": null,
+        "LICENSE": "falcon-180b-license",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -9910,7 +9910,7 @@
         "HF_ID": "tiiuae/falcon-180B",
         "URL": "https://huggingface.co/tiiuae/falcon-180B",
         "SIZE": "180B",
-        "LICENSE": null,
+        "LICENSE": "falcon-180b-license",
         "ALIASES": [],
         "CONTAMINATED": false
     },

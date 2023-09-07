@@ -95,6 +95,8 @@ def commercial_permissible(license):
             return "non-commercial"
         case 'creativeml-openrail-m':
             return "commercial"
+        case 'falcon-180b-license':
+            return 'commercial'
         case 'gpl':
             return "commercial"
         case 'gpl-3.0':
@@ -143,7 +145,7 @@ best_models = df.loc[df.groupby("size_type")["Average"].idxmax()]
 
 # Define the order for the size_type
 # can put back 20B , 40B or 16B in the future, remove 6B
-order = [ '180B', '70B', '65B', '30B', '13B', '7B', '6B', '3B', '1B']
+order = [ '180B', '70B', '30B', '13B', '7B', '6B', '3B', '1B']
 
 
 # Convert the size_type to a category type with the defined order

@@ -12,7 +12,8 @@ scripts_to_run = ["extract_alpacaeval.py",
                   "extract_lmsys.py",
                   "hf_llm_leaderboard.py",
                   "scrape_mosaicml_leaderboard.py",
-                  "scrape_opencompass_leaderboard.py"]
+                  "scrape_opencompass_leaderboard.py",
+                  "extract_bigcode.py"]
 
 for script in scripts_to_run:
     run_script(script)

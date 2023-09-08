@@ -21,7 +21,6 @@ def extract_model_id(link, name):
     else:
         return link.replace("https://huggingface.co/", "")
 
-print(df)
 df['Model_ID'] = df.apply(lambda row: extract_model_id(row['Links'], row['Models']), axis=1)
 
 #def categorize_size(params, name):

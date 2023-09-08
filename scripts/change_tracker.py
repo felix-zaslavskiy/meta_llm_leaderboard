@@ -1,5 +1,6 @@
 import os
 import pickle
+import sys
 
 def load_previous_data(filepath):
     print("Change tracking: " + filepath)
@@ -29,5 +30,5 @@ def track_changes(current_data, previous_data):
 
     if not had_change:
         print("No changes")
-
-    return had_change
+    else:
+        sys.exit(2)

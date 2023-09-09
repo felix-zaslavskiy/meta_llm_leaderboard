@@ -10152,7 +10152,7 @@
         "ID": "uni-tianyan/Uni-TianYan",
         "HF_ID": "uni-tianyan/Uni-TianYan",
         "URL": "https://huggingface.co/uni-tianyan/Uni-TianYan",
-        "SIZE": "other",
+        "SIZE": "70B",
         "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false

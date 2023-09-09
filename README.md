@@ -5,6 +5,7 @@ The focus is primarily on Open LLMs.
 Todo:
 - Add to automated change tracker for AgentBench - checkout repo see if a new file is present?
   - Few updates or none.. until see at least one update hold off.
+- For benchmarks that are maintained Opencompass, MT-bench, create a by size chart
 - Create visualizations for top models for other benchmarks by model size. https://huggingface.co/spaces/bigcode/multilingual-code-evals
   - Few models match the HF leaderboard. Better to make standalont by size chart for code bench.
 

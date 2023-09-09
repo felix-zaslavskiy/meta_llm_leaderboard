@@ -3,6 +3,8 @@ import json
 import pandas as pd
 
 from change_tracker import load_previous_data, save_current_data, track_changes
+from scripts.models import Model
+from scripts.utils import get_model_size_cat
 
 # URL of the JSON data
 url = 'https://opencompass.oss-cn-shanghai.aliyuncs.com/assets/large-language-model-data.json'
@@ -45,6 +47,17 @@ if data:
 
 # Convert the processed data to a DataFrame
 df = pd.DataFrame(processed_data, columns=['model_name', 'Model_ID', 'average', 'size'])
+
+def categorize_size(params, name):
+    model = Model.find_by_hf_id("../static_data/models.json", name)
+    if model is None:
+        return get_model_size_cat(float(params))
+    else:
+        return model.SIZE
+
+df = df[df['size'] != 'N/A']
+df['size'] = df['size'].str.rstrip('B')
+df['size_type']= df.apply(lambda row: categorize_size(row['size'], row['Model_ID']), axis=1)
 
 # Save the DataFrame to a CSV file
 df.to_csv('../temp_data/opencompass_data.csv', index=False)

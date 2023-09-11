@@ -26,6 +26,9 @@ save_to_file = args.save_to_file
 df = pd.read_csv('../temp_data/lmsys_data.csv')
 
 # Find the best model within each size_type
+df = df[df['MT-bench (score)'] != "-"]
+df['MT-bench (score)'] = pd.to_numeric(df['MT-bench (score)'], errors='coerce')
+
 best_models = df.loc[df.groupby("size_type")["MT-bench (score)"].idxmax()]
 
 order = [ '30B', '16B', '13B', '7B', '6B', '3B', '1B']
@@ -45,10 +48,10 @@ plt.figure(figsize=(8, 8))
 
 sns.set_theme(style='whitegrid')
 sns.set(rc={"axes.facecolor": "lightgrey", "grid.color": "white"})
-barplot = sns.barplot(x="Win Rate", y="size_type", data=best_models,  color="royalblue", edgecolor='black')
+barplot = sns.barplot(x="MT-bench (score)", y="size_type", data=best_models,  color="royalblue", edgecolor='black')
 
 title_text = 'Big Code Models Leaderboard'
-xlabel_text= 'MT-bench (score'
+xlabel_text= 'MT-bench (score)'
 
 plt.ylabel('Model Size Categories', fontsize=12)
 plt.xlabel(xlabel_text, fontsize=12)
@@ -64,7 +67,7 @@ for i, row in best_models.iterrows():
     y_position = order.index(size_type)  # Get the index from the order list
     font_size = 16
 
-    if len(model_name) > row['MT-bench (score'] * 1.5:
+    if len(model_name) > row['MT-bench (score)'] * 1.5:
         slash_index = model_name.find('/')
         name_length = len(model_name) - slash_index + 1
         model_name = '...' + model_name[slash_index:]

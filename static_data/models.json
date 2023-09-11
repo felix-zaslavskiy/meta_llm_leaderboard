@@ -1751,7 +1751,7 @@
         "URL": "https://huggingface.co/LLMs/WizardLM-13B-V1.0",
         "SIZE": "13B",
         "LICENSE": "gpl-3.0",
-        "ALIASES": [ "wizardlm-13b_v1.0" ],
+        "ALIASES": [ "wizardlm-13b_v1.0" , "WizardLM/WizardLM-13B-V1.0"],
         "CONTAMINATED": false
     },
     {
@@ -1760,7 +1760,7 @@
         "URL": "https://huggingface.co/LLMs/WizardLM-30B-V1.0",
         "SIZE": "30B",
         "LICENSE": "gpl-3.0",
-        "ALIASES": [],
+        "ALIASES": ["WizardLM/WizardLM-30B-V1.0"],
         "CONTAMINATED": false
     },
     {
@@ -7580,7 +7580,7 @@
         "URL": "https://huggingface.co/huggyllama/llama-30b",
         "SIZE": "30B",
         "LICENSE": "other",
-        "ALIASES": [],
+        "ALIASES": ["llama-30b"],
         "CONTAMINATED": false
     },
     {
@@ -11039,6 +11039,87 @@
         "SIZE": "1B",
         "LICENSE": "other",
         "ALIASES": ["DeciCoder-1B"],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "OpenAssistant/oasst-sft-6-llama-30b-xor",
+        "HF_ID": "OpenAssistant/oasst-sft-6-llama-30b-xor",
+        "URL": "",
+        "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "Salesforce/xgen-7b-8k-inst",
+        "HF_ID": "Salesforce/xgen-7b-8k-inst",
+        "URL": "",
+        "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "nomic-ai/gpt4all-13b-snoozy",
+        "HF_ID": "nomic-ai/gpt4all-13b-snoozy",
+        "URL": "",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-13b",
+        "HF_ID": "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-13b",
+        "URL": "",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "THUDM/chatglm-6b",
+        "HF_ID": "THUDM/chatglm-6b",
+        "URL": "",
+        "SIZE": "6B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-13b",
+        "HF_ID": "h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-13b",
+        "URL": "",
+        "SIZE": "13B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "BlinkDL/rwkv-4-raven",
+        "HF_ID": "BlinkDL/rwkv-4-raven",
+        "URL": "",
+        "SIZE": "1B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "lmsys/fastchat-t5-3b-v1.0",
+        "HF_ID": "lmsys/fastchat-t5-3b-v1.0",
+        "URL": "",
+        "SIZE": "3B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "allenai/tulu-30b",
+        "HF_ID": "allenai/tulu-30b",
+        "URL": "",
+        "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
         "CONTAMINATED": false
     }
 ]

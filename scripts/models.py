@@ -74,6 +74,16 @@ class Model:
                 return model
         return None
 
+    @classmethod
+    def find_by_id_or_alias(cls, filename, alias):
+        """Load models from a file and find a model by its alias."""
+        model = Model.find_by_hf_id(filename, alias)
+        if model == None:
+            model = Model.find_by_alias(filename, alias)
+            return model
+        else:
+            return model
+
     @staticmethod
     def save_to_file(models, filename):
         """Save a list of Model instances to a JSON file without duplicates."""

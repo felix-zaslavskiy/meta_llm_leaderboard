@@ -5,6 +5,8 @@ import git
 import os
 import re
 from datetime import datetime
+from scripts.models import Model
+from scripts.utils import get_model_size_cat
 
 # Clone the repository
 repo_url = "https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard"
@@ -42,6 +44,7 @@ previous_data = load_previous_data('../temp_data/lmsys_leaderboard_state.dat')
 save_current_data(model_status_dict, '../temp_data/lmsys_leaderboard_state.dat')
 had_changes = track_changes(model_status_dict, previous_data)
 
+had_changes=True
 if had_changes:
     # Load the data
     url = f"https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard/raw/main/leaderboard_table_{most_recent_date_str}.csv"
@@ -58,8 +61,19 @@ if had_changes:
 
     df['Model_ID'] = df['Link'].apply(extract_model_id)
 
+
+    def categorize_size( name):
+        model = Model.find_by_id_or_alias("../static_data/models.json", name)
+        if model is None:
+            return 'other'
+        else:
+            return model.SIZE
+
+    df['size_type']= df.apply(lambda row: categorize_size(row['Model_ID']), axis=1)
+
+
     # Extract the "MT-bench (score)" column and Model_ID
-    result = df[['Model_ID', 'MT-bench (score)']]
+    result = df[['Model_ID', 'MT-bench (score)', 'size_type']]
 
     # Print or use the result as needed
     print(result)

@@ -31,7 +31,7 @@ df['MT-bench (score)'] = pd.to_numeric(df['MT-bench (score)'], errors='coerce')
 
 best_models = df.loc[df.groupby("size_type")["MT-bench (score)"].idxmax()]
 
-order = [ '30B', '16B', '13B', '7B', '6B', '3B', '1B']
+order = [ '70B', '30B', '13B', '7B', '6B', '3B', '1B']
 
 
 # Convert the size_type to a category type with the defined order
@@ -58,7 +58,7 @@ plt.xlabel(xlabel_text, fontsize=12)
 # Before plotting, set the default font
 plt.text(0.5, 0.95, title_text, fontweight='bold', fontsize=14, transform=plt.gcf().transFigure, horizontalalignment='center', verticalalignment='top')
 
-label_offset = 1
+label_offset = 0.5
 model_id_list = []
 for i, row in best_models.iterrows():
     model_name = row['Model_ID']
@@ -67,7 +67,7 @@ for i, row in best_models.iterrows():
     y_position = order.index(size_type)  # Get the index from the order list
     font_size = 16
 
-    if len(model_name) > row['MT-bench (score)'] * 1.5:
+    if len(model_name) > row['MT-bench (score)'] * 5:
         slash_index = model_name.find('/')
         name_length = len(model_name) - slash_index + 1
         model_name = '...' + model_name[slash_index:]

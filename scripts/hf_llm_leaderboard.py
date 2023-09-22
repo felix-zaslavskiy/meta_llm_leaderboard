@@ -8,13 +8,14 @@ from scripts.utils import get_model_size_cat
 # Param to initialize the model list json in temp data folder. Only needed on demand.
 create_init_list = False
 
-client = Client("https://huggingfaceh4-open-llm-leaderboard.hf.space/")
+client = Client("https://felixz-open-llm-leaderboard.hf.space/")
 
-job = client.submit(fn_index=6)
-json_data = job.result(timeout=120)
+#job = client.submit("", api_name='/predict')
+#json_data = job.result(timeout=120)
 
+json_data = client.predict("", api_name='/predict')
 
-with open(json_data[0], 'r') as file:
+with open(json_data, 'r') as file:
     file_data = file.read()
 
 # Load the JSON data

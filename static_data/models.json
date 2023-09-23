@@ -4097,7 +4097,7 @@
         "HF_ID": "TheBloke/OpenOrca-Platypus2-13B-GPTQ",
         "URL": "https://huggingface.co/TheBloke/OpenOrca-Platypus2-13B-GPTQ",
         "SIZE": "13B",
-        "LICENSE": "llama2",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4250,6 +4250,15 @@
         "HF_ID": "TheBloke/Wizard-Vicuna-7B-Uncensored-HF",
         "URL": "https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-HF",
         "SIZE": "7B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/WizardLM-13B-V1-1-SuperHOT-8K-GPTQ",
+        "HF_ID": "TheBloke/WizardLM-13B-V1-1-SuperHOT-8K-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/WizardLM-13B-V1-1-SuperHOT-8K-GPTQ",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4430,7 +4439,7 @@
         "HF_ID": "TheBloke/gpt4-x-vicuna-13B-HF",
         "URL": "https://huggingface.co/TheBloke/gpt4-x-vicuna-13B-HF",
         "SIZE": "13B",
-        "LICENSE": null,
+        "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4522,6 +4531,15 @@
         "HF_ID": "TheBloke/llama-30b-supercot-SuperHOT-8K-fp16",
         "URL": "https://huggingface.co/TheBloke/llama-30b-supercot-SuperHOT-8K-fp16",
         "SIZE": "30B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TheBloke/manticore-13b-chat-pyg-GPTQ",
+        "HF_ID": "TheBloke/manticore-13b-chat-pyg-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/manticore-13b-chat-pyg-GPTQ",
+        "SIZE": "13B",
         "LICENSE": "other",
         "ALIASES": [],
         "CONTAMINATED": false
@@ -4774,7 +4792,25 @@
         "HF_ID": "TheTravellingEngineer/llama2-7b-hf-guanaco",
         "URL": "https://huggingface.co/TheTravellingEngineer/llama2-7b-hf-guanaco",
         "SIZE": "7B",
-        "LICENSE": null,
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TigerResearch/tigerbot-70b-base",
+        "HF_ID": "TigerResearch/tigerbot-70b-base",
+        "URL": "https://huggingface.co/TigerResearch/tigerbot-70b-base",
+        "SIZE": "70B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TigerResearch/tigerbot-70b-chat",
+        "HF_ID": "TigerResearch/tigerbot-70b-chat",
+        "URL": "https://huggingface.co/TigerResearch/tigerbot-70b-chat",
+        "SIZE": "70B",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false
     },
@@ -4801,7 +4837,16 @@
         "HF_ID": "Tincando/fiction_story_generator",
         "URL": "https://huggingface.co/Tincando/fiction_story_generator",
         "SIZE": "other",
-        "LICENSE": null,
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false
+    },
+    {
+        "ID": "TinyPixel/elm-test",
+        "HF_ID": "TinyPixel/elm-test",
+        "URL": "https://huggingface.co/TinyPixel/elm-test",
+        "SIZE": "7B",
+        "LICENSE": "?",
         "ALIASES": [],
         "CONTAMINATED": false
     },

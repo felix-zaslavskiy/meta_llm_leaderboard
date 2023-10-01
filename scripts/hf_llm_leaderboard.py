@@ -10,7 +10,7 @@ create_init_list = False
 
 client = Client("https://felixz-open-llm-leaderboard.hf.space/")
 
-json_data = client.predict("", api_name='/predict')
+json_data = client.predict("", "", api_name='/predict')
 
 with open(json_data, 'r') as file:
     file_data = file.read()

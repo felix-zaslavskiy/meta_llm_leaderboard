@@ -1,7 +1,7 @@
 import json
 
 class Model:
-    def __init__(self, ID, HF_ID, URL, SIZE, LICENSE, ALIASES=[], CONTAMINATED=False):
+    def __init__(self, ID, HF_ID, URL, SIZE, LICENSE, ALIASES=[], CONTAMINATED=False, HAS_NO_MODEL_CARD=False):
         self.ID = ID
         self.HF_ID = HF_ID
         self.URL = URL
@@ -9,6 +9,7 @@ class Model:
         self.LICENSE = LICENSE
         self.ALIASES = ALIASES
         self.CONTAMINATED = CONTAMINATED
+        self.HAS_NO_MODEL_CARD = HAS_NO_MODEL_CARD
 
     @classmethod
     def from_dict(cls, model_dict):
@@ -20,7 +21,8 @@ class Model:
             SIZE=model_dict['SIZE'],
             LICENSE=model_dict['LICENSE'],
             ALIASES=model_dict.get('ALIASES', []),
-            CONTAMINATED=model_dict.get('CONTAMINATED', False)
+            CONTAMINATED=model_dict.get('CONTAMINATED', False),
+            HAS_NO_MODEL_CARD=model_dict.get('HAS_NO_MODEL_CARD', False)
         )
 
     def to_dict(self):
@@ -32,7 +34,8 @@ class Model:
             'SIZE': self.SIZE,
             'LICENSE': self.LICENSE,
             'ALIASES': self.ALIASES,
-            'CONTAMINATED': self.CONTAMINATED
+            'CONTAMINATED': self.CONTAMINATED,
+            'HAS_NO_MODEL_CARD': self.HAS_NO_MODEL_CARD
         }
 
     _cache = {}  # This dictionary will act as a cache for data loaded from files

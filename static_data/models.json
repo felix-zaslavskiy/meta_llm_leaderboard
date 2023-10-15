@@ -1,5 +1,15 @@
 [
     {
+        "ID": "42MARU/sitebunny-13b",
+        "HF_ID": "42MARU/sitebunny-13b",
+        "URL": "https://huggingface.co/42MARU/sitebunny-13b",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "64bits/LexPodLM-13B",
         "HF_ID": "64bits/LexPodLM-13B",
         "URL": "https://huggingface.co/64bits/LexPodLM-13B",
@@ -8,6 +18,46 @@
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "AA051610/T1B",
+        "HF_ID": "AA051610/T1B",
+        "URL": "https://huggingface.co/AA051610/T1B",
+        "SIZE": "1B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": true
+    },
+    {
+        "ID": "AA051610/T1C",
+        "HF_ID": "AA051610/T1C",
+        "URL": "https://huggingface.co/AA051610/T1C",
+        "SIZE": "other",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": true
+    },
+    {
+        "ID": "AA051610/T2A",
+        "HF_ID": "AA051610/T2A",
+        "URL": "https://huggingface.co/AA051610/T2A",
+        "SIZE": "other",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": true
+    },
+    {
+        "ID": "AA051610/VA",
+        "HF_ID": "AA051610/VA",
+        "URL": "https://huggingface.co/AA051610/VA",
+        "SIZE": "other",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": true
     },
     {
         "ID": "AGI-inc/lora_moe_7b",
@@ -35,6 +85,16 @@
         "URL": "https://huggingface.co/AIDC-ai-business/Marcoroni-70B-v1",
         "SIZE": "70B",
         "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Abe13/juniper-certificate-Llama-2-7b-chat-hf",
+        "HF_ID": "Abe13/juniper-certificate-Llama-2-7b-chat-hf",
+        "URL": "https://huggingface.co/Abe13/juniper-certificate-Llama-2-7b-chat-hf",
+        "SIZE": "7B",
+        "LICENSE": "?",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -115,6 +175,16 @@
         "URL": "https://huggingface.co/AlekseyKorshuk/pygmalion-6b-vicuna-chatml",
         "SIZE": "6B",
         "LICENSE": "creativeml-openrail-m",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "AlekseyKorshuk/vic15-exp-syn-fight-cp3838",
+        "HF_ID": "AlekseyKorshuk/vic15-exp-syn-fight-cp3838",
+        "URL": "https://huggingface.co/AlekseyKorshuk/vic15-exp-syn-fight-cp3838",
+        "SIZE": "7B",
+        "LICENSE": "?",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -280,11 +350,31 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "AtAndDev/ShortKing-3b-v0.3",
+        "HF_ID": "AtAndDev/ShortKing-3b-v0.3",
+        "URL": "https://huggingface.co/AtAndDev/ShortKing-3b-v0.3",
+        "SIZE": "3B",
+        "LICENSE": "cc-by-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "AtAndDev/ShortKingv0.1",
+        "HF_ID": "AtAndDev/ShortKingv0.1",
+        "URL": "https://huggingface.co/AtAndDev/ShortKingv0.1",
+        "SIZE": "1B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "AtomEchoAI/AtomGPT_56k",
         "HF_ID": "AtomEchoAI/AtomGPT_56k",
         "URL": "https://huggingface.co/AtomEchoAI/AtomGPT_56k",
         "SIZE": "other",
-        "LICENSE": "other",
+        "LICENSE": "cc-by-nc-4.0",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -340,11 +430,31 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
-        "ID": "BlinkDL/rwkv-4-raven",
-        "HF_ID": "BlinkDL/rwkv-4-raven",
-        "URL": "",
-        "SIZE": "1B",
-        "LICENSE": "other",
+        "ID": "BELLE-2/BELLE-Llama2-13B-chat-0.4M",
+        "HF_ID": "BELLE-2/BELLE-Llama2-13B-chat-0.4M",
+        "URL": "https://huggingface.co/BELLE-2/BELLE-Llama2-13B-chat-0.4M",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "BramVanroy/Llama-2-13b-chat-dutch",
+        "HF_ID": "BramVanroy/Llama-2-13b-chat-dutch",
+        "URL": "https://huggingface.co/BramVanroy/Llama-2-13b-chat-dutch",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "BramVanroy/llama2-13b-ft-mc4_nl_cleaned_tiny",
+        "HF_ID": "BramVanroy/llama2-13b-ft-mc4_nl_cleaned_tiny",
+        "URL": "https://huggingface.co/BramVanroy/llama2-13b-ft-mc4_nl_cleaned_tiny",
+        "SIZE": "13B",
+        "LICENSE": "apache-2.0",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -465,6 +575,306 @@
         "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE2_TEST_2.2w",
         "SIZE": "13B",
         "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r16-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r4-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE3_3.3w-r8-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down-test1",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down-test1",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-gate_up_down-test1",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r16-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r4-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_3.8w-r8-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_addto15k_4.5w-r16-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_addto15k_4.5w-r16-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_addto15k_4.5w-r16-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_compare15k_4.5w-r16-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE4_compare15k_4.5w-r16-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE4_compare15k_4.5w-r16-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r16-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r4-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o_gate_up_down",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o_gate_up_down",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-FINETUNE5_4w-r8-q_k_v_o_gate_up_down",
+        "SIZE": "13B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CHIH-HUNG/llama-2-13b-Open-Platypus_2.5w",
+        "HF_ID": "CHIH-HUNG/llama-2-13b-Open-Platypus_2.5w",
+        "URL": "https://huggingface.co/CHIH-HUNG/llama-2-13b-Open-Platypus_2.5w",
+        "SIZE": "13B",
+        "LICENSE": "?",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -710,6 +1120,56 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "Charlie911/vicuna-7b-v1.5-lora-mixed-datasets",
+        "HF_ID": "Charlie911/vicuna-7b-v1.5-lora-mixed-datasets",
+        "URL": "https://huggingface.co/Charlie911/vicuna-7b-v1.5-lora-mixed-datasets",
+        "SIZE": "7B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Charlie911/vicuna-7b-v1.5-lora-mixed-datasets-time-unit",
+        "HF_ID": "Charlie911/vicuna-7b-v1.5-lora-mixed-datasets-time-unit",
+        "URL": "https://huggingface.co/Charlie911/vicuna-7b-v1.5-lora-mixed-datasets-time-unit",
+        "SIZE": "7B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Charlie911/vicuna-7b-v1.5-lora-timedial",
+        "HF_ID": "Charlie911/vicuna-7b-v1.5-lora-timedial",
+        "URL": "https://huggingface.co/Charlie911/vicuna-7b-v1.5-lora-timedial",
+        "SIZE": "7B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Charlie911/vicuna-7b-v1.5-lora-timedial-unit-080082",
+        "HF_ID": "Charlie911/vicuna-7b-v1.5-lora-timedial-unit-080082",
+        "URL": "https://huggingface.co/Charlie911/vicuna-7b-v1.5-lora-timedial-unit-080082",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Charlie911/vicuna-7b-v1.5-lora-timedial-unit-080091",
+        "HF_ID": "Charlie911/vicuna-7b-v1.5-lora-timedial-unit-080091",
+        "URL": "https://huggingface.co/Charlie911/vicuna-7b-v1.5-lora-timedial-unit-080091",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "CobraMamba/mamba-gpt-3b",
         "HF_ID": "CobraMamba/mamba-gpt-3b",
         "URL": "https://huggingface.co/CobraMamba/mamba-gpt-3b",
@@ -745,6 +1205,26 @@
         "URL": "https://huggingface.co/CobraMamba/mamba-gpt-3b-v4",
         "SIZE": "3B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "CobraMamba/mamba-gpt-7b",
+        "HF_ID": "CobraMamba/mamba-gpt-7b",
+        "URL": "https://huggingface.co/CobraMamba/mamba-gpt-7b",
+        "SIZE": "7B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Community-LM/llava-v1.5-13b-hf",
+        "HF_ID": "Community-LM/llava-v1.5-13b-hf",
+        "URL": "https://huggingface.co/Community-LM/llava-v1.5-13b-hf",
+        "SIZE": "13B",
+        "LICENSE": "?",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -850,6 +1330,16 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "Dampish/StellarX-4B-V0",
+        "HF_ID": "Dampish/StellarX-4B-V0",
+        "URL": "https://huggingface.co/Dampish/StellarX-4B-V0",
+        "SIZE": "3B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "Dampish/StellarX-4B-V0.2",
         "HF_ID": "Dampish/StellarX-4B-V0.2",
         "URL": "https://huggingface.co/Dampish/StellarX-4B-V0.2",
@@ -930,6 +1420,26 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "Delcos/Mistral-Pygmalion-7b",
+        "HF_ID": "Delcos/Mistral-Pygmalion-7b",
+        "URL": "https://huggingface.co/Delcos/Mistral-Pygmalion-7b",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-nd-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Delcos/NATE-7b",
+        "HF_ID": "Delcos/NATE-7b",
+        "URL": "https://huggingface.co/Delcos/NATE-7b",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "DeciCoder-1B",
         "HF_ID": "DeciCoder-1B",
         "URL": "",
@@ -992,6 +1502,16 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "DevaMalla/llama_7b_qlora_pds-eval",
+        "HF_ID": "DevaMalla/llama_7b_qlora_pds-eval",
+        "URL": "https://huggingface.co/DevaMalla/llama_7b_qlora_pds-eval",
+        "SIZE": "7B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "Devio/test-1400",
         "HF_ID": "Devio/test-1400",
         "URL": "https://huggingface.co/Devio/test-1400",
@@ -1022,6 +1542,16 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "Devio/test-9k-fn",
+        "HF_ID": "Devio/test-9k-fn",
+        "URL": "https://huggingface.co/Devio/test-9k-fn",
+        "SIZE": "other",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "Devio/test100",
         "HF_ID": "Devio/test100",
         "URL": "https://huggingface.co/Devio/test100",
@@ -1047,6 +1577,46 @@
         "URL": "https://huggingface.co/Doctor-Shotgun/CalliopeDS-L2-13B",
         "SIZE": "13B",
         "LICENSE": "agpl-3.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Doctor-Shotgun/CalliopeDS-v2-L2-13B",
+        "HF_ID": "Doctor-Shotgun/CalliopeDS-v2-L2-13B",
+        "URL": "https://huggingface.co/Doctor-Shotgun/CalliopeDS-v2-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Doctor-Shotgun/mythospice-70b",
+        "HF_ID": "Doctor-Shotgun/mythospice-70b",
+        "URL": "https://huggingface.co/Doctor-Shotgun/mythospice-70b",
+        "SIZE": "70B",
+        "LICENSE": "?",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Doctor-Shotgun/mythospice-limarp-70b",
+        "HF_ID": "Doctor-Shotgun/mythospice-limarp-70b",
+        "URL": "https://huggingface.co/Doctor-Shotgun/mythospice-limarp-70b",
+        "SIZE": "70B",
+        "LICENSE": "agpl-3.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "DopeorNope/LaOT",
+        "HF_ID": "DopeorNope/LaOT",
+        "URL": "https://huggingface.co/DopeorNope/LaOT",
+        "SIZE": "other",
+        "LICENSE": "?",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false

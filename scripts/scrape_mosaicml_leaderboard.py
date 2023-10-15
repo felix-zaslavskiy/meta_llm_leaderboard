@@ -7,6 +7,7 @@ from change_tracker import load_previous_data, save_current_data, track_changes
 # As of Oct 1st she sheet is 403
 
 # URL of the webpage
+# [Our Gauntlet Scores table is under maintenance, and will return soon!]
 # top level url https://www.mosaicml.com/llm-evaluation
 url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSAwA8-DdEgGHlbX1XkP7KoYWQD2HzKDGsID33MypM17FsjVw5YmT4ceUK-ryfH4jL9jBW8u1DTGWuS/pubhtml?gid=648039812&single=true&widget=false&headers=false&chrome=false'
 # Send a GET request to the webpage

@@ -6,6 +6,8 @@ Todo:
 - Add to automated change tracker for AgentBench - checkout repo see if a new file is present?
   - Few updates or none.. until see at least one update hold off.
 - Track which models are pre-trained. Make HF graph for pretrained models.
+- Update rescoring with new weights for Open LLM HF. 
+- Open compass diagram 13B messed up. 
 
 Ideas:
 - Create across everything chart. Show model that has been evaluated on all leaderboards.

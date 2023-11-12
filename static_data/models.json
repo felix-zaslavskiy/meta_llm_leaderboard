@@ -5053,6 +5053,16 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "TheBloke/Guanaco-3B-Uncensored-v2-GPTQ",
+        "HF_ID": "TheBloke/Guanaco-3B-Uncensored-v2-GPTQ",
+        "URL": "https://huggingface.co/TheBloke/Guanaco-3B-Uncensored-v2-GPTQ",
+        "SIZE": "3B",
+        "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "TheBloke/Kimiko-13B-fp16",
         "HF_ID": "TheBloke/Kimiko-13B-fp16",
         "URL": "https://huggingface.co/TheBloke/Kimiko-13B-fp16",

@@ -37,14 +37,14 @@ show_license = args.license
 df = pd.read_csv('../temp_data/hf_llm_data.csv')
 
 # Define a function to check if a model is contaminated
-def is_contaminated(model_id):
+def is_contaminated_or_no_info(model_id):
     model = Model.find_by_hf_id("../static_data/models.json", model_id)
-    if model and model.CONTAMINATED:
+    if model and ( model.CONTAMINATED or model.HAS_NO_MODEL_CARD ):
         return True
     return False
 
 # Create a mask indicating whether each row is contaminated
-contaminated_mask = df['Model'].apply(is_contaminated)
+contaminated_mask = df['Model'].apply(is_contaminated_or_no_info)
 
 # Use the mask to filter out contaminated rows
 filtered_df = df[~contaminated_mask]

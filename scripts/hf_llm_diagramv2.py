@@ -51,10 +51,10 @@ filtered_df = df[~contaminated_mask]
 df = filtered_df
 
 if rescore == True:
-    df['Average'] = df['ARC'] * 0.3 + df['HellaSwag'] * 0.3 + df['MMLU'] * 0.3 + df['TruthfulQA'] * 0.1
+    df['Average'] = df['ARC'] * 0.19 + df['HellaSwag'] * 0.19 + df['MMLU'] * 0.19 + df['Winogrande']* 0.19  + df['GSM8K']* 0.19  + df['DROP']* 0.19 + df['TruthfulQA'] * 0.05
 
 if rescore2 == True:
-    df['Average'] = df['ARC'] * 0.5 + df['MMLU'] * 0.5
+    df['Average'] = df['ARC'] * 0.2 + df['MMLU'] * 0.2 + df['Winogrande'] * 0.2 + df['GSM8K']* 0.2  + df['DROP']* 0.2
 
 def strip_brackets(license_str):
     # Check if the input is a string
@@ -194,10 +194,10 @@ plt.legend(handles=legend_elements, loc='lower right', title='Licenses')
 
 if rescore:
     title_text = 'Hugging Face LLM Leaderboard **RESCORED**'
-    xlabel_text= 'Average Rating (TruthfulQA = 10%, from original 25% )'
+    xlabel_text= 'Average Rating (TruthfulQA = 5%, from original 16% )'
 elif rescore2:
     title_text = 'Hugging Face LLM Leaderboard **RESCORED** (2)'
-    xlabel_text= 'Average Rating (ARC = 50%, MMLU = 50%)'
+    xlabel_text= 'Average Rating (ARC 20%, MMLU 20%, Winograd 20%, GSM8K 20%, DROP 20%)'
 else:
     title_text = 'Hugging Face LLM Leaderboard by Model Size'
     xlabel_text= 'Average Rating'

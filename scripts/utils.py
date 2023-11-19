@@ -9,7 +9,7 @@ def get_model_size_cat(params):
         return "6B"
     elif params <= 8.0:
         return "7B"
-    elif params <= 13.5:
+    elif params <= 14.5:
         return "13B"
     elif params <= 17.0:
         return "16B"

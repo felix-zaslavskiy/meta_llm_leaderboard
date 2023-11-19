@@ -1,14 +1,17 @@
 model_name,Model_ID,average,size,size_type
 TigerBot-70B-Chat-V2,TigerResearch/tigerbot-70b-chat-v2,65.1,70,70B
 ChatGLM3-6B-Base,THUDM/chatglm3-6b-base,64.5,6,6B
-Qwen-14B,Qwen/Qwen-14B,61.2,14,16B
-Qwen-14B-Chat,Qwen/Qwen-14B-Chat,58.7,14,16B
+Qwen-14B,Qwen/Qwen-14B,61.2,14,13B
+Yi-34B,01-ai/Yi-34B,63.3,34,30B
+Qwen-14B-Chat,Qwen/Qwen-14B-Chat,58.7,14,13B
 XuanYuan-70B,Duxiaoman-DI/XuanYuan-70B,60.1,70,70B
 InternLM-20B,internlm/internlm-20b,59.7,20,20B
 WeMix-LLaMA2-70B,Alpha-VLLM/WeMix-LLaMA2-V2-70B,63.4,70,70B
 TigerBot-70B-Chat-V1,TigerResearch/tigerbot-70b-chat-v1,58.9,70,70B
 StableBeluga2,stabilityai/StableBeluga2,60.9,70,70B
+Aquila2-34B,BAAI/Aquila2-34B,56.3,34,30B
 LLaMA-2-70B,meta-llama/Llama-2-70b-hf,59.8,70,70B
+Dolphin-2.2.1-Mistral-7B,ehartford/dolphin-2.1-mistral-7b,58.0,7,7B
 Qwen-7B-Chat,Qwen/Qwen-7B-Chat,54.6,7,7B
 LLaMA-2-70B-Chat,meta-llama/Llama-2-70b-chat-hf,58.6,70,70B
 TigerBot-70B-Base-V1,TigerResearch/tigerbot-70b-base,56.4,70,70B
@@ -19,10 +22,12 @@ Qwen-7B,Qwen/Qwen-7B,53.1,7,7B
 Baichuan2-13B-Chat,baichuan-inc/Baichuan2-13B-Chat,53.1,13,13B
 WeMix-LLaMa2-13B,-,59.7,13,13B
 InternLM-20B-Chat,internlm/internlm-chat-20b,53.7,20,20B
+Skywork-13B-base,Skywork/Skywork-13B-base,52.3,13,13B
 ChatGLM3-6B,THUDM/chatglm3-6b,52.6,6,6B
 Yulan-Chat-2-13B,yulan-team/YuLan-Chat-2-13b-fp16,55.3,13,13B
 Baichuan-13B-Chat,baichuan-inc/Baichuan-13B-Chat,50.5,13,13B
 TigerBot-13B-Chat-V1,TigerResearch/tigerbot-13b-chat-v1,51.7,13,13B
+Yi-6B,01-ai/Yi-6B,51.5,6,6B
 LLaMA-65B,huggyllama/llama-65b,55.1,65,65B
 Mistral-7B-v0.1,mistralai/Mistral-7B-v0.1,53.6,7,7B
 Vicuna-13B-v1.5,lmsys/vicuna-13b-v1.5,52.1,13,13B
@@ -33,6 +38,7 @@ Baichuan2-7B-Chat,baichuan-inc/Baichuan2-7B-Chat,47.3,7,7B
 WeMix-LLaMa2-7B,Alpha-VLLM/WeMix-LLaMA2-7B,53.7,7,7B
 TigerBot-13B-Chat-V2,TigerResearch/tigerbot-13b-chat-v2,47.7,13,13B
 TigerBot-13B-Base-V2,TigerResearch/tigerbot-13b-base-v2,48.8,13,13B
+LingoWhale-8B,deeplang-ai/LingoWhale-8B,49.7,8,7B
 Vicuna-13B-v1.5-16k,lmsys/vicuna-13b-v1.5-16k,51.6,13,13B
 Baichuan2-13B-Base,baichuan-inc/Baichuan2-13B-Base,48.4,13,13B
 LLaMA-30B,huggyllama/llama-30b,52.2,30,30B
@@ -45,6 +51,7 @@ LLaMA-2-13B-Chat,meta-llama/Llama-2-13b-chat-hf,50.3,13,13B
 LLaMA-2-13B,meta-llama/Llama-2-13b-hf,49.0,13,13B
 Vicuna-13B-v1.3,lmsys/vicuna-13b-v1.3,50.0,13,13B
 BELLE-LLaMA-2,BELLE-2/BELLE-Llama2-13B-chat-0.4M,48.6,13,13B
+Aquila2-7B,BAAI/Aquila2-7B,44.4,7,7B
 XVERSE-13B-Chat,xverse/XVERSE-13B-Chat,43.9,13,13B
 XVERSE-7B,xverse/XVERSE-7B,43.1,7,7B
 LLaMA-2-13B-Chinese-Chat,shareAI/llama2-13b-Chinese-chat,48.7,13,13B
@@ -65,9 +72,11 @@ TigerBot-7B-SFT-V1,TigerResearch/tigerbot-7b-sft,39.0,7,7B
 GoGPT,GoGPT,42.2,7,7B
 LLaMA-2-7B,meta-llama/Llama-2-7b-hf,42.9,7,7B
 Baichuan-7B,baichuan-inc/Baichuan-7B,38.1,7,7B
+AquilaChat2-7B,BAAI/AquilaChat2-7B,38.9,7,7B
 Alpaca-7B,tatsu-lab/alpaca-7b-wdiff,41.8,7,7B
 WizardLM-7B,TheBloke/wizardLM-7B-HF,42.2,7,7B
 LLaMA-7B,huggyllama/llama-7b,40.9,7,7B
+AquilaChat2-34B,BAAI/AquilaChat2-34B,43.3,34,30B
 OpenLLaMA-7Bv2,openlm-research/open_llama_7b_v2,38.6,7,7B
 TigerBot-7B-SFT-V2,TigerResearch/tigerbot-7b-sft-v2,35.6,7,7B
 MPT-7B,mosaicml/mpt-7b,37.4,7,7B
@@ -79,4 +88,6 @@ Chinese-LLaMA-2-7B,ziqingyang/chinese-llama-2-7b,31.6,7,7B
 MOSS-Moon,fnlp/moss-moon-003-base,33.0,16,16B
 TigerBot-7B-Base-V2,TigerResearch/tigerbot-7b-base-v2,31.1,7,7B
 TigerBot-7B-Base-V1,TigerResearch/tigerbot-7b-base-v1,29.2,7,7B
+AquilaChat2-7B-16K,BAAI/AquilaChat2-7B-16K,32.7,7,7B
 Xwin-LM-7B-V0.1,Xwin-LM/Xwin-LM-7B-V0.1,29.7,7,7B
+AquilaChat2-34B-16K,BAAI/AquilaChat2-34B-16K,29.4,34,30B

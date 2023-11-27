@@ -30,6 +30,7 @@ meta-llama/Llama-2-13b-chat-hf,6.65,13B
 mistralai/Mistral-7B-Instruct-v0.1,6.84,other
 meta-llama/Llama-2-7b-chat-hf,6.27,7B
 lmsys/vicuna-7b-v1.5,6.17,7B
+THUDM/chatglm3-6b,-,other
 nomic-ai/gpt4all-13b-snoozy,5.41,13B
 mosaicml/mpt-7b-chat,5.42,7B
 THUDM/chatglm2-6b,4.96,6B

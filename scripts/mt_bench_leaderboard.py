@@ -50,7 +50,7 @@ sns.set_theme(style='whitegrid')
 sns.set(rc={"axes.facecolor": "lightgrey", "grid.color": "white"})
 barplot = sns.barplot(x="MT-bench (score)", y="size_type", data=best_models,  color="royalblue", edgecolor='black')
 
-title_text = 'Big Code Models Leaderboard'
+title_text = 'MT Bench Leaderboard'
 xlabel_text= 'MT-bench (score)'
 
 plt.ylabel('Model Size Categories', fontsize=12)

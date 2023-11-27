@@ -3,6 +3,7 @@ TigerBot-70B-Chat-V2,TigerResearch/tigerbot-70b-chat-v2,65.1,70,70B
 ChatGLM3-6B-Base,THUDM/chatglm3-6b-base,64.5,6,6B
 Qwen-14B,Qwen/Qwen-14B,61.2,14,13B
 Yi-34B,01-ai/Yi-34B,63.3,34,30B
+OrionStar-Yi-34B-Chat,OrionStarAI/OrionStar-Yi-34B-Chat,57.6,34,30B
 Qwen-14B-Chat,Qwen/Qwen-14B-Chat,58.7,14,13B
 XuanYuan-70B,Duxiaoman-DI/XuanYuan-70B,60.1,70,70B
 InternLM-20B,internlm/internlm-20b,59.7,20,20B
@@ -13,7 +14,9 @@ Aquila2-34B,BAAI/Aquila2-34B,56.3,34,30B
 LLaMA-2-70B,meta-llama/Llama-2-70b-hf,59.8,70,70B
 Dolphin-2.2.1-Mistral-7B,ehartford/dolphin-2.1-mistral-7b,58.0,7,7B
 Qwen-7B-Chat,Qwen/Qwen-7B-Chat,54.6,7,7B
+Nanbeige-16B-Base-32K,Nanbeige/Nanbeige-16B-Base-32K,55.0,16,16B
 LLaMA-2-70B-Chat,meta-llama/Llama-2-70b-chat-hf,58.6,70,70B
+Nanbeige-16B-Base,Nanbeige/Nanbeige-16B-Base,54.7,16,16B
 TigerBot-70B-Base-V1,TigerResearch/tigerbot-70b-base,56.4,70,70B
 InternLM-Chat-7B-8K,internlm/internlm-chat-7b-8k,53.7,7,7B
 TigerBot-13B-Chat-V3,TigerResearch/tigerbot-13b-chat-v3,53.3,13,13B

@@ -73,9 +73,10 @@ if had_changes:
 
 
     # Extract the "MT-bench (score)" column and Model_ID
-    result = df[['Model_ID', 'MT-bench (score)', 'size_type']]
+    result = df[['Model_ID', 'MT-bench (score)','Arena Elo rating', 'size_type']]
 
     # Print or use the result as needed
+    print("New date file: " + most_recent_date_str)
     print(result)
 
     # Save to CSV file

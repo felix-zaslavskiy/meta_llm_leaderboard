@@ -12,6 +12,7 @@ import json
 parser = argparse.ArgumentParser(description="Your script description")
 parser.add_argument('--save_to_file', action='store_true')
 parser.add_argument("--global_config", type=str, help="JSON string containing global configurations.")
+parser.add_argument('--arena', action='store_true', help="Render Arena otherwise MT Bench")
 
 # Parse the arguments
 args = parser.parse_args()
@@ -22,14 +23,27 @@ if args.global_config:
 else:
     global_config = {}
 save_to_file = args.save_to_file
+
 # Load the data
 df = pd.read_csv('../temp_data/lmsys_data.csv')
 
-# Find the best model within each size_type
-df = df[df['MT-bench (score)'] != "-"]
-df['MT-bench (score)'] = pd.to_numeric(df['MT-bench (score)'], errors='coerce')
+render_arena = args.arena
 
-best_models = df.loc[df.groupby("size_type")["MT-bench (score)"].idxmax()]
+if render_arena:
+    score_header_name = 'Arena Elo rating'
+    title_text = 'LMSYS Arena Elo'
+    file_postfix= 'arena'
+else:
+    score_header_name = 'MT-bench (score)'
+    title_text = 'MT Bench Leaderboard'
+    file_postfix = 'mt_bench'
+
+
+# Find the best model within each size_type
+df = df[df[score_header_name] != "-"]
+df[score_header_name] = pd.to_numeric(df[score_header_name], errors='coerce')
+
+best_models = df.loc[df.groupby("size_type")[score_header_name].idxmax()]
 
 order = [ '70B', '30B', '13B', '7B', '6B', '3B', '1B']
 
@@ -48,10 +62,10 @@ plt.figure(figsize=(8, 8))
 
 sns.set_theme(style='whitegrid')
 sns.set(rc={"axes.facecolor": "lightgrey", "grid.color": "white"})
-barplot = sns.barplot(x="MT-bench (score)", y="size_type", data=best_models,  color="royalblue", edgecolor='black')
+barplot = sns.barplot(x=score_header_name, y="size_type", data=best_models,  color="royalblue", edgecolor='black')
 
-title_text = 'MT Bench Leaderboard'
-xlabel_text= 'MT-bench (score)'
+
+xlabel_text= score_header_name
 
 plt.ylabel('Model Size Categories', fontsize=12)
 plt.xlabel(xlabel_text, fontsize=12)
@@ -67,7 +81,7 @@ for i, row in best_models.iterrows():
     y_position = order.index(size_type)  # Get the index from the order list
     font_size = 16
 
-    if len(model_name) > row['MT-bench (score)'] * 5:
+    if len(model_name) > row[score_header_name] * 5:
         slash_index = model_name.find('/')
         name_length = len(model_name) - slash_index + 1
         model_name = '...' + model_name[slash_index:]
@@ -98,4 +112,4 @@ plt.text(0.05, 0.95, global_config.get("CHART_TAG"), fontsize=12, transform=plt.
 plt.tight_layout()
 
 
-display_or_save(plt, save_to_file, global_config.get("DATETIME"), None, model_id_list=model_id_list)
+display_or_save(plt, save_to_file, global_config.get("DATETIME"), file_postfix, model_id_list=model_id_list)

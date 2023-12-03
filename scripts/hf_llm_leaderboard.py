@@ -79,7 +79,7 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
                                 HF_ID=d['Model'],
                                 URL="https://huggingface.co/" + d['Model'],
                                 SIZE=d['size_type'],
-                                LICENSE=d['Hub License']))
+                                LICENSE=None if d['Hub License'] == '?' else d['Hub License']))
 
 if create_init_list:
     Model.save_to_file(init_list, '../temp_data/hf_model_list.json')

@@ -51,10 +51,10 @@ filtered_df = df[~contaminated_mask]
 df = filtered_df
 
 if rescore == True:
-    df['Average'] = df['ARC'] * 0.19 + df['HellaSwag'] * 0.19 + df['MMLU'] * 0.19 + df['Winogrande']* 0.19  + df['GSM8K']* 0.19  + df['DROP']* 0.19 + df['TruthfulQA'] * 0.05
+    df['Average'] = df['ARC'] * 0.19 + df['HellaSwag'] * 0.19 + df['MMLU'] * 0.19 + df['Winogrande']* 0.19  + df['GSM8K']* 0.19  + df['TruthfulQA'] * 0.05
 
 if rescore2 == True:
-    df['Average'] = df['ARC'] * 0.2 + df['MMLU'] * 0.2 + df['Winogrande'] * 0.2 + df['GSM8K']* 0.2  + df['DROP']* 0.2
+    df['Average'] = df['ARC'] * 0.25 + df['MMLU'] * 0.25 + df['Winogrande'] * 0.25 + df['GSM8K']* 0.25
 
 def strip_brackets(license_str):
     # Check if the input is a string

@@ -1,4 +1,5 @@
 model_name,Model_ID,average,size,size_type
+Qwen-72B,Qwen/Qwen-72B,65.4,72,70B
 TigerBot-70B-Chat-V2,TigerResearch/tigerbot-70b-chat-v2,65.1,70,70B
 ChatGLM3-6B-Base,THUDM/chatglm3-6b-base,64.5,6,6B
 Qwen-14B,Qwen/Qwen-14B,61.2,14,13B
@@ -6,6 +7,7 @@ Yi-34B,01-ai/Yi-34B,63.3,34,30B
 OrionStar-Yi-34B-Chat,OrionStarAI/OrionStar-Yi-34B-Chat,58.3,34,30B
 Qwen-14B-Chat,Qwen/Qwen-14B-Chat,58.7,14,13B
 XuanYuan-70B,Duxiaoman-DI/XuanYuan-70B,60.1,70,70B
+DeepSeek-67B-Base,deepseek-ai/deepseek-llm-67b-base,61.3,67,70B
 InternLM-20B,internlm/internlm-20b,59.7,20,20B
 WeMix-LLaMA2-70B,Alpha-VLLM/WeMix-LLaMA2-V2-70B,63.4,70,70B
 TigerBot-70B-Chat-V1,TigerResearch/tigerbot-70b-chat-v1,58.9,70,70B
@@ -63,7 +65,9 @@ TigerBot-7B-Chat-V3,TigerResearch/tigerbot-7b-chat-v3,43.7,7,7B
 Vicuna-7B-v1.5-16k,lmsys/vicuna-7b-v1.5-16k,46.9,7,7B
 Mistral-7B-Instruct-v0.1,mistralai/Mistral-7B-v0.1,46.9,7,7B
 XVERSE-7B-Chat,xverse/XVERSE-7B-Chat,42.9,7,7B
+DeepSeek-7B-Base,deepseek-ai/deepseek-llm-7b-base,44.4,7,7B
 Chinese-Alpaca-2-7B,ziqingyang/chinese-alpaca-2-7b,44.2,7,7B
+Qwen-1.8B,Qwen/Qwen-1_8B,41.9,1.8,1B
 LLaMA-2-7B-Chat,meta-llama/Llama-2-7b-chat-hf,46.5,7,7B
 Baichuan2-7B-Base,baichuan-inc/Baichuan2-7B-Base,42.0,7,7B
 TigerBot-7B-Base-V3,TigerResearch/tigerbot-7b-base-v3,42.3,7,7B

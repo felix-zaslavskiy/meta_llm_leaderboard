@@ -34,7 +34,7 @@ THUDM/chatglm3-6b,-,970,6B
 nomic-ai/gpt4all-13b-snoozy,5.41,925,13B
 mosaicml/mpt-7b-chat,5.42,918,7B
 THUDM/chatglm2-6b,4.96,918,6B
-BlinkDL/rwkv-4-raven,3.98,915,other
+BlinkDL/rwkv-4-raven,3.98,915,1B
 OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5,4.32,884,13B
 THUDM/chatglm-6b,4.50,871,6B
 lmsys/fastchat-t5-3b-v1.0,3.04,863,3B

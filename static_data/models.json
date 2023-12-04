@@ -10,6 +10,16 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "BlinkDL/rwkv-4-raven",
+        "HF_ID": "BlinkDL/rwkv-4-raven",
+        "URL": "",
+        "SIZE": "1B",
+        "LICENSE": "other",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "01-ai/Yi-34B",
         "HF_ID": "01-ai/Yi-34B",
         "URL": "https://huggingface.co/01-ai/Yi-34B",

@@ -44,7 +44,6 @@ previous_data = load_previous_data('../temp_data/lmsys_leaderboard_state.dat')
 save_current_data(model_status_dict, '../temp_data/lmsys_leaderboard_state.dat')
 had_changes = track_changes(model_status_dict, previous_data)
 
-had_changes=True
 if had_changes:
     # Load the data
     url = f"https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard/raw/main/leaderboard_table_{most_recent_date_str}.csv"

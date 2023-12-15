@@ -72,8 +72,10 @@ class Model:
     def find_by_alias(cls, filename, alias):
         """Load models from a file and find a model by its alias."""
         models = cls.load_from_file(filename)
+        alias = alias.lower().strip()  # Convert to lowercase and strip whitespace
         for model in models:
-            if alias in model.ALIASES:
+            cleaned_aliases = [a.lower().strip() for a in model.ALIASES]  # Clean each alias
+            if alias in cleaned_aliases:
                 return model
         return None
 
@@ -81,7 +83,7 @@ class Model:
     def find_by_id_or_alias(cls, filename, alias):
         """Load models from a file and find a model by its alias."""
         model = Model.find_by_hf_id(filename, alias)
-        if model == None:
+        if model is None:
             model = Model.find_by_alias(filename, alias)
             return model
         else:

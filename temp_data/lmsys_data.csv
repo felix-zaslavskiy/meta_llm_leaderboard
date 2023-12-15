@@ -20,7 +20,7 @@ GPT-4-0613,9.18,1157,other
 Claude-2.0,8.06,1130,other
 Claude-2.1,8.18,1120,other
 GPT-3.5-Turbo-0613,8.39,1116,other
-Mixtral-8x7b-Instruct-v0.1,8.30,1116,other
+mistralai/Mixtral-8x7B-Instruct-v0.1,8.30,1116,65B
 Claude-Instant-1,7.85,1110,other
 GPT-3.5-Turbo-0314,7.94,1105,other
 allenai/tulu-2-dpo-70b,7.89,1110,other
@@ -50,7 +50,7 @@ pplx-7b-online,-,1027,other
 meta-llama/Llama-2-7b-chat-hf,6.27,1015,7B
 lmsys/vicuna-7b-v1.5,6.17,1004,7B
 PaLM-Chat-Bison-001,6.40,1004,other
-Koala-13B,5.35,966,other
+TheBloke/koala-13B-HF,5.35,966,13B
 THUDM/chatglm3-6b,-,960,6B
 nomic-ai/gpt4all-13b-snoozy,5.41,937,13B
 mosaicml/mpt-7b-chat,5.42,930,7B

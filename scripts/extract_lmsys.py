@@ -33,11 +33,13 @@ for file in files:
 dates.sort(reverse=True)
 most_recent_date = dates[0] if dates else None
 
+
 if most_recent_date is None:
     raise Exception('Date can not be empty')
 
 most_recent_date_dt = datetime(most_recent_date[0], most_recent_date[1], most_recent_date[2])
 most_recent_date_str = most_recent_date_dt.strftime('%Y%m%d')
+print("Most recent date is: " + most_recent_date_str)
 
 model_status_dict = { 'date' : most_recent_date_str }
 previous_data = load_previous_data('../temp_data/lmsys_leaderboard_state.dat')
@@ -50,15 +52,24 @@ if had_changes:
     df = pd.read_csv(url)
 
     # Filter rows where Link starts with "https://huggingface.co/" or the specific arXiv link
-    df = df[df['Link'].str.startswith("https://huggingface.co/") | (df['Link'] == "https://arxiv.org/abs/2302.13971")]
+    #df = df[df['Link'].str.startswith("https://huggingface.co/") | (df['Link'] == "https://arxiv.org/abs/2302.13971")]
 
     # Extract the Model_ID from the Link column, with special handling for the arXiv link
-    def extract_model_id(link):
+    def extract_model_id(name, link):
         if link == "https://arxiv.org/abs/2302.13971":
             return "llama-30b"
-        return link.replace("https://huggingface.co/", "")
+        elif link.startswith("https://huggingface.co/"):
+            return link.replace("https://huggingface.co/", "")
+        else:
+            model =  Model.find_by_id_or_alias("../static_data/models.json", name)
+            if model is None:
+                return name
+            else:
+                return model
 
-    df['Model_ID'] = df['Link'].apply(extract_model_id)
+
+
+    df['Model_ID'] = df.apply(lambda row: extract_model_id(row['Model'], row['Link']), axis=1)
 
 
     def categorize_size( name):

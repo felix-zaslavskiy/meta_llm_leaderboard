@@ -4,6 +4,7 @@ TigerBot-70B-Chat-V2,TigerResearch/tigerbot-70b-chat-v2,65.1,70,70B
 ChatGLM3-6B-Base,THUDM/chatglm3-6b-base,64.5,6,6B
 Qwen-14B,Qwen/Qwen-14B,61.2,14,13B
 Yi-34B,01-ai/Yi-34B,63.3,34,30B
+Qwen-72B-Chat,Qwen/Qwen-72B-Chat,59.0,72,70B
 OrionStar-Yi-34B-Chat,OrionStarAI/OrionStar-Yi-34B-Chat,58.3,34,30B
 Qwen-14B-Chat,Qwen/Qwen-14B-Chat,58.7,14,13B
 XuanYuan-70B,Duxiaoman-DI/XuanYuan-70B,60.1,70,70B
@@ -19,6 +20,7 @@ Nanbeige-16B-Base-32K,Nanbeige/Nanbeige-16B-Base-32K,56.2,16,16B
 Dolphin-2.2.1-Mistral-7B,ehartford/dolphin-2.1-mistral-7b,58.0,7,7B
 Qwen-7B-Chat,Qwen/Qwen-7B-Chat,54.6,7,7B
 LLaMA-2-70B-Chat,meta-llama/Llama-2-70b-chat-hf,58.6,70,70B
+DeepSeek-67B-Chat,deepseek-ai/deepseek-llm-67b-chat,57.8,67,70B
 TigerBot-70B-Base-V1,TigerResearch/tigerbot-70b-base,56.4,70,70B
 InternLM-Chat-7B-8K,internlm/internlm-chat-7b-8k,53.7,7,7B
 TigerBot-13B-Chat-V3,TigerResearch/tigerbot-13b-chat-v3,53.3,13,13B
@@ -89,12 +91,15 @@ TigerBot-7B-SFT-V2,TigerResearch/tigerbot-7b-sft-v2,35.6,7,7B
 MPT-7B,mosaicml/mpt-7b,37.4,7,7B
 MPT-Instruct-7B,mosaicml/mpt-7b-instruct,36.8,7,7B
 Phi-1.5-1.3B,microsoft/phi-1_5,39.3,1.3,1B
+DeepSeek-7B-Chat,deepseek-ai/deepseek-llm-7b-chat,37.1,7,7B
 MOSS-Moon-SFT,fnlp/moss-moon-003-sft,34.5,16,16B
 OpenLLaMA-3Bv2,openlm-research/open_llama_3b_v2,34.6,3,3B
 Chinese-LLaMA-2-7B,ziqingyang/chinese-llama-2-7b,31.6,7,7B
 MOSS-Moon,fnlp/moss-moon-003-base,33.0,16,16B
 TigerBot-7B-Base-V2,TigerResearch/tigerbot-7b-base-v2,31.1,7,7B
+RWKV-5-3B,RWKV/rwkv-5-world-3b,31.7,3,3B
 TigerBot-7B-Base-V1,TigerResearch/tigerbot-7b-base-v1,29.2,7,7B
+Qwen-1.8B-Chat,Qwen/Qwen-1_8B-Chat,25.4,1.8,1B
 AquilaChat2-7B-16K,BAAI/AquilaChat2-7B-16K,32.7,7,7B
 Xwin-LM-7B-V0.1,Xwin-LM/Xwin-LM-7B-V0.1,29.7,7,7B
 AquilaChat2-34B-16K,BAAI/AquilaChat2-34B-16K,29.4,34,30B

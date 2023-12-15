@@ -3,7 +3,7 @@ WizardLM/WizardLM-30B-V1.0,7.01,-,30B
 lmsys/vicuna-13b-v1.5-16k,6.92,-,13B
 WizardLM/WizardLM-13B-V1.1,6.76,-,13B
 allenai/tulu-30b,6.43,-,30B
-timdettmers/guanaco-65b-merged,6.41,-,65B
+timdettmers/guanaco-65b-merged,6.41,-,other
 OpenAssistant/oasst-sft-6-llama-30b-xor,6.41,-,30B
 WizardLM/WizardLM-13B-V1.0,6.35,-,13B
 lmsys/vicuna-7b-v1.5-16k,6.22,-,7B
@@ -20,7 +20,7 @@ GPT-4-0613,9.18,1157,other
 Claude-2.0,8.06,1130,other
 Claude-2.1,8.18,1120,other
 GPT-3.5-Turbo-0613,8.39,1116,other
-mistralai/Mixtral-8x7B-Instruct-v0.1,8.30,1116,65B
+mistralai/Mixtral-8x7B-Instruct-v0.1,8.30,1116,70B
 Claude-Instant-1,7.85,1110,other
 GPT-3.5-Turbo-0314,7.94,1105,other
 allenai/tulu-2-dpo-70b,7.89,1110,other

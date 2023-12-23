@@ -35,7 +35,7 @@ Yulan-Chat-2-13B,yulan-team/YuLan-Chat-2-13b-fp16,55.3,13,13B
 Baichuan-13B-Chat,baichuan-inc/Baichuan-13B-Chat,50.5,13,13B
 TigerBot-13B-Chat-V1,TigerResearch/tigerbot-13b-chat-v1,51.7,13,13B
 Yi-6B,01-ai/Yi-6B,51.5,6,6B
-LLaMA-65B,huggyllama/llama-65b,55.1,65,65B
+LLaMA-65B,huggyllama/llama-65b,55.1,65,70B
 Mistral-7B-v0.1,mistralai/Mistral-7B-v0.1,53.6,7,7B
 Vicuna-13B-v1.5,lmsys/vicuna-13b-v1.5,52.1,13,13B
 oppo-experiemental-7B,OPPOResearchInstitute/oppo-experiemental-7B,45.4,7,7B

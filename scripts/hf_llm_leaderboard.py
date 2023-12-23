@@ -47,6 +47,8 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
 
     headers_clean.pop()
     headers_clean.pop()
+    headers_clean.pop()
+    headers_clean.append('Flagged')
     headers_clean.append('size_type')
     w = csv.DictWriter(f, headers_clean)
     w.writeheader()

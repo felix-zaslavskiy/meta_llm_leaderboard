@@ -3,8 +3,10 @@ Meta leaderboard combines data from multiple different leaderboards about LLMs.
 The focus is primarily on Open LLMs.
 
 Todo:
-- LMSYS - many models need to have Sizes. (Add non open models?)
+- If a model is present on non HF boards and score high, but is not on models.json make sure to flag it
+- LMSYS - many models need to have Sizes.(Add non open models?)
 - LMSYS Arena  plot needs name positioned.
+- allenai/tulu-2-dpo-70b - check what this model is about.. flagged?
 - Add to automated change tracker for AgentBench - checkout repo see if a new file is present?
   - Few updates or none.. until see at least one update hold off.
 - Track which models are pre-trained. Make HF graph for pretrained models.

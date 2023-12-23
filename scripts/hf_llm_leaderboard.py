@@ -6,7 +6,7 @@ from change_tracker import load_previous_data, save_current_data, track_changes
 from scripts.utils import get_model_size_cat
 
 # Param to initialize the model list json in temp data folder. Only needed on demand.
-create_init_list = False
+create_init_list = True
 
 client = Client("https://felixz-open-llm-leaderboard.hf.space/")
 
@@ -81,7 +81,8 @@ with open('../temp_data/hf_llm_data.csv', 'w', newline='') as f:
                                 HF_ID=d['Model'],
                                 URL="https://huggingface.co/" + d['Model'],
                                 SIZE=d['size_type'],
-                                LICENSE=None if d['Hub License'] == '?' else d['Hub License']))
+                                LICENSE=None if d['Hub License'] == '?' else d['Hub License'],
+                                CONTAMINATED=d['Flagged']))
 
 if create_init_list:
     Model.save_to_file(init_list, '../temp_data/hf_model_list.json')

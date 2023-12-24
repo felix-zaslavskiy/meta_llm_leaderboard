@@ -6075,11 +6075,101 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
-        "ID": "Salesforce/xgen-7b-8k-inst",
-        "HF_ID": "Salesforce/xgen-7b-8k-inst",
-        "URL": "",
+        "ID": "SanjiWatsuki/Loyal-Toppy-Bruins-Maid-7B-DARE",
+        "HF_ID": "SanjiWatsuki/Loyal-Toppy-Bruins-Maid-7B-DARE",
+        "URL": "https://huggingface.co/SanjiWatsuki/Loyal-Toppy-Bruins-Maid-7B-DARE",
         "SIZE": "7B",
-        "LICENSE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Ana-v1-m7",
+        "HF_ID": "Sao10K/Ana-v1-m7",
+        "URL": "https://huggingface.co/Sao10K/Ana-v1-m7",
+        "SIZE": "7B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/BrainDerp",
+        "HF_ID": "Sao10K/BrainDerp",
+        "URL": "https://huggingface.co/Sao10K/BrainDerp",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/BrainDerp2",
+        "HF_ID": "Sao10K/BrainDerp2",
+        "URL": "https://huggingface.co/Sao10K/BrainDerp2",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/BrainDerp3",
+        "HF_ID": "Sao10K/BrainDerp3",
+        "URL": "https://huggingface.co/Sao10K/BrainDerp3",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Chat-Stheno-L2-13B",
+        "HF_ID": "Sao10K/Chat-Stheno-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Chat-Stheno-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Euryale-1.3-L2-70B",
+        "HF_ID": "Sao10K/Euryale-1.3-L2-70B",
+        "URL": "https://huggingface.co/Sao10K/Euryale-1.3-L2-70B",
+        "SIZE": "70B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Euryale-L2-70B",
+        "HF_ID": "Sao10K/Euryale-L2-70B",
+        "URL": "https://huggingface.co/Sao10K/Euryale-L2-70B",
+        "SIZE": "70B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Frostwind-10.7B-v1",
+        "HF_ID": "Sao10K/Frostwind-10.7B-v1",
+        "URL": "https://huggingface.co/Sao10K/Frostwind-10.7B-v1",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Medusa-1.1-L2-7B",
+        "HF_ID": "Sao10K/Medusa-1.1-L2-7B",
+        "URL": "https://huggingface.co/Sao10K/Medusa-1.1-L2-7B",
+        "SIZE": "7B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -6108,6 +6198,76 @@
         "ID": "Sao10K/Mythical-Destroyer-V2-L2-13B",
         "HF_ID": "Sao10K/Mythical-Destroyer-V2-L2-13B",
         "URL": "https://huggingface.co/Sao10K/Mythical-Destroyer-V2-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/NyakuraV2.1-m7",
+        "HF_ID": "Sao10K/NyakuraV2.1-m7",
+        "URL": "https://huggingface.co/Sao10K/NyakuraV2.1-m7",
+        "SIZE": "other",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/SOLAR-10.7B-NahIdWin",
+        "HF_ID": "Sao10K/SOLAR-10.7B-NahIdWin",
+        "URL": "https://huggingface.co/Sao10K/SOLAR-10.7B-NahIdWin",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Stheno-1.1-L2-13B",
+        "HF_ID": "Sao10K/Stheno-1.1-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-1.1-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Stheno-1.2-L2-13B",
+        "HF_ID": "Sao10K/Stheno-1.2-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-1.2-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Stheno-1.3-L2-13B",
+        "HF_ID": "Sao10K/Stheno-1.3-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-1.3-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Stheno-1.8-L2-13B",
+        "HF_ID": "Sao10K/Stheno-1.8-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-1.8-L2-13B",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Sao10K/Stheno-Inverted-1.2-L2-13B",
+        "HF_ID": "Sao10K/Stheno-Inverted-1.2-L2-13B",
+        "URL": "https://huggingface.co/Sao10K/Stheno-Inverted-1.2-L2-13B",
         "SIZE": "13B",
         "LICENSE": "llama2",
         "ALIASES": [],
@@ -8256,6 +8416,16 @@
         "URL": "https://huggingface.co/YeungNLP/firefly-ziya-13b",
         "SIZE": "13B",
         "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "Yhyu13/LMCocktail-10.7B-v1",
+        "HF_ID": "Yhyu13/LMCocktail-10.7B-v1",
+        "URL": "https://huggingface.co/Yhyu13/LMCocktail-10.7B-v1",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -10855,6 +11025,16 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
+        "ID": "fblgit/UNA-SOLAR-10.7B-Instruct-v1.0",
+        "HF_ID": "fblgit/UNA-SOLAR-10.7B-Instruct-v1.0",
+        "URL": "https://huggingface.co/fblgit/UNA-SOLAR-10.7B-Instruct-v1.0",
+        "SIZE": "13B",
+        "LICENSE": null,
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
         "ID": "fblgit/juanako-7b-UNA",
         "HF_ID": "fblgit/juanako-7b-UNA",
         "URL": "https://huggingface.co/fblgit/juanako-7b-UNA",
@@ -12617,11 +12797,71 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
-        "ID": "klosax/pythia-70m-deduped-step44k-92bt",
-        "HF_ID": "klosax/pythia-70m-deduped-step44k-92bt",
-        "URL": "https://huggingface.co/klosax/pythia-70m-deduped-step44k-92bt",
-        "SIZE": "1B",
-        "LICENSE": "other",
+        "ID": "kyujinpy/PlatYi-34B-Llama-Q",
+        "HF_ID": "kyujinpy/PlatYi-34B-Llama-Q",
+        "URL": "https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "kyujinpy/PlatYi-34B-Llama-Q-v2",
+        "HF_ID": "kyujinpy/PlatYi-34B-Llama-Q-v2",
+        "URL": "https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q-v2",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "kyujinpy/PlatYi-34B-Llama-Q-v3",
+        "HF_ID": "kyujinpy/PlatYi-34B-Llama-Q-v3",
+        "URL": "https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q-v3",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "kyujinpy/PlatYi-34B-LoRA",
+        "HF_ID": "kyujinpy/PlatYi-34B-LoRA",
+        "URL": "https://huggingface.co/kyujinpy/PlatYi-34B-LoRA",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "kyujinpy/PlatYi-34B-Q",
+        "HF_ID": "kyujinpy/PlatYi-34B-Q",
+        "URL": "https://huggingface.co/kyujinpy/PlatYi-34B-Q",
+        "SIZE": "30B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "kyujinpy/SOLAR-Platypus-10.7B-v1",
+        "HF_ID": "kyujinpy/SOLAR-Platypus-10.7B-v1",
+        "URL": "https://huggingface.co/kyujinpy/SOLAR-Platypus-10.7B-v1",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "kyujinpy/SOLAR-Platypus-10.7B-v2",
+        "HF_ID": "kyujinpy/SOLAR-Platypus-10.7B-v2",
+        "URL": "https://huggingface.co/kyujinpy/SOLAR-Platypus-10.7B-v2",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-nc-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -13061,11 +13301,21 @@
         "HAS_NO_MODEL_CARD": false
     },
     {
-        "ID": "maywell/Synatra-11B-Testbench",
-        "HF_ID": "maywell/Synatra-11B-Testbench",
-        "URL": "https://huggingface.co/maywell/Synatra-11B-Testbench",
+        "ID": "maywell/PiVoT-10.7B-Mistral-v0.2",
+        "HF_ID": "maywell/PiVoT-10.7B-Mistral-v0.2",
+        "URL": "https://huggingface.co/maywell/PiVoT-10.7B-Mistral-v0.2",
         "SIZE": "13B",
-        "LICENSE": "cc-by-nc-4.0",
+        "LICENSE": "cc-by-sa-4.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "maywell/PiVoT-SOLAR-10.7B-RP",
+        "HF_ID": "maywell/PiVoT-SOLAR-10.7B-RP",
+        "URL": "https://huggingface.co/maywell/PiVoT-SOLAR-10.7B-RP",
+        "SIZE": "13B",
+        "LICENSE": "cc-by-sa-4.0",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false
@@ -16633,6 +16883,16 @@
         "URL": "https://huggingface.co/yhyhy3/open_llama_7b_v2_med_instruct",
         "SIZE": "7B",
         "LICENSE": "apache-2.0",
+        "ALIASES": [],
+        "CONTAMINATED": false,
+        "HAS_NO_MODEL_CARD": false
+    },
+    {
+        "ID": "yhyu13/LMCocktail-10.7B-v1",
+        "HF_ID": "yhyu13/LMCocktail-10.7B-v1",
+        "URL": "https://huggingface.co/yhyu13/LMCocktail-10.7B-v1",
+        "SIZE": "13B",
+        "LICENSE": "llama2",
         "ALIASES": [],
         "CONTAMINATED": false,
         "HAS_NO_MODEL_CARD": false

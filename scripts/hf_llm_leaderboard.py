@@ -6,7 +6,7 @@ from change_tracker import load_previous_data, save_current_data, track_changes
 from scripts.utils import get_model_size_cat
 
 # Param to initialize the model list json in temp data folder. Only needed on demand.
-create_init_list = True
+create_init_list = False
 
 client = Client("https://felixz-open-llm-leaderboard.hf.space/")
 

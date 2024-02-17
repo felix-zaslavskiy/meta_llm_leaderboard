@@ -51,6 +51,9 @@ df = pd.DataFrame(processed_data, columns=['model_name', 'Model_ID', 'average', 
 def categorize_size(params, name):
     model = Model.find_by_hf_id("../static_data/models.json", name)
     if model is None:
+        params = params.strip()
+        if params.endswith("B"):
+            params = params[:-1]
         return get_model_size_cat(float(params))
     else:
         return model.SIZE

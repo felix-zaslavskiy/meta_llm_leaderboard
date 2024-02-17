@@ -3,6 +3,7 @@ Meta leaderboard combines data from multiple different leaderboards about LLMs.
 The focus is primarily on Open LLMs.
 
 Todo:
+- Something wrong with alphaca and bigcode extract scripts.
 - If a model is present on non HF boards and score high, but is not on models.json make sure to flag it
 - LMSYS - many models need to have Sizes.(Add non open models?)
 - LMSYS Arena  plot needs name positioned.

@@ -12,11 +12,12 @@ def run_script(script_name, specific_exit_code=2):
         return None
 
 scripts_to_run = ["hf_llm_leaderboard.py",
-                  "extract_alpacaeval.py",
+                  #"extract_alpacaeval.py",
                   "extract_lmsys.py",
                   #"scrape_mosaicml_leaderboard.py",
                   "scrape_opencompass_leaderboard.py",
-                  "extract_bigcode.py"]
+#                  "extract_bigcode.py"
+                  ]
 
 
 next_script = {

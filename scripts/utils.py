@@ -25,5 +25,7 @@ def get_model_size_cat(params):
         return "70B"
     elif params <= 190.0:
         return "180B"
+    elif params <=250.0:
+        return "250B"
     else:
         raise Exception("Param too big")
